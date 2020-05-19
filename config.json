@@ -4,10 +4,16 @@
     "en": [{
       "name": "Marketing",
       "path": "marketing.json"
-      }],
+      }, {
+        "name": "Internet project",
+        "path": "internet-project.json"
+        }],
     "ru": [{
       "name": "Маркетинг",
       "path": "marketing.json"
-      }]
+      }, {
+        "name": "Интернет проект",
+        "path": "internet-project.json"
+        }]
  }
 }
