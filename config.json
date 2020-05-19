@@ -1,0 +1,13 @@
+{
+  "enabledLanguages": ["ru", "en"],
+  "themes": {
+    "en": [{
+      "name": "Marketing",
+      "path": "marketing.json"
+      }],
+    "ru": [{
+      "name": "Маркетинг",
+      "path": "marketing.json"
+      }]
+ }
+}
