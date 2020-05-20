@@ -1,0 +1,58 @@
+<h6 class="{{classes.heading}}">Second iteration</h6>
+<p class="{{classes.body}}">Rules are exactly the same as they were before with only one difference. WIP (Work In Progress) limits are added to in progress stages - for columns «In Progress» and «Testing».</p>
+<img src="{{assetsPath}}assets/wip-limits.png" alt="wip limits" class="{{classes.image}}" />
+<img src="{{assetsPath}}assets/wip-moves.png" alt="wip moves" class="{{classes.image}}" />
+
+<p class="{{classes.body}}">Amount of days spent in work is now added to each card</p>
+<img src="{{assetsPath}}assets/days-count.png" alt="days count" class="{{classes.image}}" />
+
+<p class="{{classes.body}}">Columns and cards metrics have been added.</p>
+<img src="{{assetsPath}}assets/metrics.png" alt="metrics" class="{{classes.image}}" />
+
+<h6 class="{{classes.heading}}">Cards counter per column</h6>
+<p class="{{classes.body}}">Shows how many cards were each day in each column by the end of the day</p>
+<img src="{{assetsPath}}assets/column-count-metric.png" alt="column count metric" class="{{classes.image}}" />
+
+<h6 class="{{classes.heading}}">Lead time</h6>
+<p class="{{classes.body}}">Shows the day when card was pushed in the in-progress column. The day when card was pushed to «Done» column. And the total amount of days card was in progress</p>
+<img src="{{assetsPath}}assets/lead-time-metric.png" alt="lead time metric" class="{{classes.image}}" />
+
+<div class="{{classes.rulesContainer}}">
+  <div class="{{classes.rule}}">
+    <div class="{{classes.ruleHeader}} {{classes.redCardHeader}}">
+      <div class="{{classes.centeredTitle}}">
+        <img
+          src="/img/featureban/AH.svg"}
+          alt="red card"
+          class="{{classes.cardIcon}} {{classes.redCardIcon}}"
+        />
+        <h6 class="{{classes.heading}}">Red card moves</h6>
+      </div>
+    </div>
+    <div class="{{classes.ruleBody}}">
+      <p class="{{classes.ruleText}}">Choose one of the following actions:</p>
+      <p class="{{classes.ruleText}}">Advance one of your unblocked cards one column right</p>
+      <p class="{{classes.ruleText}}">Unblock one of your blocked cards</p>
+      <p class="{{classes.ruleText}}">Start one new card</p>
+      <p class="{{classes.ruleText}}">If and only if you can’t make one of these moves for yourself, help someone! Advance or unblock another player’s card</p>
+    </div>
+  </div>
+
+  <div class="{{classes.rule}}">
+    <div class="{{classes.ruleHeader}}">
+      <div class="{{classes.centeredTitle}}">
+        <img
+          src="/img/featureban/AC.svg"}
+          alt="red card"
+          class="{{classes.cardIcon}}"
+        />
+        <h6 class="{{classes.heading}}">Black card moves</h6>
+      </div>
+    </div>
+    <div class="{{classes.ruleBody}}">
+      <p class="{{classes.ruleText}}">BOTH block one of your currently unblocked items if you have one to block</p>
+      <p class="{{classes.ruleText}}">AND start a new item if any remain, move it to the first in-progress column (even if you had nothing to block)</p>
+      <p class="{{classes.ruleText}}">If and only if you can’t start a new item, help someone! Advance or unblock another player’s card</p>
+    </div>
+  </div>
+</div>
