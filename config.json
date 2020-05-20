@@ -1,19 +1,29 @@
 {
-  "enabledLanguages": ["ru", "en"],
+  "enabledLanguages": ["en", "ru"],
+  "languages": {
+    "en": {
+      "name": "English",
+      "shortName": "En"
+    },
+    "ru": {
+      "name": "Русский",
+      "shortName": "Ру"
+    }
+  },
   "themes": {
     "en": [{
       "name": "Marketing",
-      "path": "marketing.json"
-      }, {
-        "name": "Internet project",
-        "path": "internet-project.json"
-        }],
+      "path": "marketing"
+    }, {
+      "name": "Internet project",
+      "path": "internet_project"
+    }],
     "ru": [{
       "name": "Маркетинг",
-      "path": "marketing.json"
-      }, {
-        "name": "Интернет проект",
-        "path": "internet-project.json"
-        }]
+      "path": "marketing"
+    }, {
+      "name": "Интернет проект",
+      "path": "internet_project"
+      }]
  }
 }
