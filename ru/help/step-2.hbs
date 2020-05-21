@@ -1,58 +1,20 @@
-<h6 class="{{classes.heading}}">Вторая итерация</h6>
-<p class="{{classes.body}}">Правила остаются точно такими же как и в первой итерации, но на колонки «В Работе» и «Тестирование» добавляется ограничение на количество задач (WIP - Work In Progress лимиты). Это означает, что вы не можете передвинуть задачу в колонку, WIP лимиты которой превышены или заполнены до предела!</p>
-<img src="{{assetsPath}}assets/wip-limits.png" alt="wip limits" class="{{classes.image}}" />
-<img src="{{assetsPath}}assets/wip-moves.png" alt="wip moves" class="{{classes.image}}" />
+<h6 class="heading">Вторая итерация</h6>
+<p class="body">Правила остаются точно такими же как и в первой итерации, но на колонки «В Работе» и «Тестирование» добавляется ограничение на количество задач (WIP - Work In Progress лимиты). Это означает, что вы не можете передвинуть задачу в колонку, WIP лимиты которой превышены или заполнены до предела!</p>
+<img src="{{assetsPath}}assets/wip-limits.png" alt="wip limits" class="image" />
+<img src="{{assetsPath}}assets/wip-moves.png" alt="wip moves" class="image" />
 
-<p class="{{classes.body}}">На каждую задачу добавлена информация о количестве дней, которые она провела в работе.</p>
-<img src="{{assetsPath}}assets/days-count.png" alt="days count" class="{{classes.image}}" />
+<p class="body">На каждую задачу добавлена информация о количестве дней, которые она провела в работе.</p>
+<img src="{{assetsPath}}assets/days-count.png" alt="days count" class="image" />
 
-<p class="{{classes.body}}">Добавлены метрики для колонок и карточек.</p>
-<img src="{{assetsPath}}assets/metrics.png" alt="metrics" class="{{classes.image}}" />
+<p class="body">Добавлены метрики для колонок и карточек.</p>
+<img src="{{assetsPath}}assets/metrics.png" alt="metrics" class="image" />
 
-<h6 class="{{classes.heading}}">Подсчет карточек по колонкам</h6>
-<p class="{{classes.body}}">Демонстрирует количество задач в каждой колонке в конце каждого игрового дня.</p>
-<img src="{{assetsPath}}assets/column-count-metric.png" alt="column count metric" class="{{classes.image}}" />
+<h6 class="heading">Подсчет карточек по колонкам</h6>
+<p class="body">Демонстрирует количество задач в каждой колонке в конце каждого игрового дня.</p>
+<img src="{{assetsPath}}assets/column-count-metric.png" alt="column count metric" class="image" />
 
-<h6 class="{{classes.heading}}">Время выполнения</h6>
-<p class="{{classes.body}}">Показывает в какой день задача была взята в работу, день, когда задача была завершена, а также суммарное количество дней, которое задача провела в работе</p>
-<img src="{{assetsPath}}assets/lead-time-metric.png" alt="lead time metric" class="{{classes.image}}" />
+<h6 class="heading">Время выполнения</h6>
+<p class="body">Показывает в какой день задача была взята в работу, день, когда задача была завершена, а также суммарное количество дней, которое задача провела в работе</p>
+<img src="{{assetsPath}}assets/lead-time-metric.png" alt="lead time metric" class="image" />
 
-<div class="{{classes.rulesContainer}}">
-  <div class="{{classes.rule}}">
-    <div class="{{classes.ruleHeader}} {{classes.redCardHeader}}">
-      <div class="{{classes.centeredTitle}}">
-        <img
-          src="/img/featureban/AH.svg"}
-          alt="red card"
-          class="{{classes.cardIcon}} {{classes.redCardIcon}}"
-        />
-        <h6 class="{{classes.heading}}">Красная карточка</h6>
-      </div>
-    </div>
-    <div class="{{classes.ruleBody}}">
-      <p class="{{classes.ruleText}}">Выберите одно из действий:</p>
-      <p class="{{classes.ruleText}}">Передвиньте одну из карточек в следующую колонку</p>
-      <p class="{{classes.ruleText}}">Разблокируйте одну из заблокированных карточек</p>
-      <p class="{{classes.ruleText}}">Передвиньте новую карточку</p>
-      <p class="{{classes.ruleText}}">И только в случае, если вы не можете совершить ни один из данных ходов - помогите другим игрокам! Передвиньте в следующую колонку или разблокируйте задачу других игроков.</p>
-    </div>
-  </div>
-
-  <div class="{{classes.rule}}">
-    <div class="{{classes.ruleHeader}}">
-      <div class="{{classes.centeredTitle}}">
-        <img
-          src="/img/featureban/AC.svg"}
-          alt="red card"
-          class="{{classes.cardIcon}}"
-        />
-        <h6 class="{{classes.heading}}">Чёрная карточка</h6>
-      </div>
-    </div>
-    <div class="{{classes.ruleBody}}">
-      <p class="{{classes.ruleText}}">Заблокируйте одну из незаблокированных задач</p>
-      <p class="{{classes.ruleText}}">И начните новую задачу, если таковые имеются. Передвиньте её в колонку «В Работе» даже в случае если вам было нечего заблокировать</p>
-      <p class="{{classes.ruleText}}">И только в случае, если вы не смогли начать новую задачу - помогите другим игрокам! Передвиньте в следующую колонку или разблокируйте задачу других игроков.</p>
-    </div>
-  </div>
-</div>
+{{> (resolvePartial lng "rulesBlock")}}

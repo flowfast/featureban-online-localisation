@@ -1,152 +1,29 @@
-<h6 class="{{classes.heading}}">First iteration</h6>
-<p class="{{classes.body}}">Game is split into several iterations. First iteration is just about visual management. Each card on the board represents a task, that has to be done by your team. All new tasks appear in the first «Queue» column. To finish it you have to pull the card to «Done» column. The card goes through the number of the stages in the middle. There are two in progress stages - «In Progress» and «Testing».</p>
-<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="{{classes.image}}" />
-<p class="{{classes.body}}">When you move the card to «In Progress» column you become responsible for it and your avatar appears on that card.</p>
-<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="{{classes.image}}" />
-<p class="{{classes.body}}">Game begins with one item assigned per player</p>
-<img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="{{classes.image}}" />
+<h6 class="heading">First iteration</h6>
+<p class="body">Game is split into several iterations. First iteration is just about visual management. Each card on the board represents a task, that has to be done by your team. All new tasks appear in the first «Queue» column. To finish it you have to pull the card to «Done» column. The card goes through the number of the stages in the middle. There are two in progress stages - «In Progress» and «Testing».</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">When you move the card to «In Progress» column you become responsible for it and your avatar appears on that card.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+<p class="body">Game begins with one item assigned per player</p>
+<img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="image" />
 
-<h6 class="{{classes.heading}}">Blocked items</h6>
-<p class="{{classes.body}}">Bad things happen in game just like in real life. And sometimes your work will get blocked. Block means you can't progress work for some reason. It might be dependant on some other task that is not currently ready. After card is blocked, you can't move it to the right.</p>
-<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="{{classes.image}}" />
+<h6 class="heading">Blocked items</h6>
+<p class="body">Bad things happen in game just like in real life. And sometimes your work will get blocked. Block means you can't progress work for some reason. It might be dependant on some other task that is not currently ready. After card is blocked, you can't move it to the right.</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
 
-<h6 class="{{classes.heading}}">Random card</h6>
-<p class="{{classes.body}}">In the beginning of each day every player will get a random card (black/red). Why is it necessary? People start a piece of work and think it is going to take one day. But sometimes it takes much more - 2 days, 3 days and even more. There is always a chance of variation and there are lots of reasons for that. Each playing card gives you certain moves.</p>
+<h6 class="heading">Random card</h6>
+<p class="body">In the beginning of each day every player will get a random card (black/red). Why is it necessary? People start a piece of work and think it is going to take one day. But sometimes it takes much more - 2 days, 3 days and even more. There is always a chance of variation and there are lots of reasons for that. Each playing card gives you certain moves.</p>
 
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/AH.svg"}
-    alt="red card"
-    class="{{classes.cardIcon}} {{classes.redCardIcon}}"
-  />
-  <h6 class="{{classes.heading}} {{classes.redCardHeader}}">Red card moves</h6>
-</div>
+{{> (resolvePartial lng "cardMoves")}}
 
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">Advance one of your items</p>
-</div>
-<img src="{{assetsPath}}assets/card-advance.png" alt="advancing card" class="{{classes.image}}" />
+<h6 class="heading">Game flow controls (facilitator only)</h6>
+<img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="image" />
 
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">OR unblock one of your items</p>
-</div>
-<img src="{{assetsPath}}assets/unblock.png" alt="unblocking card" class="{{classes.image}}" />
+<h6 class="heading">Change role (game creator only)</h6>
+<p class="subtitle">In case one of players went offline, you can remove such player by changing his game role to spectator. He will be still in game by just watching it. In case that player owns some tasks placed in progress columns, you have to choose other person, who will get responsible for those tasks.</p>
+<img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="image" />
 
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">OR start new item</p>
-</div>
-<img src="{{assetsPath}}assets/start-card.png" alt="starting new card" class="{{classes.image}}" />
+{{> (resolvePartial lng "rulesBlock")}}
 
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">And if you have no other option, help someone else – advance or unblock one of theirs</p>
-</div>
-
-<hr />
-
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/AC.svg"}
-    alt="black card"
-    class="{{classes.cardIcon}}"
-  />
-  <h6 class="{{classes.heading}}">Black card moves</h6>
-</div>
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">Block one of your items (only if you have one to block)</p>
-</div>
-<img src="{{assetsPath}}assets/card-block.png" alt="" class="{{classes.image}}" />
-
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">AND start a new item if any remain, move it to the first in-progress column (even if you had nothing to block)</p>
-</div>
-
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">If and only if you can’t start a new item, help someone! Advance or unblock another player’s item</p>
-</div>
-<img src="{{assetsPath}}assets/help-black.png" alt="helping for black card" class="{{classes.image}}" />
-
-<h6 class="{{classes.heading}}">Game flow controls (facilitator only)</h6>
-<img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="{{classes.image}}" />
-
-<h6 class="{{classes.heading}}">Change role (game creator only)</h6>
-<p class="{{classes.subtitle}}">In case one of players went offline, you can remove such player by changing his game role to spectator. He will be still in game by just watching it. In case that player owns some tasks placed in progress columns, you have to choose other person, who will get responsible for those tasks.</p>
-<img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="{{classes.image}}" />
-
-<div class="{{classes.rulesContainer}}">
-  <div class="{{classes.rule}}">
-    <div class="{{classes.ruleHeader}} {{classes.redCardHeader}}">
-      <div class="{{classes.centeredTitle}}">
-        <img
-          src="/img/featureban/AH.svg"}
-          alt="red card"
-          class="{{classes.cardIcon}} {{classes.redCardIcon}}"
-        />
-        <h6 class="{{classes.heading}}">Red card moves</h6>
-      </div>
-    </div>
-    <div class="{{classes.ruleBody}}">
-      <p class="{{classes.ruleText}}">Choose one of the following actions:</p>
-      <p class="{{classes.ruleText}}">Advance one of your unblocked cards one column right</p>
-      <p class="{{classes.ruleText}}">Unblock one of your blocked cards</p>
-      <p class="{{classes.ruleText}}">Start one new card</p>
-      <p class="{{classes.ruleText}}">If and only if you can’t make one of these moves for yourself, help someone! Advance or unblock another player’s card</p>
-    </div>
-  </div>
-
-  <div class="{{classes.rule}}">
-    <div class="{{classes.ruleHeader}}">
-      <div class="{{classes.centeredTitle}}">
-        <img
-          src="/img/featureban/AC.svg"}
-          alt="red card"
-          class="{{classes.cardIcon}}"
-        />
-        <h6 class="{{classes.heading}}">Black card moves</h6>
-      </div>
-    </div>
-    <div class="{{classes.ruleBody}}">
-      <p class="{{classes.ruleText}}">BOTH block one of your currently unblocked items if you have one to block</p>
-      <p class="{{classes.ruleText}}">AND start a new item if any remain, move it to the first in-progress column (even if you had nothing to block)</p>
-      <p class="{{classes.ruleText}}">If and only if you can’t start a new item, help someone! Advance or unblock another player’s card</p>
-    </div>
-  </div>
-</div>
-
-<div class="{{classes.footer}}">
-  <p class="{{classes.subtitle}}">Main goal is to pull as much cards to the «Done» column as you can! All other things you will discover through playing the game. Push the «Ready» button, and let's play Featureban!</p>
+<div class="footer">
+  <p class="subtitle">Main goal is to pull as much cards to the «Done» column as you can! All other things you will discover through playing the game. Push the «Ready» button, and let's play Featureban!</p>
 </div>

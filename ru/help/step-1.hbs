@@ -1,154 +1,31 @@
-<h6 class="{{classes.heading}}">Первая итерация</h6>
-<p class="{{classes.body}}">
+<h6 class="heading">Первая итерация</h6>
+<p class="body">
   Игра разделена на несколько итераций. Основная цель первой итерации - визуализация рабочего процесса. Каждая карточка на доске представляет собой задачу, которую должна выполнить ваша команда. Все новые задачи появляются в колонке «Очередь». Чтобы выполнить задачу, вы должны доставить её в колонку «Завершено», пройдя при этом промежуточные этапы - «В Работе» и «Тестирование».
 </p>
-<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="{{classes.image}}" />
-<p class="{{classes.body}}">Когда вы перемещаете карточку в колонку «В Работе» - вы становитесь ответственным за эту задачу, и ваша аватарка добавляется на данную карточку.</p>
-<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="{{classes.image}}" />
-<p class="{{classes.body}}">Начало игры</p>
-<img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="{{classes.image}}" />
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">Когда вы перемещаете карточку в колонку «В Работе» - вы становитесь ответственным за эту задачу, и ваша аватарка добавляется на данную карточку.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+<p class="body">Начало игры</p>
+<img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="image" />
 
-<h6 class="{{classes.heading}}">Блокировки</h6>
-<p class="{{classes.body}}">Иногда ваша текущая задача оказывается заблокированной. Блокировка означает, что по каким-то определённым причинам вы не можете продолжить работу над ней. Задача может зависеть от результатов другой работы, и в таком случае её прогресс приостанавливается. Заблокированную задачу нельзя передвинуть в следующую колонку.</p>
-<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="{{classes.image}}" />
+<h6 class="heading">Блокировки</h6>
+<p class="body">Иногда ваша текущая задача оказывается заблокированной. Блокировка означает, что по каким-то определённым причинам вы не можете продолжить работу над ней. Задача может зависеть от результатов другой работы, и в таком случае её прогресс приостанавливается. Заблокированную задачу нельзя передвинуть в следующую колонку.</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
 
-<h6 class="{{classes.heading}}">Случайная карта</h6>
-<p class="{{classes.body}}">В начале каждого игрового дня каждый игрок получает случайную игральную карту (красную/черную). Для чего это нужно? Когда люди берут в работу новую задачу, планируются определённые сроки выполнения. Но всегда есть шанс, что запланированные сроки могут быть нарушены, и на то может быть масса причин. Каждая карта даёт вам определенный набор ходов.</p>
+<h6 class="heading">Случайная карта</h6>
+<p class="body">В начале каждого игрового дня каждый игрок получает случайную игральную карту (красную/черную). Для чего это нужно? Когда люди берут в работу новую задачу, планируются определённые сроки выполнения. Но всегда есть шанс, что запланированные сроки могут быть нарушены, и на то может быть масса причин. Каждая карта даёт вам определенный набор ходов.</p>
 
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/AH.svg"}
-    alt="red card"
-    class="{{classes.cardIcon}} {{classes.redCardIcon}}"
-  />
-  <h6 class="{{classes.heading}} {{classes.redCardHeader}}">Доступные ходы при выпадении красной карты</h6>
-</div>
+{{> (resolvePartial lng "cardMoves")}}
 
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">Продвинуть одну из своих задач</p>
-</div>
-<img src="{{assetsPath}}assets/card-advance.png" alt="advancing card" class="{{classes.image}}" />
+<h6 class="heading">Управление ходом игры (только для фасилитатора)</h6>
+<img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="image" />
 
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">Или разблокировать одну из своих задач</p>
-</div>
-<img src="{{assetsPath}}assets/unblock.png" alt="unblocking card" class="{{classes.image}}" />
+<h6 class="heading">Смена роли (только для создателя игры)</h6>
+<p class="subtitle">В случае если один из игроков вышел из игры, или недоступен по какой-либо причине, вы можете удалить такого игрока из игры, поменяв его игровую роль на обозревателя. Если у данного игрока есть задачи в работе, вам нужно будет выбрать другого игрока, который станет ответственным за данные задачи.</p>
+<img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="image" />
 
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">ИЛИ начать новую задачу</p>
-</div>
-<img src="{{assetsPath}}assets/start-card.png" alt="starting new card" class="{{classes.image}}" />
+{{> (resolvePartial lng "rulesBlock")}}
 
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">Если у вас нет другого варианта, помогите кому-нибудь: передвиньте или разблокируйте чужую работу</p>
-</div>
-
-<hr  class="{{classes.divider}}"/>
-
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/AC.svg"}
-    alt="black card"
-    class="{{classes.cardIcon}}"
-  />
-  <h6 class="{{classes.heading}}">Доступные ходы при выпадении чёрной карты</h6>
-</div>
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">Заблокируйте одну из незаблокированных задач</p>
-</div>
-<img src="{{assetsPath}}assets/card-block.png" alt="" class="{{classes.image}}" />
-
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">И начните новую задачу, если таковые имеются. Передвиньте её в колонку «В Работе» даже в случае если вам было нечего заблокировать</p>
-</div>
-
-<div class="{{classes.centeredTitle}}">
-  <img
-    src="/img/featureban/ListItem.svg"}
-    alt="list item"
-    class="{{classes.listIcon}}"
-  />
-  <p class="{{classes.subtitle}}">И только в случае, если вы не смогли начать новую задачу - помогите другим игрокам! Передвиньте в следующую колонку или разблокируйте задачу других игроков.</p>
-</div>
-<img src="{{assetsPath}}assets/help-black.png" alt="helping for black card" class="{{classes.image}}" />
-
-<h6 class="{{classes.heading}}">Управление ходом игры (только для фасилитатора)</h6>
-<img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="{{classes.image}}" />
-
-<h6 class="{{classes.heading}}">Смена роли (только для создателя игры)</h6>
-<p class="{{classes.subtitle}}">В случае если один из игроков вышел из игры, или недоступен по какой-либо причине, вы можете удалить такого игрока из игры, поменяв его игровую роль на обозревателя. Если у данного игрока есть задачи в работе, вам нужно будет выбрать другого игрока, который станет ответственным за данные задачи.</p>
-<img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="{{classes.image}}" />
-
-<div class="{{classes.rulesContainer}}">
-  <div class="{{classes.rule}}">
-    <div class="{{classes.ruleHeader}} {{classes.redCardHeader}}">
-      <div class="{{classes.centeredTitle}}">
-        <img
-          src="/img/featureban/AH.svg"}
-          alt="red card"
-          class="{{classes.cardIcon}} {{classes.redCardIcon}}"
-        />
-        <h6 class="{{classes.heading}}">Красная карточка</h6>
-      </div>
-    </div>
-    <div class="{{classes.ruleBody}}">
-      <p class="{{classes.ruleText}}">Выберите одно из действий:</p>
-      <p class="{{classes.ruleText}}">Передвиньте одну из карточек в следующую колонку</p>
-      <p class="{{classes.ruleText}}">Разблокируйте одну из заблокированных карточек</p>
-      <p class="{{classes.ruleText}}">Передвиньте новую карточку</p>
-      <p class="{{classes.ruleText}}">И только в случае, если вы не можете совершить ни один из данных ходов - помогите другим игрокам! Передвиньте в следующую колонку или разблокируйте задачу других игроков.</p>
-    </div>
-  </div>
-
-  <div class="{{classes.rule}}">
-    <div class="{{classes.ruleHeader}}">
-      <div class="{{classes.centeredTitle}}">
-        <img
-          src="/img/featureban/AC.svg"}
-          alt="red card"
-          class="{{classes.cardIcon}}"
-        />
-        <h6 class="{{classes.heading}}">Чёрная карточка</h6>
-      </div>
-    </div>
-    <div class="{{classes.ruleBody}}">
-      <p class="{{classes.ruleText}}">Заблокируйте одну из незаблокированных задач</p>
-      <p class="{{classes.ruleText}}">И начните новую задачу, если таковые имеются. Передвиньте её в колонку «В Работе» даже в случае если вам было нечего заблокировать</p>
-      <p class="{{classes.ruleText}}">И только в случае, если вы не смогли начать новую задачу - помогите другим игрокам! Передвиньте в следующую колонку или разблокируйте задачу других игроков.</p>
-    </div>
-  </div>
-</div>
-
-<div class="{{classes.footer}}">
-  <p class="{{classes.subtitle}}">Основная задача игры - выполнить как можно больше задач, доставив их до колонки «Завершено». Все остальные правила и нюансы вы узнаете в процессе игры! Нажмите кнопку «Готов» и сыграйте в Featureban!</p>
+<div class="footer">
+  <p class="subtitle">Основная задача игры - выполнить как можно больше задач, доставив их до колонки «Завершено». Все остальные правила и нюансы вы узнаете в процессе игры! Нажмите кнопку «Готов» и сыграйте в Featureban!</p>
 </div>
