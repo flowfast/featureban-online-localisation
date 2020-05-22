@@ -1,4 +1,6 @@
-# Featureban Online (https://tools.kaiten.io/featureban) localisation files
+# Featureban Online localisation files
+
+The game: https://tools.kaiten.io/featureban
 
 You can suggest fixes to existing localisation files or add new ones.
 
