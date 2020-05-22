@@ -4,7 +4,7 @@ The game: https://tools.kaiten.io/featureban
 
 You can suggest fixes to existing localisation files or add new ones.
 
-## How to add new localisation to the Featureban Online
+## How to add a new language to the Featureban Online
 
 1. Clone this repository
 2. Copy `en` directory to a new language directory (2 chars code like `ru`)
