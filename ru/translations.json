@@ -181,7 +181,8 @@
     "__stop_iteration": "Закончить итерацию",
     "__end_game": "Завершить игру",
     "__confirm_switch_to_next_iteration": "Подтвердите переход к следующей итерации игры",
-    "__confirm_end_game": "Подтвердите завершение игры"
+    "__confirm_end_game": "Подтвердите завершение игры",
+    "__add_new_language": "Добавить язык"
   },
   "RulesDialog": {
     "__rules_button": "Правила игры",

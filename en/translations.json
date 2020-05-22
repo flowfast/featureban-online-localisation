@@ -181,7 +181,8 @@
     "__stop_iteration": "Stop iteration",
     "__end_game": "End the game",
     "__confirm_switch_to_next_iteration": "Confirm the transition to the next iteration of the game",
-    "__confirm_end_game": "Confirm the end of the game"
+    "__confirm_end_game": "Confirm the end of the game",
+    "__add_new_language": "Add language"
   },
   "RulesDialog": {
     "__rules_button": "Game rules",
