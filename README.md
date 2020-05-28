@@ -2,7 +2,7 @@
 
 The game: https://tools.kaiten.io/featureban
 
-You can suggest fixes to existing localisation files or add new ones.
+You can suggest fixes to existing localisation files or create pull requests with new languages.
 
 ## How to add a new language to the Featureban Online
 
