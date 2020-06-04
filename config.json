@@ -1,5 +1,5 @@
 {
-  "enabledLanguages": ["en", "ru"],
+  "enabledLanguages": ["en", "ru", "de"],
   "languages": {
     "en": {
       "name": "English",
