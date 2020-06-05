@@ -5,17 +5,17 @@
   },
   "CommonUI": {
     "__featureban_title": "Featureban 3.0",
-    "__close": "Close",
-    "__cancel": "Cancel",
+    "__close": "Schließen",
+    "__cancel": "Abbrechen",
     "__apply": "Apply",
-    "__confirm": "Confirm",
-    "__agree": "Agree",
-    "__next": "Next",
+    "__confirm": "Bestätigen",
+    "__agree": "Zustimmen",
+    "__next": "Weiter",
     "__create": "Create"
   },
   "JoinScreen": {
-    "__game_join_main_text": "{{gameAuthorName}} Teilnehmen, klicke «Teilnehmen» wenn du bereit bist.",
-    "__game_join_as_spectator_main_text": "{{gameAuthorName}} Teilnehmen, aber das Spiel läuft schon. Du kannst nur noch als Beobachter teilnehmen.",
+    "__game_join_main_text": "{{gameAuthorName}} hat dich zu einem Spiel eingeladen. Klicke «TEILNEHMEN» wenn du bereit bist.",
+    "__game_join_as_spectator_main_text": "{{gameAuthorName}} hat dich zu einem Spiel eingeladen, aber das Spiel läuft bereits. Du kannst nur noch als Beobachter teilnehmen.",
     "__join": "Teilnehmen",
     "__join_as_spectator": "als Beobachter teilnehmen",
     "__join_as_player": "als Spieler teilnehmen",
@@ -23,7 +23,7 @@
     "__enter_name_label": "Bitte Namen eingeben"
   },
   "CookiesPolicy": {
-    "__accept_cookies_title": "Сookies Bestätigunh",
+    "__accept_cookies_title": "Сookies Bestätigung",
     "__we_using_cookie": "Wir verwenden Cookies, um Informationen über die Spielsitzung zu speichern.",
     "__you_have_to_accept_cookies": "Um mit dem Spiel fortzufahren, musst du Cookies akzeptieren."
   },
@@ -39,7 +39,7 @@
     "__avatar_already_chosen": "Bereits ausgewählt",
     "__participate_as_player": "als Spieler teilnehmen",
     "__participate_as_spectator": "als Beobachter teilnehmen",
-    "__spectator_registration_info": "(Beobachte und steuere den Spielfluss)",
+    "__spectator_registration_info": "(Beobachte den Spielfluss)",
     "__about_game": "Featureban ist ein einfaches, unterhaltsames und leicht anpassbares Kanban-Simulationsspiel. Seit seiner Entwicklung im Jahr 2014 wird es weltweit von Trainern und Coaches bei Lean-, Agile- und Kanban-Veranstaltungen eingesetzt.",
     "__game_recommendations": "Empfehlungen zum Spiel",
     "__required_players_count": "Jedes Spiel benötigt 3-5 Spieler.",
@@ -52,12 +52,12 @@
   "FinishScreen": {
     "__game_overview": "Spielübersicht",
     "__iteration_card_states_title": "Position der Karten am Ende der Runde",
-    "__all_game_metrics_title": "Spiel Metriken",
+    "__all_game_metrics_title": "Spiel-Metriken",
     "__lead_time_histogram_title": "Lead Time Histogram",
     "__debrief_title": "Nachbesprechung",
     "__activities_log_title": "Aktivitäten",
     "__no_answers": "keine Antworten",
-    "__game_date": "Spiel Datum {{-finishDate}}",
+    "__game_date": "Spiel-Datum {{-finishDate}}",
     "__print": "Drucken"
   },
   "NotFoundScreen": {
@@ -111,19 +111,19 @@
       "__duplicate_avatars": "Spieler haben doppelte Avatare!"
     },
     "__custom_game_theme_option": "Anpassen",
-    "__gathering_colleagues": "Mitspieler einsammeln",
-    "__facilitator_header_desc": "Berechtigung Runden zu starten/stoppen (braucht eigentlich nur der Faszilitator)",
+    "__gathering_colleagues": "Mitspieler sammeln",
+    "__facilitator_header_desc": "Berechtigung, Runden zu starten/stoppen (braucht eigentlich nur der Moderator)",
     "__participant": "Teilnehmer",
     "__players": "Spieler",
     "__spectators": "Beobachter",
-    "__share_link_description": "Liebe(r) {{username}}, bitte teile den Link mit anderen, wir brauchen mindestens 3 Personen, um das Spiel zu starten (höchstens 5)",
+    "__share_link_description": "Liebe(r) {{username}}, bitte teile den Link mit anderen, wir brauchen mindestens 3 und maximal 5 Personen, um das Spiel zu starten",
     "__rules_for_each_player": "Die Regeln werden jedem Spieler angezeigt, sie müssen nicht vorher erklärt werden.",
     "__joined_users": "Teilnehmer"
   },
   "Sponsorship": {
-    "__title": "Support the game",
-    "__description_1": "Wir freuen uns, Featureban Online zu entwickeln und haben nicht vor, eine Gebühr für die Nutzung des Spiels zu erheben.",
-    "__description_2": "Wenn du das Projekt unterstützen willst und uns das Gefühl und Vertrauen geben willst, dass wir das Richtige tun - spende bitte einen beliebigen Betrag.",
+    "__title": "Unterstütze das Projekt",
+    "__description_1": "Wir freuen uns, Featureban Online zu entwickeln und wollen auch zukünftig keine Gebühr für die Nutzung des Spiels erheben.",
+    "__description_2": "Wenn du das Projekt unterstützen willst und uns das Gefühl und das Vertrauen geben willst, dass wir das Richtige tun, spende bitte einen beliebigen Betrag.",
     "__button": "Spenden"
   },
   "KaitenPromo": {
@@ -138,7 +138,7 @@
     "__me": "ich",
     "__change_players_role_to_spectator": "Spieler zum Beobachter machen",
     "UserRemovalDialog": {
-      "__confirm_text": "Bist Du  sicher, dass du {{{Benutzername}} in die Zuschauer-Rolle ändern möchtest? Bitte beachte, dass Zuschauer nicht am Spiel teilnehmen, sondern zuschauen können.",
+      "__confirm_text": "Bist Du  sicher, dass du {{{Benutzername}} in die Beobachter-Rolle ändern möchtest? Bitte beachte, dass Beobachter nicht am Spiel teilnehmen, sondern nur zuschauen können.",
       "__choose_user_for_transfer": "Bitte wähle eine Person aus, der alle Karten von {{{Benutzername}} zugeordnet werden.",
       "__cards_in_progress": "{{count}} Karte(n) in Bearbeitung"
     }
@@ -163,7 +163,7 @@
       "__third_rule_action": "C) Beginne eine neue Karte: ",
       "__third_rule": "Nimm eine Karte in Arbeit, indem du sie aus der Spalte ganz links nach rechts ziehst",
       "__last_rule_action": "D) ",
-      "__last_rule": "und nur, wenn nichts davon geht: hilf einem anderen Spieler."
+      "__last_rule": "...und nur, wenn nichts davon geht: hilf einem anderen Spieler."
     }
   },
   "GameToolbar": {
@@ -198,7 +198,7 @@
   },
   "IterationDialog": {
     "Buttons": {
-      "__ready": "bereit",
+      "__ready": "fertig",
       "__start_iteration": "zur nächsten Runde",
       "__start_first_iteration": "Starte die 1. Runde",
       "__start_second_iteration": "Starte die 2. Runde",
@@ -226,11 +226,11 @@
     "secondPreIterationQuestions": [
       "Wie war´s?",
       "Welche Elemente kommen dir aus deinem Arbeitsalltag bekannt vor, welche sind neu?",
-      "Angenommen, wir machen immer weiter so. Was würde dann passieren?"
+      "Angenommen, es ginge immer so. Was würde passieren?"
     ],
     "thirdPreIterationQuestions": [
-      "Was war anders? Bitte nenne Nachteile und Vorteile.",
-      "Kannst du dir irgendwelche Variationen vorstellen? Welche Möglichkeiten gibt es noch, die Menge gleichzeitig laufender Arbeit zu limitieren?",
+      "Was war anders? Bitte nenne Vor- und Nachteile.",
+      "Kannst du dir irgendwelche Veränderungen oder Anpassungen vorstellen? Welche Möglichkeiten gibt es noch, die Menge gleichzeitig laufender Arbeit zu limitieren?",
       "Nenne Parallelen aus deinem Berufsalltag."
     ],
     "__third_iteration_reset_game_state_info": "Bitte beachte, dass alle Karten aus der laufenden Runde entfernt werden. Die dritte Runde startet mit neuen Karten in der linken Spalte."
@@ -254,18 +254,18 @@
     "__coin_title_current_player_red": "Heute hast du eine rote Karte",
     "__coin_title_current_player_black": "Heute hast du eine schwarze Karte",
     "__my_work_for_day": "Meine Arbeit für Tag {{day}}",
-    "__done_work_for_today": "Du hast deine Arbeit für heute beendet. Der nächste Tag beginnt, wenn alle fertig sind",
+    "__done_work_for_today": "Du hast deine Arbeit für heute beendet. Der nächste Tag beginnt, wenn die anderen auch fertig sind.",
     "__OR": "ODER",
     "red": {
       "__rules_choice": "Wähle eine der folgenden Aktionen aus:",
-      "__first_rule_action": "A Bewege ",
+      "__first_rule_action": "A) Bewege ",
       "__first_rule": "eine deiner nicht geblockten Karten eine Spalte nach rechts",
       "__second_rule_action": "B) Entblocke ",
       "__second_rule": "eine deiner geblockten Karten",
       "__third_rule_action": "C) Beginne eine neue Karte: ",
       "__third_rule": "Nimm eine Karte in Arbeit, indem du sie aus der Spalte ganz links nach rechts ziehst",
       "__last_rule_action": "D) ",
-      "__last_rule": "und nur, wenn nichts davon geht: hilf einem anderen Spieler."
+      "__last_rule": "...und nur, wenn nichts davon geht: hilf einem anderen Spieler."
     },
     "black": {
       "__first_rule_action": "1) Blocker setzen ",
@@ -288,7 +288,7 @@
     "__metrics": "Metriken",
     "__histogram_view": "Histogram",
     "__table_view": "Board",
-    "__columns_count_view": "Anzahl Karten pro Spalte",
+    "__columns_count_view": "Anzahl der Karten pro Spalte",
     "__lead_time_view": "Lead time",
     "__cards_count_axis": "Anzahl Karten",
     "__days_count_axis": "Anzahl Tage",
@@ -300,7 +300,7 @@
     },
     "__loading_chart": "Chart wird geladen...",
     "__show_in_dialog": "Dialog öffnen",
-    "__no_data": "Keine Daten anzeigbar",
+    "__no_data": "Keine Daten verfügbar",
     "__iteration_label": "Runde {{iteration}}",
     "__first_and_second_iteration_label": "1. und 2. Runde",
     "__third_iteration_label": "3. Runde",
@@ -329,10 +329,10 @@
     "__role_changed": "Du wurdest vom Modertor aus dem Spiel entfernt, kannst aber noch als Beobachter zuschauen.",
     "__responsible_for_remove_user_cards": "«{{userName}}» ist jetzt Beobachter. Der Moderator hat dir die nicht beendeten Karten von «{{userName}}» zugeordnet",
     "__already_updated_card": "Leider hat ein anderer Spieler die Karte bereits verändert.",
-    "__day_changed": "Tag {{day}} is vorbei: alle Spieler haben gezogen. Plane den nächsten Tag",
+    "__day_changed": "Tag {{day}} ist vorbei: alle Spieler haben gezogen. Plane den nächsten Tag",
     "__user_move_done": "Du hast für heute alle Züge gemacht 💪",
-    "__resumed_the_game": "Spiel läuft wieder",
-    "__paused_the_game": "Spiel ist gerade unterbrochen",
+    "__resumed_the_game": "lässt das Spiel wieder weiterlaufen",
+    "__paused_the_game": "hat das Spiel gerade unterbrochen",
     "__skip_turn": "Zug überspringen"
   },
   "WrongActions": {
