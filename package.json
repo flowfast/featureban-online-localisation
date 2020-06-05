@@ -1,5 +1,9 @@
 {
   "name": "featureban-online-localisation",
   "version": "0.0.8",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.5"
+  }
 }
