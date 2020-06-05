@@ -1,5 +1,5 @@
 {
-  "enabledLanguages": ["en", "ru", "de"],
+  "enabledLanguages": ["en", "ru", "de", "uk"],
   "languages": {
     "en": {
       "name": "English",
@@ -12,6 +12,10 @@
     "de": {
       "name": "Deutsch",
       "shortName": "De"
+    },
+    "uk": {
+      "name": "Українська",
+      "shortName": "Укр"
     }
   },
   "themes": {
