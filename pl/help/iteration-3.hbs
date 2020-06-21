@@ -1,0 +1,17 @@
+<h6 class="heading">Runda trzecia</h6>
+<p class="body">Zasady gry pozostają bez zmian.</p>
+<p class="body">Wszystkie zadania z poprzedniej rundy zostaną usunięte a nowe zostaną dodane do kolumny «Kolejka». W ten sposób łatwiej będzie nam porównać wyniki i metryki z poprzednimi rundami.</p>
+<p class="body">Dodaliśmy histogram, by ułątwić śledzenie pracy.</p>
+<img src="{{assetsPath}}assets/charts.png" alt="charts" class="image" />
+
+<h6 class="heading">Skumulowany diagram przepływu (CFD)</h6>
+<img src="{{assetsPath}}assets/cfd.png" alt="cfd" class="image" />
+<p class="body">Wykres śledzi całkowitą liczbę zadań. Oś pozioma CFD przedstawia czas dla którego wizualizuje dane. Oś pionowa pokazuje skumulowaną liczbę zadań jakie są w przepływie (workflow) w różnych momentach czasu. Różne kolory pasm pokazują zadania w różnych stanach. Używają CDF możemy zorientować się jaki jest przeciętny czas realizacji zadania w bardzo łatwy sposób.</p>
+
+<h6 class="heading">Czas realizacji (lead time)</h6>
+<img src="{{assetsPath}}assets/lead-time.png" alt="lead time" class="image" />
+<p class="body">Wykres czasów realizacji pokazuje przeciętną liczbę dni jaka potrzebna zadaniu na przejście przez nasz proces.</p>
+
+<hr class="divider"/>
+
+{{> (resolvePartial lng "rulesBlock")}}
