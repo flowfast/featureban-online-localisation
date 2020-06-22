@@ -44,7 +44,7 @@
     "__game_recommendations": "Empfehlungen zum Spiel",
     "__required_players_count": "Jedes Spiel benötigt 3-5 Spieler.",
     "__communication_between_players_desc": "Um es auszuprobieren, nimm einfach als Spieler oder Beobachter teil und teile den Link. Während des Spiels müsst ihr online kommunizieren können (diesen Teil stellen wir nicht zur Verfügung).",
-    "__game_updates": "Spiel-Updates",
+    "__game_updates": "Updates",
     "__several_games_update_desc": "Man muss Featureban nicht mehr von mehreren Browsern aus starten. Es ist nun möglich mit einem Browser an mehreren Spielen teilzunhemen.",
     "__total_games_played": "Anzahl gespielte Spiele: {{count}}",
     "__start_new_game": "Starte ein neues Spiel"
