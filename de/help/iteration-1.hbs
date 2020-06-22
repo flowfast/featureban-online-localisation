@@ -1,29 +1,29 @@
 <h6 class="heading">First iteration</h6>
-<p class="body">Game is split into several iterations. First iteration is just about visual management. Each card on the board represents a task, that has to be done by your team. All new tasks appear in the first «Queue» column. To finish it you have to pull the card to «Done» column. The card goes through the number of the stages in the middle. There are two in progress stages - «In Progress» and «Testing».</p>
+<p class="body">Das Spiel ist in mehrere Runden aufgeteilt. In der ersten Runde geht es um die Visualisierung. Jede Karte auf dem Board stellt eine Aufgabe dar, die von deinem Team erledigt werden muss. Alle neuen Aufgaben erscheinen in der ersten Spalte. Um sie zu erledigen, müssen die Karte in die Spalte "Erledigt“ gezogen werden. Jede Karte durchläuft dafür zwei Bearbeitungsschritte in den Spalten dazwischen.</p>
 <img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
-<p class="body">When you move the card to «In Progress» column you become responsible for it and your avatar appears on that card.</p>
+<p class="body">Wenn du eine Karte in die Spalte "In Bearbeitung" verschiebst, wirst du für sie verantwortlich und dein Avatar erscheint auf dieser Karte.</p>
 <img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
-<p class="body">Game begins with one item assigned per player</p>
+<p class="body">Bei Spielbeginn ist jedem Spieler bereits eine Karte zugeordnet.</p>
 <img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="image" />
 
-<h6 class="heading">Blocked items</h6>
-<p class="body">Bad things happen in game just like in real life. And sometimes your work will get blocked. Block means you can't progress work for some reason. It might be dependant on some other task that is not currently ready. After card is blocked, you can't move it to the right.</p>
+<h6 class="heading">geblockte Karten</h6>
+<p class="body">Wie im richtigen Leben geht auch im Spiel manchmal etwas schief. Und manchmal wird dadurch deine Arbeit blockiert. Das bedeutet, dass du aus irgendeinem Grund deine Arbeit nicht fortsetzen kannst. Sie könnte bespielsweise von einer anderen Aufgabe abhängen, die derzeit noch nicht fertig ist. Wenn eine Karte geblockt ist, kann man sie nicht weiter ziehen.</p>
 <img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
 
-<h6 class="heading">Random card</h6>
-<p class="body">In the beginning of each day every player will get a random card (black/red). Why is it necessary? People start a piece of work and think it is going to take one day. But sometimes it takes much more - 2 days, 3 days and even more. There is always a chance of variation and there are lots of reasons for that. Each playing card gives you certain moves.</p>
+<h6 class="heading">Zufalls-Karte</h6>
+<p class="body">Zu Beginn eines jeden Tages erhält jeder Spieler zufällige eine rote oder schwarze Karte. Je nach Farbe kann man unterschiedliche Spielzüge machen. Was ist der Sinn davon? An manchen Tagen kann man an der aktuellen Aufgabe arbeiten, an anderen wird man durch Abhängigkeiten daran gehindert und muss entsprechend darauf reagieren.</p>
 
 {{> (resolvePartial lng "cardMoves")}}
 
-<h6 class="heading">Game flow controls (facilitator only)</h6>
+<h6 class="heading"> Steuerung des Spielflusses (nur für den Moderator)</h6>
 <img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="image" />
 
-<h6 class="heading">Change role (game creator only)</h6>
-<p class="subtitle">In case one of players went offline, you can remove such player by changing his game role to spectator. He will be still in game by just watching it. In case that player owns some tasks placed in progress columns, you have to choose other person, who will get responsible for those tasks.</p>
+<h6 class="heading">Rollen verändern (nur für den Moderator)</h6>
+<p class="subtitle">Falls einer der Spieler offline gegangen ist, kannst du diesen Spieler entfernen, indem du seine Spielrolle auf Zuschauer änderst. Falls er Karten in Arbeit hatte, musst du diese einem anderen Spiele zuweisen, der dann für diese Aufgaben verantwortlich sein wird.</p>
 <img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="image" />
 
 {{> (resolvePartial lng "rulesBlock")}}
 
 <div class="footer">
-  <p class="subtitle">Main goal is to pull as much cards to the «Done» column as you can! All other things you will discover through playing the game. Push the «Ready» button, and let's play Featureban!</p>
+  <p class="subtitle">Hauptziel ist es, so viele Karten in die Spalte "Erledigt" zu ziehen, wie du kannst! Alles anderewirst Du während des Spiels entdecken. Klicke auf „Bereit“ und lass uns Featureban spielen!</p>
 </div>
