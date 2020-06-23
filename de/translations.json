@@ -198,7 +198,7 @@
   },
   "IterationDialog": {
     "Buttons": {
-      "__ready": "fertig",
+      "__ready": "Bereit",
       "__start_iteration": "zur nächsten Runde",
       "__start_first_iteration": "Starte die 1. Runde",
       "__start_second_iteration": "Starte die 2. Runde",
@@ -207,7 +207,7 @@
       "__remove": "Löschen",
       "__back_to_answers": "Zurück zu den Antworten"
     },
-    "__waiting_for_others": "...Warten auf die Anderen...",
+    "__waiting_for_others": "...wir warten noch auf die anderen...",
     "__time_till_auto_start": "Zeit bis zum Auto-Start",
     "__user_is_ready": "{{userName}} ist bereit",
     "__user_is_not_ready": "{{userName}} ist nicht bereit",
@@ -220,17 +220,17 @@
     "__preparing_board_action_desc": " bereitet das Board vor",
     "__users_preparing_board": "Users preparing board:XXXX",
     "__iteration_summary": "Zusammenfassung der Runde",
-    "__preIterationQuestionsTitle": "Bitte beantworte ein paar Fragen. Die Beantwortung ist freiwillig.",
+    "__preIterationQuestionsTitle": "Bitte beantworte einige Fragen. Die Beantwortung ist freiwillig.",
     "__waiting_for_other_answers": "Warten, bis alle Spieler geantwortet haben",
     "__spectator_waiting_for_other_answers": "Warten, bis die Spieler geantwortet haben",
     "secondPreIterationQuestions": [
       "Wie war´s?",
       "Welche Elemente kommen dir aus deinem Arbeitsalltag bekannt vor, welche sind neu?",
-      "Angenommen, es ginge immer so. Was würde passieren?"
+      "Angenommen, es ginge immer so weiter. Was würde passieren?"
     ],
     "thirdPreIterationQuestions": [
       "Was war anders? Bitte nenne Vor- und Nachteile.",
-      "Kannst du dir irgendwelche Veränderungen oder Anpassungen vorstellen? Welche Möglichkeiten gibt es noch, die Menge gleichzeitig laufender Arbeit zu limitieren?",
+      "Kannst du dir irgendwelche Veränderungen oder Anpassungen vorstellen? Welche Möglichkeiten gibt es noch, die Menge gleichzeitig laufender Arbeiten zu limitieren?",
       "Nenne Parallelen aus deinem Berufsalltag."
     ],
     "__third_iteration_reset_game_state_info": "Bitte beachte, dass alle Karten aus der laufenden Runde entfernt werden. Die dritte Runde startet mit neuen Karten in der linken Spalte."
