@@ -235,7 +235,7 @@
     ],
     "__third_iteration_reset_game_state_info": "Uwaga, wszystkie zadania z bieżącej rundy zostaną usuniętę. 3 runda rozpocznie się z nowymi zadaniami w kolumnie «Kolejka»."
   },
-  
+
   "Card": {
     "Buttons": {
       "__unblock": "Odblokuj",
@@ -263,8 +263,8 @@
       "__second_rule_action": "B) Odblokuj ",
       "__second_rule": "jedno ze swoich zablokowanych zadań",
       "__third_rule_action": "C) Rozpocznij nowe zadanie: ",
-      "__third_rule": "przesuń zadanie z kolumny «Kolejka» o jedną kolumnę w prawo do kolumny «W toku», dzięki czemu zadanie stanie się teraz pracą w toku (Work In Progress),
-      "__last_rule_action": "E) ",
+      "__third_rule": "przesuń zadanie z kolumny «Kolejka» o jedną kolumnę w prawo do kolumny «W toku», dzięki czemu zadanie stanie się teraz pracą w toku (Work In Progress)",
+      "__last_rule_action": "D) ",
       "__last_rule": "i tylko jeśli nie możesz przesunąć swoich zadanie możesz pomóc komuś innemu! Przesuń lub odblokuj zadanie innego gracza"
     },
     "black": {
@@ -345,7 +345,7 @@
     },
     "common": {
       "__move_blocked_card": "próbował/a przesunąć zablokowane zadanie #{{cardNumber}}",
-      "__move_done_card": próbował/a przesunąć zakończone zadanie #{{cardNumber}}",
+      "__move_done_card": "próbował/a przesunąć zakończone zadanie #{{cardNumber}}",
       "__user_move_done": "próbował/a przesunąć zadanie #{{cardNumber}} po wyczerpaniu akcji dostępnych na dany dzień",
       "__column_wip_reached": "próbował/a złamać limit WIP kolumny «{{destinationColumn}}» przez przesunięcie karty #{{cardNumber}}",
       "__move_card": "próbował/a przesunąć kartę #{{cardNumber}} z kolumny «{{sourceColumn}}» do kolumny «{{destinationColumn}}»"
