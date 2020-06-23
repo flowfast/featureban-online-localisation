@@ -1,0 +1,29 @@
+<h6 class="heading">Runda pierwsza</h6>
+<p class="body">Gra podzielona jest na kilka rund. Pierwsza runda skupiona jest na zarządzaniu wizualnym. Każda karta reprezentuje zadanie, które musi być wykonane przez wasz zespół. Wszystkie zadania pojawiają się w pierwszej kolumnie  «Kolejka». By ukończyć zadanie musi być ono przeciągnięte do kolumny «Gotowe». Karta musi przejść przez pewną liczbę stanów pośrednich. Są dwa takie stany «W toku» i «W testach».</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">Kiedy przesuwać zadanie do kolumny «W toku» stajesz się za nie odpowiedzialny/a i twój avatar pojawia się na karcie.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+<p class="body">Gra rozpoczyna się z jednym zadaniem przypisanym do każdego z graczy.</p>
+<img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="image" />
+
+<h6 class="heading">Zadania zablokowane</h6>
+<p class="body">W trakcie gry, tak jak w życiu dzieją się złe rzeczy. Czasem twoja praca ulega zablokowaniu. Blokada oznacza, że z jakiegoś powodu nie możesz kontynuować pracy. Przykładem jest zależność od innego, nieukończonego zadania. Jeśli zadanie ulegnie zablokowaniu nie możesz przesuwać go dalej.</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">Losowanie kart</h6>
+<p class="body">Na początku każdego dnia, każdy z graczy otrzyma losowo kartę (czerwoną lub czarną). Dlaczego tak? Ludzie zaczynają jakieś zadanie i sądzą, że skończą je np tego samego dnia. W rzeczywistości może ono potrwać 2, 3 lub więcej dni. Zawsze istnieje wiele powodów do zmienności. W zależności od wylosowanej karty (czerwonej lub czarnej) możesz wykonać określone akcje.</p>
+
+{{> (resolvePartial lng "cardMoves")}}
+
+<h6 class="heading">Kontrola przebiegu gry (facilitator only)</h6>
+<img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="image" />
+
+<h6 class="heading">Zmiana roli (jedynie przez zakłdającego grę)</h6>
+<p class="subtitle">W przypadku rozłączenia jednego z graczy osoba prowadząca może zmienić jego lub jej rolę na obserwatora. Nadal będzie on/a mogli obserwować grę. Jeśli osoba tak miała przypisaneg do siebie zadania osoba prowadząca może przypisać je innemu graczowi.</p>
+<img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="image" />
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<div class="footer">
+  <p class="subtitle">Głównym celem jest dostarczenie tak wielu zadań jak to możliwe do kolumny «Gotowe». Wszystkie pozostałe zasady wyjdą w trakcie gry. Naciśnij przycisk «Gotowy/a» i zagrajmy w Featureban!</p>
+</div>

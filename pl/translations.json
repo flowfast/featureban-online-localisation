@@ -1,0 +1,366 @@
+{
+  "Language": {
+    "__name": "Polski",
+    "__short_name": "Pl"
+  },
+  "CommonUI": {
+    "__featureban_title": "Featureban 3.0",
+    "__close": "Zamknij",
+    "__cancel": "Skasuj",
+    "__apply": "Zastosuj",
+    "__confirm": "Potwierdź",
+    "__agree": "Zgoda",
+    "__next": "Następny",
+    "__create": "Stwórz"
+  },
+  "JoinScreen": {
+    "__game_join_main_text": "{{gameAuthorName}} zaprosił Cię do gry, Naciśnij «Dołącz» gdy jesteś gotowy/a",
+    "__game_join_as_spectator_main_text": "{{gameAuthorName}} zaprosił Cię do gry, ale gra już się rozpoczęła. Nadal możesz dołączyć jako obserwator.",
+    "__join": "Dołącz do gry",
+    "__join_as_spectator": "Dołącz jako obserwator",
+    "__join_as_player": "Dołącz jako gracz",
+    "__spectator_join_info": "(Obserwuj innych jak grają)",
+    "__enter_name_label": "Podaj swoje imię"
+  },
+  "CookiesPolicy": {
+    "__accept_cookies_title": "Informacja o plikach Cookies",
+    "__we_using_cookie": "Używamy plików Cookies w celu przechowywania informacji o sesji gry.",
+    "__you_have_to_accept_cookies": "By grać musisz zaakceptować użycie plików Cookies"
+  },
+  "RegistrationScreen": {
+    "Buttons": {
+      "__set_up_game": "Ustawienia gry",
+      "__avatar_pick": "Wybierz swojego avatara"
+    },
+    "__game": "Gra",
+    "__game_started": "rozpoczęta",
+    "__previous_games": "Poprzednie gry",
+    "__change_avatar_title": "Zmień swojego avatara",
+    "__avatar_already_chosen": "Ten avatar został już wybrany",
+    "__participate_as_player": "Uczestnicz jako gracz",
+    "__participate_as_spectator": "Uczestnicz jako obserwator",
+    "__spectator_registration_info": "(Ogląda i kontroluje przebieg gry)",
+    "__about_game": "To prosta, rozrywkowa i dobra do dostosowania gra symulująca Kanban. Od roku 2014 jest stosowana na całym świecie przez trenerów i coachu w obrszarach Lean, Agile i Kanban.",
+    "__game_recommendations": "Rekomendacje dla gry",
+    "__required_players_count": "Każda gra potrzebuje od 3 do 5 graczy.",
+    "__communication_between_players_desc": "By spróbować dołącz jako gracz lub obserwator i udostępnij innym link. Będziesz potrzebować w czasie gry narzędzia do komunikacji (audio i video), by razem grać online (tego nie oferujemy, więc musisz użyć własnego narzędzia).",
+    "__game_updates": "Aktualizacje gry",
+    "__several_games_update_desc": "Nie musisz już uruchamiać gry Featureban w kilku przeglądarkach, teraz możesz uczestniczyć w kilku grach jednocześnie z jednej przeglądarki.",
+    "__total_games_played": "Rozegrane gry: {{count}}",
+    "__start_new_game": "Rozpocznij nową grę"
+  },
+  "FinishScreen": {
+    "__game_overview": "Podsumowanie gry",
+    "__iteration_card_states_title": "Cards position by the end of iteration",
+    "__all_game_metrics_title": "Metryki",
+    "__lead_time_histogram_title": "Histogram czasu realizacji (lead-time)",
+    "__debrief_title": "Podsumowanie",
+    "__activities_log_title": "Dzienniki aktywności",
+    "__no_answers": "Brak odpowiedzi",
+    "__game_date": "Data gry {{-finishDate}}",
+    "__print": "Drukuj"
+  },
+  "NotFoundScreen": {
+    "__not_found_game_description": "Nie znaleziono gry",
+    "__to_new_game": "Do tworzenia nowej gry"
+  },
+  "MobileNotSupportedScreen": {
+    "__mobile_is_not_supported": "Niestety gra w Featureban na małych ekranach jest wyjątkowo niewygodna \uD83D\uDE1E",
+    "__supported_devices": "Prosimy otwórz grę na komputerze lub tablecie."
+  },
+  "CustomThemeDialog": {
+    "__custom_theme_dialog_title": "Wgraj własne zadania",
+    "__column_0_title": "Kolejka",
+    "__progress_column_0_title": "W toku",
+    "__progress_column_1_title": "W testach",
+    "__column_2_title": "Gotowe",
+    "__uploaded": "Wgrane",
+    "__drop_file_here": "Przeciągnij plik tutaj",
+    "__drop_file_attachment": "Przeciągnij plik tutaj (kliknięcie również działa",
+    "__use_table_first_row": "Użyj pierwszego wiersza tabeli",
+    "__select_the_column_for_card_names": "Wybierz kolumnę z nazwami kart",
+    "__upload_instruction": "Możesz wgrać własne zadania do gry. By to zrobić przygotuj plik jak ten przykładowy:",
+    "__example_file": "przykład",
+    "__set_column_names_label": "Ustaw nazwy kolumn",
+    "__backlog_column_label": "Kolumna Backlog",
+    "__first_progress_column_label": "Pierwsza aktywna kolumna",
+    "__second_progress_column_label": "Druga aktywna kolumna",
+    "__done_column_label": "Kolumna Gotowe",
+    "Errors": {
+      "__empty_file": "Plik jest pusty! Proszę użyj innego.",
+      "__empty_column": "Wybrana kolumna jest pusta"
+    }
+  },
+  "GameSettings": {
+    "__game_settings": "Ustawienia gry",
+    "__cards_theme": "Temat gry",
+    "__game_mode": "Tryb gry",
+    "__strict_mode": "Tryb rygorystyczny",
+    "__strict_mode_desc": "Gra nie pozwoli na pracę nad zadaniami, które nie należą do Ciebie",
+    "__normal_mode": "Tryb zwykły",
+    "__normal_mode_desc": "Gra pozwoli Ci na niedozwolone ruchy, ale pokaże ostrzeżenia i będzie możliwe skorygowanie ruchu"
+  },
+  "LobbyScreen": {
+    "Buttons": {
+      "__start_game": "Rozpocznij grę",
+      "__copy_link": "Skopiuj link",
+      "__copy_game_link": "Skopiuj link gry"
+    },
+    "Errors": {
+      "__not_enough_players": "Potrzeba co najmniej 3 graczy, zaproś innych!",
+      "__duplicate_avatars": "Gracze mają zduplikowane avatary!"
+    },
+    "__custom_game_theme_option": "Własny scenariusz",
+    "__gathering_colleagues": "Zebranie zespołu",
+    "__facilitator_header_desc": "Prawo rozpoczynania/kończenia rund (zwykle potrzebna jedynie prowadzącym)",
+    "__participant": "Uczestnik",
+    "__players": "Gracze",
+    "__spectators": "Obserwatorzy",
+    "__share_link_description": "Hej {{username}}, podziel się tym linkiem z innymi, potrzebujemy min. 3 graczy do rozpoczęcia (maximum 5).",
+    "__rules_for_each_player": "Zasady będą wyświetlane każdemu z graczy, nie musisz ich im tłumaczyć.",
+    "__joined_users": "Podłączonych użytkowników"
+  },
+  "Sponsorship": {
+    "__title": "Wesprzyj grę",
+    "__description_1": "Cieszymy się z rozwoju gry Featureban online i nie zamierzamy pobierać opłat za jej używanie.",
+    "__description_2": "Jeśli chcesz wesprzeć projekt i dać wyraz temu, że robimy właściwą pracę prosimy wesprzyj nas dowolną kwotą.",
+    "__button": "Przekaż wsparcie"
+  },
+  "KaitenPromo": {
+    "__title": "Szukasz oprogramowania wspierającego Kanban?",
+    "__description_1": "Kaiten to narzędzie online dla firm i zespołów które stosują Metodę Kanban lub inne podejścia zwinne (Agile) takie jak Scrum, LeSS, itp.",
+    "__description_2": "",
+    "__button": "Wypróbuj Kaiten"
+  },
+  "PlayersList": {
+    "__players_title": "Gracze",
+    "__offline": "offline",
+    "__me": "to Ty",
+    "__change_players_role_to_spectator": "Zmień rolę z gracza na obserwatora",
+    "UserRemovalDialog": {
+      "__confirm_text": "Czy na pewno chcesz zmienić rolę «{{userName}}» z gracza na obserwatora? Pamiętaj, że obserwatorzy nie uczestniczą w grze, mogą jedynie ją obserwować",
+      "__choose_user_for_transfer": "Wybierz osobę, której zostanie przypisana cała praca w toku gracza «{{userName}}»",
+      "__cards_in_progress": "{{count}} kart(a) w toku"
+    }
+  },
+  "PlayerTooltip": {
+    "__awaiting": "Oczekuje",
+    "__completed_the_move": "zakończył(a) pracę na dziś",
+    "__player_completed_the_move": "zakończył(a) pracę na dziś",
+    "__has_black": "wyciągnął/ęła czarną kartę i musi postąpić jak następuje",
+    "__has_red": "wyciągnął/ęła czerwoną kartę i musi wybrać i wykonać jedną z następujących akcji",
+    "black": {
+      "__first_rule_action": "1) Dodaj blokadę",
+      "__first_rule": "do jednego ze swoich obecnie niezablokowanych zadań w toku",
+      "__second_rule_action": "2) Rozpocznij nowe zadanie: ",
+      "__second_rule": "przesuń zadanie z kolumny «Kolejka» o jedną kolumnę w prawo do kolumny «W toku», dzięki czemu zadanie stanie się teraz pracą w toku (Work In Progress). Tylko jeśli gracz nie może rozpocząć nowego zadania może pomóc komuś innemu!"
+    },
+    "red": {
+      "__first_rule_action": "A) Przesuń ",
+      "__first_rule": "jedno ze swoich niezablokowanych zadań o kolumnę w prawo",
+      "__second_rule_action":"B) Odblokuj ",
+      "__second_rule": "jedno ze swoich zablokowanych zadań",
+      "__third_rule_action": "C) Rozpocznij nowe zadanie: ",
+      "__third_rule": "przesuń zadanie z kolumny «Kolejka» o jedną kolumnę w prawo do kolumny «W toku», dzięki czemu zadanie stanie się teraz pracą w toku (Work In Progress).",
+      "__last_rule_action": "E) ",
+      "__last_rule": "i tylko jeśli nie możesz przesunąć swoich zadań możesz pomóc komuś innemu!"
+    }
+  },
+  "GameToolbar": {
+    "__iteration": "Runda",
+    "__day": "Dzień",
+    "__preparing_for_iteration": "Przygotowanie do rozpoczęcia rundy",
+    "__iteration_timer_info": "Czas jaki upłynął od rozpoczęcia bieżącej rundy",
+    "__game_paused": "Gra jest zapauzowana",
+    "Buttons": {
+      "__pause": "Pauza",
+      "__resume": "Wznów grę"
+    }
+  },
+  "AppBar": {
+    "__stop_iteration": "Zakończ rundę",
+    "__end_game": "Zakończ grę",
+    "__confirm_switch_to_next_iteration": "Potwierdź przejście do kolejnej rundy gry",
+    "__confirm_end_game": "Potwierdź zakończenie gry",
+    "__add_new_language": "Dodaj język"
+  },
+  "RulesDialog": {
+    "__rules_button": "Zasady gry",
+    "__rules_dialog_title": "Zasady gry"
+  },
+  "Board": {
+    "__board_title": "Tablica",
+    "__wip_title": "Praca w toku (Work in progress)",
+    "__add_more_cards": "Dodaj 5 kart",
+    "__create_card_label": "Utwórz kartę",
+    "__create_card_placeholder": "Wprowadź tytuł karty",
+    "__cards_count_in_column": "Liczba kart w kolumnie"
+  },
+  "IterationDialog": {
+    "Buttons": {
+      "__ready": "Gotowy/a",
+      "__start_iteration": "Rozpocznij grę",
+      "__start_first_iteration": "Rozpocznij pierwszą rundę",
+      "__start_second_iteration": "Rozpocznij drugą rundę",
+      "__start_third_iteration": "Rozpocznij trzecią rundę",
+      "__start_prepare_game": "Przygotuj tablicę",
+      "__remove": "Usuń",
+      "__back_to_answers": "Powrót do odpowiedzi"
+    },
+    "__waiting_for_others": "Oczekiwanie na innych graczy",
+    "__time_till_auto_start": "Czas do automatycznego startu",
+    "__user_is_ready": "{{userName}} jest gotowy/a",
+    "__user_is_not_ready": "{{userName}} nie jest gotowy/a",
+    "__confirm_admin_iteration_start_text": "Uwaga, nie wszyscy gracze są gotowi. Czy chcesz zacząć rundę bez zaczekanie na gotowość wszystkich graczy?",
+    "__dialog_title": "Przygotowanie do rozpoczęcia rundy",
+    "__facilitator_info": "Jeśli chcesz wyczyścić tablicę przed drugą rundą możesz to zrobić.",
+    "__players_info": "Organizatorzy gry przygotowują tablicę do drugiej rundy.",
+    "__sidebar_info_title": "Przygotowywanie tablicy do kolejnej rundy",
+    "__sidebar_info_description": "Usuń nieskończone zadania lub dodaj nowe zadania.",
+    "__preparing_board_action_desc": " przygotowuje tablicę",
+    "__users_preparing_board": "Użytkownicy przygotowujący tablicę:",
+    "__iteration_summary": "Podsumowanie rundy",
+    "__preIterationQuestionsTitle": "Proszę odpowiedzcie na kilka pytań. Wszystkie są opcjonalne.",
+    "__waiting_for_other_answers": "Oczekiwanie na odpowiedzi pozostałych graczy",
+    "__spectator_waiting_for_other_answers": "Oczekiwanie na odpowiedzi",
+    "secondPreIterationQuestions": [
+      "Jak oceniasz tę rundę?",
+      "Jakie elementy były podobne do Twojego obecnego środowiska pracy? Co było nowego?",
+      "Załóżmy, że pracowalibyśmy tak dalej. Do czego by to doprowadziło?"
+    ],
+    "thirdPreIterationQuestions": [
+      "Czym różniła się tam runda? Co było lepsze a co gorsze?",
+      "Jakie inne zmiany możnaby wprowadzić? Jak jeszcze można ograniczać pracę w toku?",
+      "Jakie są podobieństwa do twojego środowiska pracy?."
+    ],
+    "__third_iteration_reset_game_state_info": "Uwaga, wszystkie zadania z bieżącej rundy zostaną usuniętę. 3 runda rozpocznie się z nowymi zadaniami w kolumnie «Kolejka»."
+  },
+  
+  "Card": {
+    "Buttons": {
+      "__unblock": "Odblokuj",
+      "__add_blocker": "Dodaj blokadę"
+    },
+    "__blocked_state": "Zablokowane",
+    "__card_created": "Zadanie utworzone",
+    "__card_started": "Zadanie rozpoczęce",
+    "__card_finished": "Zadanie ukończone",
+    "__total_work_time": "całkowity czas pracy",
+    "__day_short": "d",
+    "__event": "Wydarzenie",
+    "__days": "Dni"
+  },
+  "CoinSection": {
+    "__coin_title_current_player_red": "Dziś wyciągną/ęłaś czerwoną kartę",
+    "__coin_title_current_player_black": "Dziś wyciągą/ęłaś czarną kartę",
+    "__my_work_for_day": "Moja praca w dniu {{day}}",
+    "__done_work_for_today": "Twoja praca na dziś została wykonana. Nowy dzień rozpocznie się, gdy wszyscy gracze wykonają swoje akcje",
+    "__OR": "LUB",
+    "red": {
+      "__rules_choice": "Wybierz jedną z następujących akcji:",
+      "__first_rule_action": "A) Przesuń ",
+      "__first_rule": "jedno ze swoich niezablokowanych zadań o jedną kolumnę w prawo",
+      "__second_rule_action": "B) Odblokuj ",
+      "__second_rule": "jedno ze swoich zablokowanych zadań",
+      "__third_rule_action": "C) Rozpocznij nowe zadanie: ",
+      "__third_rule": "przesuń zadanie z kolumny «Kolejka» o jedną kolumnę w prawo do kolumny «W toku», dzięki czemu zadanie stanie się teraz pracą w toku (Work In Progress),
+      "__last_rule_action": "E) ",
+      "__last_rule": "i tylko jeśli nie możesz przesunąć swoich zadanie możesz pomóc komuś innemu! Przesuń lub odblokuj zadanie innego gracza"
+    },
+    "black": {
+      "__first_rule_action": "1) Dodaj blokadę ",
+      "__first_rule": "do jednego ze swoich niezablokowanych zadań",
+      "__second_rule_action": "2) Rozpocznij nowe zadanie: ",
+      "__second_rule": "przesuń zadanie z kolumny «Kolejka» o jedną kolumnę w prawo do kolumny «W toku» przez co zadanie stanie się pracą w toku (Work In Progress). Tylko jeśli nie możesz rozpocząć nowego zadania pomóż komuś innemu. Przesuń lub odblokuj zadanie innego gracza",
+      "__last_rule": "Pomóż komuś! Przesuń lub odblokuj zadanie innego gracza"
+    },
+    "__no_moves_rule": "Nie masz w tej chwili dostępnych ruchów. Zaczekaj aż pozostali zakończą swoje akcje."
+  },
+  "ScreenTitles": {
+    "__lobby": "Zbierz grupę | Featureban",
+    "__registration": "Rejestracja | Featureban",
+    "__game_join": "Dołącz do gry | Featureban",
+    "__game": "Featureban | Kaiten",
+    "__end_game": "Featureban | Kaiten"
+  },
+  "GameLog": {
+    "__game_log_title": "Dziennik gry",
+    "__metrics": "Metryki",
+    "__histogram_view": "Histogram",
+    "__table_view": "Tabela",
+    "__columns_count_view": "Liczba zadań na kolumnę",
+    "__lead_time_view": "Czas realizacji (lead time)",
+    "__cards_count_axis": "Liczba zadań",
+    "__days_count_axis": "Liczba dni",
+    "__day": "Dzień",
+    "LeadTimeTable": {
+      "__start_day": "Dzień startu",
+      "__end_day": "Dzień końca",
+      "__work_time": "Czas"
+    },
+    "__loading_chart": "Ładowanie wykresy",
+    "__show_in_dialog": "Otwórz w oknie",
+    "__no_data": "Brak danych do wyświetlenia",
+    "__iteration_label": "Runda {{iteration}}",
+    "__first_and_second_iteration_label": "1 i 2 runda",
+    "__third_iteration_label": "3 runda",
+    "__first_iteration": "Pierwsza runda",
+    "__second_iteration": "Druga runda",
+    "__third_iteration": "Trzecia runda",
+    "__cfd_title": "Cumulative flow diagram (Skumulowany diagram przepływu)",
+    "__lead_time_title": "Wykres czasów realizacji"
+  },
+  "Notifications": {
+    "__add_cards": "Pierwsza kolumna jest prawie pusta! \uD83D\uDE2C",
+    "__iteration_timer_done": "To dobry moment na nową rundę \uD83D\uDE09",
+    "__skip_move": "Nie masz dostępnych akcji!",
+    "__end_game": "To dobry moment na koniec gry! \uD83D\uDE07",
+    "__move_done_card": "Nie możesz przesunąć ukończonego zadania \uD83E\uDD2B",
+    "__move_blocked_card": "Nie możesz przesunąć zablokowanego zadania \uD83D\uDE0B",
+    "__move_to_not_next_column": "Karty mogą być przesuwane tylko o jedną kolumnę \uD83D\uDE0A",
+    "__should_block_card": "Najpierw zablokuj zadanie ✋",
+    "__next_column_wip_reached": "Limit WIP nie pozwala na przesunięcie tu zadania \uD83D\uDE30",
+    "__can_not_start_card": "Nie możesz teraz rozpocząć nowego zadania \uD83D\uDE29",
+    "__can_not_move_card": "Nie możesz przesunąć tego zadania \uD83D\uDE44",
+    "__should_start_card": "Musisz wziąć nowe zadanie z kolejki \uD83D\uDCAA",
+    "__should_move_your_card": "Masz własne zadanie, które możesz przesunąć \uD83D\uDE0C",
+    "__copied_game_link": "URL gry skopiowany do schowka",
+    "__remove_user": "«{{userName}}» jest teraz obserwatorem",
+    "__role_changed": "Zostałe/aś usunięty/a z gry przez administratora. Nadal możesz obserwować grę",
+    "__responsible_for_remove_user_cards": "«{{userName}}» jest teraz obserwatorem. Administrator wybrał Cię jako właściciciela wszystkich kart «{{userName}}» w toku",
+    "__already_updated_card": "Niestety, ktoś już zaktualizował to zadanie",
+    "__day_changed": "Dzień {{day}} dobiegł końca: wszyscy gracze wykonali swoje akcje. Można rozpocząć kolejny dzień.",
+    "__user_move_done": "Wykonałe/aś już wszystkie swoje akcje na dziś 💪",
+    "__resumed_the_game": "gra jest wznowiona",
+    "__paused_the_game": "gra jest zapauzowana",
+    "__skip_turn": "Opuść turę"
+  },
+  "WrongActions": {
+    "black": {
+      "__should_block_card": "próbował/a przesunąć zadanie #{{cardNumber}} do kolumny «{{destinationColumn}}» przed zablokowaniem swojego zadania",
+      "__should_start_card": "próbował/a przesunąć zadanie #{{cardNumber}} do kolumny «{{destinationColumn}}» przed rozpoczęciem nowego zadania"
+    },
+    "red": {
+      "__should_move_own_card": "próbował/a przesunąć nieswoje zadanie #{{cardNumber}}"
+    },
+    "common": {
+      "__move_blocked_card": "próbował/a przesunąć zablokowane zadanie #{{cardNumber}}",
+      "__move_done_card": próbował/a przesunąć zakończone zadanie #{{cardNumber}}",
+      "__user_move_done": "próbował/a przesunąć zadanie #{{cardNumber}} po wyczerpaniu akcji dostępnych na dany dzień",
+      "__column_wip_reached": "próbował/a złamać limit WIP kolumny «{{destinationColumn}}» przez przesunięcie karty #{{cardNumber}}",
+      "__move_card": "próbował/a przesunąć kartę #{{cardNumber}} z kolumny «{{sourceColumn}}» do kolumny «{{destinationColumn}}»"
+    }
+  },
+  "ActivitiesLog": {
+    "__action_card:move": "przesunięto",
+    "__action_card:add": "dodano",
+    "__action_card:block": "zablokowano",
+    "__action_card:unblock": "odblokowano",
+    "__action_card:archive": "zarchiwizowano",
+    "__action_card:assign": "przypisano do zadania"
+  },
+  "TimeAgo": {
+    "__less_then_hour": "<1h",
+    "__less_then_minute": "<1m"
+  }
+}

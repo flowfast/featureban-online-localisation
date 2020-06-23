@@ -1,0 +1,20 @@
+<h6 class="heading">Zasady gry</h6>
+<p class="body">Gra podzielona jest na kilka rund. Pierwsza runda skupiona jest na zarządzaniu wizualnym. Każda karta reprezentuje zadanie, które musi być wykonane przez wasz zespół. Wszystkie zadania pojawiają się w pierwszej kolumnie  «Kolejka». By ukończyć zadanie musi być ono przeciągnięte do kolumny «Gotowe». Karta musi przejść przez pewną liczbę stanów pośrednich. Są dwa takie stany «W toku» i «W testach».</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">Kiedy przesuwać zadanie do kolumny «W toku» stajesz się za nie odpowiedzialny/a i twój avatar pojawia się na karcie.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+
+<h6 class="heading">Zadania zablokowane</h6>
+<p class="body">Blokada oznacza, że z jakiegoś powodu nie możesz kontynuować pracy i zadania nie można przesuwać dalej</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">Limity WIP</h6>
+<p class="body">Liczby obok nazw kolumn pracy w toku reprezentują limity pracy w toku (WIP limits). Nie możesz przesunąć zadania do kolumny, która osiągnęła już przekroczyła swoją maksymalną pojemność.</p>
+<img src="{{assetsPath}}assets/wip-limits.png" alt="workflow" class="image" />
+
+{{> (resolvePartial lng "cardMoves")}}
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<h6 class="heading">Cel gry</h6>
+<p class="body">Głównym celem gry jest ukończenie jak największej liczby zadań!</p>
