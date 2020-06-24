@@ -1,0 +1,29 @@
+<h6 class="heading">Primeira iteração</h6>
+<p class="body">O jogo é dividido em várias iterações. A primeira iteração é apenas sobre gerenciamento visual. Cada cartão no quadro representa uma tarefa que deve ser realizada por sua equipe. Todas as novas tarefas aparecem na primeira coluna «Opções». Para finalizar, você deve puxar o cartão para a coluna «Entregue». O cartão passa pelo número de estágios no meio. Existem dois estágios em andamento - «Fazendo» e «Testando».</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">Quando você move o cartão para a coluna «Fazendo», você se torna responsável por ele e seu avatar aparece nesse cartão.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+<p class="body">O jogo começa com um item atribuído por jogador</p>
+<img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="image" />
+
+<h6 class="heading">Itens bloqueados</h6>
+<p class="body">Coisas ruins acontecem no jogo, como na vida real. E, às vezes, seu trabalho é bloqueado. Bloquear significa que você não pode progredir no trabalho por algum motivo. Pode depender de alguma outra tarefa que não esteja pronta no momento. Depois que o cartão é bloqueado, você não pode movê-lo para a direita.</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">Cartão aleatório</h6>
+<p class="body">No início de cada dia, cada jogador receberá uma carta aleatória (preta / vermelha). Por que isso é necessário? As pessoas começam um trabalho e acham que vai demorar um dia. Mas, às vezes, leva muito mais - 2 dias, 3 dias e até mais. Sempre há uma chance de variação e há muitas razões para isso. Cada carta do jogo oferece certos movimentos.</p>
+
+{{> (resolvePartial lng "cardMoves")}}
+
+<h6 class="heading">Controles de fluxo do jogo (apenas facilitador)</h6>
+<img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="image" />
+
+<h6 class="heading">Alterar papel (apenas criador do jogo)</h6>
+<p class="subtitle">Caso um dos jogadores fique offline, você pode removê-lo alterando o papel do jogo para espectador. Ele ainda estará em jogo apenas assistindo. Caso esse jogador possua algumas tarefas colocadas em colunas de progresso, você deve escolher outra pessoa, que será responsável por essas tarefas.</p>
+<img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="image" />
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<div class="footer">
+  <p class="subtitle">O objetivo principal é mover o máximo de cartões para a coluna «Entregue» possível! Todas as outras que coisas você descobrirá jogando o jogo. Pressione o botão «Pronto» e vamos jogar Featureban!</p>
+</div>
