@@ -1,15 +1,15 @@
 <h6 class="heading">Spielregeln</h6>
 <p class="body">Das Spiel ist in mehrere Runden aufgeteilt. In der ersten Runde geht es um die Visualisierung. Jede Karte auf dem Board stellt eine Aufgabe dar, die von deinem Team erledigt werden muss. Alle neuen Aufgaben erscheinen in der ersten Spalte. Um sie zu erledigen, müssen die Karte in die Spalte "Erledigt“ gezogen werden. Jede Karte durchläuft dafür zwei Bearbeitungsschritte in den Spalten dazwischen.</p>
 <img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
-<p class="body">Wenn du eine Karte in die Spalte "In Bearbeitung" verschiebst, wirst du für sie verantwortlich und dein Avatar erscheint auf dieser Karte.</p>
+<p class="body">Wenn du eine Karte in die Spalte "In Progress"/"In Bearbeitung" verschiebst, wirst du für sie verantwortlich und dein Avatar erscheint auf dieser Karte.</p>
 <img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
 
-<h6 class="heading">Blocked items</h6>
-<p class="body">Geblockt bedeutet, dass du aus irgendeinem Grund die Arbeit nicht fortsetzen kannst. Wenn eine Karte geblockt ist, kannst du sie nicht mehr weiter ziehen.</p>
+<h6 class="heading">Geblockte Karten</h6>
+<p class="body">Geblockt bedeutet, dass du aus irgendeinem Grund die Arbeit nicht fortsetzen kannst. Wenn eine Karte geblockt ist, kannst du sie nicht mehr weiterziehen.</p>
 <img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
 
-<h6 class="heading">WIP limits</h6>
-<p class="body">Unter den Spaltenüberschiften befinden sich Zahlen. Diese stellen die WIP-Limits (Work In Progress) dar. Man kann keine Karten in Spalten verschieben, die an oder über der Kapazität liegen.</p>
+<h6 class="heading">WIP Limits</h6>
+<p class="body">Unter den Spaltenüberschiften befinden sich Zahlen. Diese stellen die WIP (Work In Progress)-Limits dar. Man kann keine Karten in Spalten verschieben, deren WIP-Limit erreicht oder überschritten ist.</p>
 <img src="{{assetsPath}}assets/wip-limits.png" alt="workflow" class="image" />
 
 {{> (resolvePartial lng "cardMoves")}}
@@ -17,4 +17,4 @@
 {{> (resolvePartial lng "rulesBlock")}}
 
 <h6 class="heading">Ziel des Spiels</h6>
-<p class="body">Main goal of the game is to pull as much cards in done column as you can.Hauptziel des Spiels ist es, so viele Karten wie möglich in die "Erledigt"-Spalte zu ziehen.</p>
+<p class="body">Hauptziel des Spiels ist es, so viele Karten wie möglich in die "Done"/"Erledigt"-Spalte zu ziehen.</p>
