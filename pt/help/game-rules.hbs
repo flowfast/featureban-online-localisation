@@ -1,0 +1,20 @@
+<h6 class="heading">Regras do jogo</h6>
+<p class="body">O jogo é dividido em várias iterações. A primeira iteração é apenas sobre gerenciamento visual. Cada cartão no quadro representa uma tarefa que deve ser realizada por sua equipe. Todas as novas tarefas aparecem na primeira coluna «Opções». Para finalizar, você deve puxar o cartão para a coluna «Entregue». O cartão passa pelo número de estágios no meio. Existem dois estágios em andamento - «Fazendo» e «Testando».</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">Quando você move o cartão para a coluna «Fazendo», você se torna responsável por ele e seu avatar aparece nesse cartão.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+
+<h6 class="heading">Itens bloqueados</h6>
+<p class="body">Bloquear significa que você não pode progredir no trabalho por algum motivo. Depois que o cartão é bloqueado, você não pode movê-lo para a direita.</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">Limites WIP</h6>
+<p class="body">Existem números próximos aos títulos das colunas em andamento - eles representam os limites WIP (Trabalho em andamento). Você não pode mover cartões para colunas com capacidade igual ou superior ao limite WIP.</p>
+<img src="{{assetsPath}}assets/wip-limits.png" alt="workflow" class="image" />
+
+{{> (resolvePartial lng "cardMoves")}}
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<h6 class="heading">Objetivo do jogo</h6>
+<p class="body">O principal objetivo do jogo é mover o máximo de cartões possível para a coluna Entregue.</p>
