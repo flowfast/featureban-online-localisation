@@ -67,11 +67,34 @@
       "language": "en",
       "path": "internet_project"
     }],
+    "uk": [{
+      "name": "Маркетинг",
+      "path": "marketing"
+    }, {
+      "name": "Інтернет проект",
+      "path": "internet_project"
+    }, {
+      "name": "(EN) Marketing",
+      "language": "en",
+      "path": "marketing"
+    }, {
+      "name": "(EN) Internet project",
+      "language": "en",
+      "path": "internet_project"
+    }],
     "pt": [{
       "name": "Marketing",
       "path": "marketing"
     }, {
       "name": "Projeto de internet",
+      "path": "internet_project"
+    }, {
+      "name": "(EN) Marketing",
+      "language": "en",
+      "path": "marketing"
+    }, {
+      "name": "(EN) Internet project",
+      "language": "en",
       "path": "internet_project"
     }]
  }
