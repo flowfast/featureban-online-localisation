@@ -40,7 +40,7 @@
     "__participate_as_player": "Participar como jogador",
     "__participate_as_spectator": "Participar como espectador",
     "__spectator_registration_info": "(Assistir e controlar o fluxo do jogo)",
-    "__about_game": "Este é um jogo de simulação Kanban simples, divertido e altamente personalizável. Desde a sua criação em 2014, tem sido utilizado por treinadores e couchs em eventos relacionados a Lean, Agile e Kanban em todo o mundo.",
+    "__about_game": "Este é um jogo de simulação Kanban simples, divertido e altamente personalizável. Desde a sua criação em 2014, tem sido utilizado por treinadores e coaches em eventos relacionados a Lean, Agile e Kanban em todo o mundo.",
     "__game_recommendations": "Recomendações do jogo",
     "__required_players_count": "Cada jogo precisa de 3 a 5 jogadores.",
     "__communication_between_players_desc": "Para experimentar, basta participar como jogador ou espectador e compartilhar o link. Você precisará estar em estreita comunicação on-line enquanto joga (não fornecemos essa parte).",
@@ -70,7 +70,7 @@
   },
   "CustomThemeDialog": {
     "__custom_theme_dialog_title": "Carregue suas tarefas",
-    "__column_0_title": "Opcões",
+    "__column_0_title": "Opções",
     "__progress_column_0_title": "Fazendo",
     "__progress_column_1_title": "Testando",
     "__column_2_title": "Entregue",
@@ -95,7 +95,7 @@
     "__game_settings": "Configurações do jogo",
     "__cards_theme": "Tema de cartões",
     "__game_mode": "Modo de jogo",
-    "__strict_mode": "Mode de estrita",
+    "__strict_mode": "Modo estrito",
     "__strict_mode_desc": "A interface do jogo não permitirá arrastar e soltar cartões não relacionados a você",
     "__normal_mode": "Modo normal",
     "__normal_mode_desc": "A interface do jogo permitirá movimentações erradas, mas o notificará e reverterá o estado do cartão"
@@ -108,7 +108,7 @@
     },
     "Errors": {
       "__not_enough_players": "São necessários pelo menos 3 jogadores! Por favor, convide mais jogadores",
-      "__duplicate_avatars": "Os jogadores tem avatares duplicados!"
+      "__duplicate_avatars": "Os jogadores têm avatares duplicados!"
     },
     "__custom_game_theme_option": "Personalizar",
     "__gathering_colleagues": "Reunindo colegas",
@@ -294,8 +294,8 @@
     "__days_count_axis": "Contagem de dias",
     "__day": "Dia",
     "LeadTimeTable": {
-      "__start_day": "Data de inicio",
-      "__end_day": "Data de termino",
+      "__start_day": "Data de início",
+      "__end_day": "Data de término",
       "__work_time": "Tempo de trabalho"
     },
     "__loading_chart": "Carregando gráfico",
