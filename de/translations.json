@@ -147,8 +147,8 @@
     "__awaiting": "warten...",
     "__completed_the_move": "haben ihren Züge für heute abgeschlossen",
     "__player_completed_the_move": "hat seine/ihre Züge für heute abgeschlossen",
-    "__has_black": "Hat eine schwarze Karte und sollte folgende Aktionen durchführen",
-    "__has_red": "Hat eine rote Karte und sollte eine der folgenden Aktionen auswählen",
+    "__has_black": "Hat eine schwarze Spielkarte und sollte folgende Aktionen durchführen",
+    "__has_red": "Hat eine rote Spielkarte und sollte eine der folgenden Aktionen auswählen",
     "black": {
       "__first_rule_action": "1) Blocker setzen ",
       "__first_rule": "auf einer gerade nicht geblockten Karte des Spielers",
@@ -251,8 +251,8 @@
     "__days": "Tage"
   },
   "CoinSection": {
-    "__coin_title_current_player_red": "Heute hast du eine rote Karte",
-    "__coin_title_current_player_black": "Heute hast du eine schwarze Karte",
+    "__coin_title_current_player_red": "Heute hast du eine rote Spielkarte gezogen",
+    "__coin_title_current_player_black": "Heute hast du eine schwarze Spielkarte gezogen",
     "__my_work_for_day": "Meine Arbeit für Tag {{day}}",
     "__done_work_for_today": "Du hast deine Arbeit für heute beendet. Der nächste Tag beginnt, wenn die anderen auch fertig sind.",
     "__OR": "ODER",
