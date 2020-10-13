@@ -1,0 +1,20 @@
+<h6 class="heading">Second iteration</h6>
+<p class="body">Rules are exactly the same as they were before with only one difference. WIP (Work In Progress) limits are added to in progress stages - for columns «In Progress» and «Testing».</p>
+<img src="{{assetsPath}}assets/wip-limits.png" alt="wip limits" class="image" />
+<img src="{{assetsPath}}assets/wip-moves.png" alt="wip moves" class="image" />
+
+<p class="body">Amount of days spent in work is now added to each card</p>
+<img src="{{assetsPath}}assets/days-count.png" alt="days count" class="image" />
+
+<p class="body">Columns and cards metrics have been added.</p>
+<img src="{{assetsPath}}assets/metrics.png" alt="metrics" class="image" />
+
+<h6 class="heading">Cards counter per column</h6>
+<p class="body">Shows how many cards were each day in each column by the end of the day</p>
+<img src="{{assetsPath}}assets/column-count-metric.png" alt="column count metric" class="image" />
+
+<h6 class="heading">Lead time</h6>
+<p class="body">Shows the day when card was pushed in the in-progress column. The day when card was pushed to «Done» column. And the total amount of days card was in progress</p>
+<img src="{{assetsPath}}assets/lead-time-metric.png" alt="lead time metric" class="image" />
+
+{{> (resolvePartial lng "rulesBlock")}}

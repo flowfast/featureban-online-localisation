@@ -1,0 +1,20 @@
+<h6 class="heading">Game rules</h6>
+<p class="body">Game is split into several iterations. First iteration is just about visual management. Each card on the board represents a task, that has to be done by your team. All new tasks appear in the first «Queue» column. To finish it you have to pull the card to «Done» column. The card goes through the number of the stages in the middle. There are two in progress stages - «In Progress» and «Testing».</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">When you move the card to «In Progress» column you become responsible for it and your avatar appears on that card.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+
+<h6 class="heading">Blocked items</h6>
+<p class="body">Block means you can't progress work for some reason. After card is blocked, you can't push it to the right.</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">WIP limits</h6>
+<p class="body">There are numbers near in progress columns titles - they represent WIP (Work In Progress) limits. You can't move cards into columns that are at or above capacity.</p>
+<img src="{{assetsPath}}assets/wip-limits.png" alt="workflow" class="image" />
+
+{{> (resolvePartial lng "cardMoves")}}
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<h6 class="heading">Game goal</h6>
+<p class="body">Main goal of the game is to pull as much cards in done column as you can.</p>

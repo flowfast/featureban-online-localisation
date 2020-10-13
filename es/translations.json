@@ -1,0 +1,366 @@
+{
+  "Language": {
+    "__name": "English",
+    "__short_name": "En"
+  },
+  "CommonUI": {
+    "__featureban_title": "Featureban 3.0",
+    "__close": "Close",
+    "__cancel": "Cancel",
+    "__apply": "Apply",
+    "__confirm": "Confirm",
+    "__agree": "Agree",
+    "__next": "Next",
+    "__create": "Create"
+  },
+  "JoinScreen": {
+    "__game_join_main_text": "{{gameAuthorName}} invited you to play game, press «Join» if you are ready",
+    "__game_join_as_spectator_main_text": "{{gameAuthorName}} invited you to play game, but game already has been started. You can join only as spectator.",
+    "__join": "Join game",
+    "__join_as_spectator": "Join as spectator",
+    "__join_as_player": "Join as player",
+    "__spectator_join_info": "(Watch others to play game)",
+    "__enter_name_label": "Enter your name"
+  },
+  "CookiesPolicy": {
+    "__accept_cookies_title": "Сookies confirmation",
+    "__we_using_cookie": "We are using cookies to store information about game session.",
+    "__you_have_to_accept_cookies": "To proceed to the game you have to accept cookies"
+  },
+  "RegistrationScreen": {
+    "Buttons": {
+      "__set_up_game": "Set up the game",
+      "__avatar_pick": "Choose your avatar"
+    },
+    "__game": "Game",
+    "__game_started": "started",
+    "__previous_games": "Previous games",
+    "__change_avatar_title": "Change your avatar",
+    "__avatar_already_chosen": "Already chosen",
+    "__participate_as_player": "Participate as player",
+    "__participate_as_spectator": "Participate as spectator",
+    "__spectator_registration_info": "(Watch and control game flow)",
+    "__about_game": "It is a simple, fun and highly customizable kanban simulation game. Since its creation in 2014 it has been used by trainers and coaches in Lean, Agile and Kanban-related events the world over.",
+    "__game_recommendations": "Game Recommendations",
+    "__required_players_count": "Each game needs 3-5 players.",
+    "__communication_between_players_desc": "To try it, just participate as a player or spectator and share the link. You’ll need to be in close online communication while you play (we don’t provide that part).",
+    "__game_updates": "Game updates",
+    "__several_games_update_desc": "You no longer need to run featureban from different browsers: now you can participate in several games in one browser.",
+    "__total_games_played": "Played games: {{count}}",
+    "__start_new_game": "Start a new game"
+  },
+  "FinishScreen": {
+    "__game_overview": "Game overview",
+    "__iteration_card_states_title": "Cards position by the end of iteration",
+    "__all_game_metrics_title": "Game metrics",
+    "__lead_time_histogram_title": "Lead time histogram",
+    "__debrief_title": "Debrief",
+    "__activities_log_title": "Activities log",
+    "__no_answers": "No answers",
+    "__game_date": "Game date {{-finishDate}}",
+    "__print": "Print"
+  },
+  "NotFoundScreen": {
+    "__not_found_game_description": "Game is not found",
+    "__to_new_game": "To new game creation"
+  },
+  "MobileNotSupportedScreen": {
+    "__mobile_is_not_supported": "Unfortunately, playing Featureban on a small screen is extremely inconvenient \uD83D\uDE1E",
+    "__supported_devices": "Please open the game from a computer or tablet."
+  },
+  "CustomThemeDialog": {
+    "__custom_theme_dialog_title": "Upload your tasks",
+    "__column_0_title": "Queue",
+    "__progress_column_0_title": "In progress",
+    "__progress_column_1_title": "Testing",
+    "__column_2_title": "Done",
+    "__uploaded": "Uploaded",
+    "__drop_file_here": "Drop file here",
+    "__drop_file_attachment": "Drop file here (click also works)",
+    "__use_table_first_row": "Use table's first row",
+    "__select_the_column_for_card_names": "Select the column for card names",
+    "__upload_instruction": "You can upload your own card theme for the game. To do this, please prepare a file like this:",
+    "__example_file": "example",
+    "__set_column_names_label": "Set column names",
+    "__backlog_column_label": "Backlog column",
+    "__first_progress_column_label": "First progress column",
+    "__second_progress_column_label": "Second progress column",
+    "__done_column_label": "Done column",
+    "Errors": {
+      "__empty_file": "The file is empty! Please, try another one.",
+      "__empty_column": "The selected column is empty"
+    }
+  },
+  "GameSettings": {
+    "__game_settings": "Game settings",
+    "__cards_theme": "Cards theme",
+    "__game_mode": "Game mode",
+    "__strict_mode": "Strict mode",
+    "__strict_mode_desc": "Game's interface won't allow to drag and drop cards not related to you",
+    "__normal_mode": "Normal mode",
+    "__normal_mode_desc": "Game's interface will allow wrong pushes, but will notify you about it and revert card's state"
+  },
+  "LobbyScreen": {
+    "Buttons": {
+      "__start_game": "Start game",
+      "__copy_link": "Copy link",
+      "__copy_game_link": "Copy game link"
+    },
+    "Errors": {
+      "__not_enough_players": "Should be at least 3 players! Please, invite more players",
+      "__duplicate_avatars": "Players have duplicate avatars!"
+    },
+    "__custom_game_theme_option": "Custom",
+    "__gathering_colleagues": "Gathering colleagues",
+    "__facilitator_header_desc": "Ability to start/stop iterations (usually needs only for a facilitator)",
+    "__participant": "Participant",
+    "__players": "Players",
+    "__spectators": "Spectators",
+    "__share_link_description": "Dear {{username}}, please share this link with colleagues, we need at least 3 person to start the game, maximum - 5.",
+    "__rules_for_each_player": "Rules will be displayed for each player, you don't need to tell them.",
+    "__joined_users": "Joined users"
+  },
+  "Sponsorship": {
+    "__title": "Support the game",
+    "__description_1": "We are pleased to develop Featureban online and do not plan to charge a fee for using the game.",
+    "__description_2": "If you want to support the project and give us faith that we are doing the right thing - please donate any amount.",
+    "__button": "Make a donation"
+  },
+  "KaitenPromo": {
+    "__title": "Looking for an online kanban software?",
+    "__description_1": "Kaiten is online visualization software for companies and teams who are using Kanban method or agile approaches (Scrum, LeSS, etc.)",
+    "__description_2": "",
+    "__button": "Try Kaiten"
+  },
+  "PlayersList": {
+    "__players_title": "Players",
+    "__offline": "offline",
+    "__me": "it's me",
+    "__change_players_role_to_spectator": "Change player's role to spectator",
+    "UserRemovalDialog": {
+      "__confirm_text": "Are you sure you want to change «{{userName}}» role to spectator? Please note, spectators don't participate in game, they just watch it.",
+      "__choose_user_for_transfer": "Please choose person, who will get assigned to all in progress «{{userName}}» cards",
+      "__cards_in_progress": "{{count}} card(s) in progress"
+    }
+  },
+  "PlayerTooltip": {
+    "__awaiting": "Awaiting",
+    "__completed_the_move": "have completed work for today",
+    "__player_completed_the_move": "has completed work for today",
+    "__has_black": "Has black card and should complete following actions",
+    "__has_red": "Has red card and should choose one of the following actions",
+    "black": {
+      "__first_rule_action": "1) Add a blocker ",
+      "__first_rule": "to one of player's currently unblocked items",
+      "__second_rule_action": "2) Start one new card: ",
+      "__second_rule": "move a card from the «Queue» one column to the right into the «Doing» column so it becomes Work In Progress. And only if player can't start new item - should help someone!"
+    },
+    "red": {
+      "__first_rule_action": "A) Advance ",
+      "__first_rule": "one of player's unblocked cards one column right",
+      "__second_rule_action":"B) Unblock ",
+      "__second_rule": "one of player's blocked cards",
+      "__third_rule_action": "C) Start one new card: ",
+      "__third_rule": "move a card from the «Queue» one column to the right into the «Doing» column so it becomes Work In Progress",
+      "__last_rule_action": "E) ",
+      "__last_rule": "And only if player can't move own cards - should help someone!"
+    }
+  },
+  "GameToolbar": {
+    "__iteration": "Iteration",
+    "__day": "Day",
+    "__preparing_for_iteration": "Preparing for iteration begin",
+    "__iteration_timer_info": "Time passed from current iteration start",
+    "__game_paused": "Game is paused",
+    "Buttons": {
+      "__pause": "Pause",
+      "__resume": "Resume"
+    }
+  },
+  "AppBar": {
+    "__stop_iteration": "Stop iteration",
+    "__end_game": "End the game",
+    "__confirm_switch_to_next_iteration": "Confirm the transition to the next iteration of the game",
+    "__confirm_end_game": "Confirm the end of the game",
+    "__add_new_language": "Add language"
+  },
+  "RulesDialog": {
+    "__rules_button": "Game rules",
+    "__rules_dialog_title": "Game rules"
+  },
+  "Board": {
+    "__board_title": "Board",
+    "__wip_title": "Work in progress",
+    "__add_more_cards": "Add 5 cards",
+    "__create_card_label": "Create card",
+    "__create_card_placeholder": "Enter card title",
+    "__cards_count_in_column": "Cards amount in column"
+  },
+  "IterationDialog": {
+    "Buttons": {
+      "__ready": "Ready",
+      "__start_iteration": "Start game",
+      "__start_first_iteration": "Start first iteration",
+      "__start_second_iteration": "Start second iteration",
+      "__start_third_iteration": "Start third iteration",
+      "__start_prepare_game": "Prepare board",
+      "__remove": "Remove",
+      "__back_to_answers": "Back to answers"
+    },
+    "__waiting_for_others": "Waiting for other players",
+    "__time_till_auto_start": "Time till auto start",
+    "__user_is_ready": "{{userName}} is ready",
+    "__user_is_not_ready": "{{userName}} is not ready",
+    "__confirm_admin_iteration_start_text": "Please note, not every player is ready. Do you want to start iteration without waiting for readiness of each player?",
+    "__dialog_title": "Preparing for the iteration start",
+    "__facilitator_info": "If you want to clean up board before the second iteration – please do it.",
+    "__players_info": "Game organizers prepare the game board for the start of the second iteration.",
+    "__sidebar_info_title": "Preparing game board for new iteration",
+    "__sidebar_info_description": "Remove any not finished cards or add new cards.",
+    "__preparing_board_action_desc": " is preparing board",
+    "__users_preparing_board": "Users preparing board:",
+    "__iteration_summary": "Iteration summary",
+    "__preIterationQuestionsTitle": "Please answer a few questions. All of them are optional.",
+    "__waiting_for_other_answers": "Waiting for other players answers",
+    "__spectator_waiting_for_other_answers": "Waiting for players answers",
+    "secondPreIterationQuestions": [
+      "What was that like?",
+      "What elements seem familiar from your working experience? New?",
+      "Suppose we continue in this way indefinitely. Then what happens?"
+    ],
+    "thirdPreIterationQuestions": [
+      "How was it different? Please name drawbacks and benefits.",
+      "Could you guess any variations on this theme? Are there any other ways to limit work in progress?",
+      "Name parallels from your working experience."
+    ],
+    "__third_iteration_reset_game_state_info": "Please note, all cards from current iteration will be removed. Third iteration will start with new cards in column «Queue»."
+  },
+  
+  "Card": {
+    "Buttons": {
+      "__unblock": "Unblock",
+      "__add_blocker": "Add blocker"
+    },
+    "__blocked_state": "Blocked",
+    "__card_created": "Card created",
+    "__card_started": "Card started",
+    "__card_finished": "Card finished",
+    "__total_work_time": "Total work time",
+    "__day_short": "d",
+    "__event": "Event",
+    "__days": "Days"
+  },
+  "CoinSection": {
+    "__coin_title_current_player_red": "Today you have a red card",
+    "__coin_title_current_player_black": "Today you have black card",
+    "__my_work_for_day": "My work for Day {{day}}",
+    "__done_work_for_today": "You have completed your work for today. The next day will start when everyone is finished",
+    "__OR": "OR",
+    "red": {
+      "__rules_choice": "Choose one of the following actions:",
+      "__first_rule_action": "A) Advance ",
+      "__first_rule": "one of your unblocked cards one column right",
+      "__second_rule_action": "B) Unblock ",
+      "__second_rule": "one of your blocked cards",
+      "__third_rule_action": "C) Start one new card: ",
+      "__third_rule": "move a card from the «Queue» one column to the right into the «Doing» column so it becomes Work In Progress",
+      "__last_rule_action": "E) ",
+      "__last_rule": "And only if you can't move own cards - Help someone! Advance or unblock another player’s card"
+    },
+    "black": {
+      "__first_rule_action": "1) Add a blocker ",
+      "__first_rule": "to one of your currently unblocked items",
+      "__second_rule_action": "2) Start one new card: ",
+      "__second_rule": "move a card from the «Queue» one column to the right into the «Doing» column so it becomes Work In Progress. And only if you can't start new item - help someone! Advance or unblock another player's card.",
+      "__last_rule": "Help someone! Advance or unblock another player’s item"
+    },
+    "__no_moves_rule": "You don't have available movements. Please, wait other players to finish their movements."
+  },
+  "ScreenTitles": {
+    "__lobby": "Gather colleagues | Featureban",
+    "__registration": "Registration | Featureban",
+    "__game_join": "Join game | Featureban",
+    "__game": "Featureban | Kaiten",
+    "__end_game": "Featureban | Kaiten"
+  },
+  "GameLog": {
+    "__game_log_title": "Game log",
+    "__metrics": "Metrics",
+    "__histogram_view": "Histogram",
+    "__table_view": "Table",
+    "__columns_count_view": "Cards counter per column",
+    "__lead_time_view": "Lead time",
+    "__cards_count_axis": "Cards count",
+    "__days_count_axis": "Days count",
+    "__day": "Day",
+    "LeadTimeTable": {
+      "__start_day": "Start day",
+      "__end_day": "End day",
+      "__work_time": "Time"
+    },
+    "__loading_chart": "Loading Chart",
+    "__show_in_dialog": "Open in dialog",
+    "__no_data": "No data to display",
+    "__iteration_label": "Iteration {{iteration}}",
+    "__first_and_second_iteration_label": "1 and 2 iterations",
+    "__third_iteration_label": "3 iteration",
+    "__first_iteration": "First iteration",
+    "__second_iteration": "Second iteration",
+    "__third_iteration": "Third iteration",
+    "__cfd_title": "Cumulative flow diagram",
+    "__lead_time_title": "Lead time chart"
+  },
+  "Notifications": {
+    "__add_cards": "First column is almost empty \uD83D\uDE2C",
+    "__iteration_timer_done": "It's good time to start new iteration \uD83D\uDE09",
+    "__skip_move": "You have no possible movements!",
+    "__end_game": "It's good time to end the game! \uD83D\uDE07",
+    "__move_done_card": "You cannot push an already completed card \uD83E\uDD2B",
+    "__move_blocked_card": "You cannot push blocked card \uD83D\uDE0B",
+    "__move_to_not_next_column": "Cards can only be pushed to the next column \uD83D\uDE0A",
+    "__should_block_card": "Block a card first ✋",
+    "__next_column_wip_reached": "WIP-limit of the column does not allow moving the card here \uD83D\uDE30",
+    "__can_not_start_card": "You can't start a new card now \uD83D\uDE29",
+    "__can_not_move_card": "You can't push this card \uD83D\uDE44",
+    "__should_start_card": "You need to take a card from the queue \uD83D\uDCAA",
+    "__should_move_your_card": "You have your own card that you can push \uD83D\uDE0C",
+    "__copied_game_link": "Game URL copied to clipboard",
+    "__remove_user": "«{{userName}}» is now spectator",
+    "__role_changed": "You was removed from game by admin. But you can still watch it as spectator.",
+    "__responsible_for_remove_user_cards": "«{{userName}}» is now spectator. Admin has chosen you as responsible for all «{{userName}}» in progress cards",
+    "__already_updated_card": "Unfortunately, another player already updated the card",
+    "__day_changed": "Day {{day}} is over: all players have made their movements. Start planning the next day",
+    "__user_move_done": "You have completed all the moves for today 💪",
+    "__resumed_the_game": "is resumed the game",
+    "__paused_the_game": "is paused the game",
+    "__skip_turn": "Skip turn"
+  },
+  "WrongActions": {
+    "black": {
+      "__should_block_card": "tried to move the card #{{cardNumber}} to the «{{destinationColumn}}» before adding blocker to one of the own card",
+      "__should_start_card": "tried to move the card #{{cardNumber}} to the «{{destinationColumn}}» before stating a new card"
+    },
+    "red": {
+      "__should_move_own_card": "tried to move not own card #{{cardNumber}}"
+    },
+    "common": {
+      "__move_blocked_card": "tried to move the blocked card #{{cardNumber}}",
+      "__move_done_card": "tried to move the done card #{{cardNumber}}",
+      "__user_move_done": "tried to move the card #{{cardNumber}} after completing the today's available moves",
+      "__column_wip_reached": "tried to break WIP-limits in the column «{{destinationColumn}}» by moving card #{{cardNumber}}",
+      "__move_card": "tried to move the card #{{cardNumber}} from the «{{sourceColumn}}» to the «{{destinationColumn}}»"
+    }
+  },
+  "ActivitiesLog": {
+    "__action_card:move": "moved",
+    "__action_card:add": "added",
+    "__action_card:block": "blocked",
+    "__action_card:unblock": "unblocked",
+    "__action_card:archive": "archived",
+    "__action_card:assign": "assigned to card"
+  },
+  "TimeAgo": {
+    "__less_then_hour": "<1h",
+    "__less_then_minute": "<1m"
+  }
+}
