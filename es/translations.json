@@ -1,146 +1,146 @@
 {
   "Language": {
-    "__name": "English",
-    "__short_name": "En"
+    "__name": "Español",
+    "__short_name": "Es"
   },
   "CommonUI": {
     "__featureban_title": "Featureban 3.0",
-    "__close": "Close",
-    "__cancel": "Cancel",
-    "__apply": "Apply",
-    "__confirm": "Confirm",
-    "__agree": "Agree",
-    "__next": "Next",
-    "__create": "Create"
+    "__close": "Cerrar",
+    "__cancel": "Cancelar",
+    "__apply": "Aceptar",
+    "__confirm": "Confirmar",
+    "__agree": "De acuerdo",
+    "__next": "Siguiente",
+    "__create": "Crear"
   },
   "JoinScreen": {
-    "__game_join_main_text": "{{gameAuthorName}} invited you to play game, press «Join» if you are ready",
-    "__game_join_as_spectator_main_text": "{{gameAuthorName}} invited you to play game, but game already has been started. You can join only as spectator.",
-    "__join": "Join game",
-    "__join_as_spectator": "Join as spectator",
-    "__join_as_player": "Join as player",
-    "__spectator_join_info": "(Watch others to play game)",
-    "__enter_name_label": "Enter your name"
+    "__game_join_main_text": "{{gameAuthorName}} te ha invitado a jugar, pulsa «Unirse al juego» si estás listo",
+    "__game_join_as_spectator_main_text": "{{gameAuthorName}} te ha invitado a jugar, pero el juego ya se ha iniciado. Puedes unirte solo como espectador.",
+    "__join": "Unirse al juego",
+    "__join_as_spectator": "Unirse como espectador",
+    "__join_as_player": "Uniser como jugador",
+    "__spectator_join_info": "(Mirar a otros jugando)",
+    "__enter_name_label": "Introduzca su nombre"
   },
   "CookiesPolicy": {
-    "__accept_cookies_title": "Сookies confirmation",
-    "__we_using_cookie": "We are using cookies to store information about game session.",
-    "__you_have_to_accept_cookies": "To proceed to the game you have to accept cookies"
+    "__accept_cookies_title": "Confirmación de cookies",
+    "__we_using_cookie": "Utilizamos cookies para almacenar información sobre la sesión del juego.",
+    "__you_have_to_accept_cookies": "Para continuar con el juego, debe aceptar las cookies."
   },
   "RegistrationScreen": {
     "Buttons": {
-      "__set_up_game": "Set up the game",
-      "__avatar_pick": "Choose your avatar"
+      "__set_up_game": "Configurar el juego",
+      "__avatar_pick": "Elige tu avatar"
     },
-    "__game": "Game",
-    "__game_started": "started",
-    "__previous_games": "Previous games",
-    "__change_avatar_title": "Change your avatar",
-    "__avatar_already_chosen": "Already chosen",
-    "__participate_as_player": "Participate as player",
-    "__participate_as_spectator": "Participate as spectator",
-    "__spectator_registration_info": "(Watch and control game flow)",
-    "__about_game": "It is a simple, fun and highly customizable kanban simulation game. Since its creation in 2014 it has been used by trainers and coaches in Lean, Agile and Kanban-related events the world over.",
-    "__game_recommendations": "Game Recommendations",
-    "__required_players_count": "Each game needs 3-5 players.",
-    "__communication_between_players_desc": "To try it, just participate as a player or spectator and share the link. You’ll need to be in close online communication while you play (we don’t provide that part).",
-    "__game_updates": "Game updates",
-    "__several_games_update_desc": "You no longer need to run featureban from different browsers: now you can participate in several games in one browser.",
-    "__total_games_played": "Played games: {{count}}",
-    "__start_new_game": "Start a new game"
+    "__game": "Juego",
+    "__game_started": "iniciado",
+    "__previous_games": "Juegos anteriores",
+    "__change_avatar_title": "Cambia tu avatar",
+    "__avatar_already_chosen": "Ya elegido",
+    "__participate_as_player": "Participa como jugador",
+    "__participate_as_spectator": "Participar como espectador",
+    "__spectator_registration_info": "(Mira y controla el flujo del juego)",
+    "__about_game": "Es un juego de simulación de Kanban simple, divertido y altamente personalizable. Desde su creación en 2014, ha sido utilizado por facilitadores y Agile Coaches en eventos relacionados con Lean, Agile y Kanban en todo el mundo.",
+    "__game_recommendations": "Recomendaciones de juegos",
+    "__required_players_count": "Cada juego necesita 3-5 jugadores.",
+    "__communication_between_players_desc": "Para probarlo, tan solo participa como jugador o espectador y comparte el enlace. Deberéis estar en estrecha comunicación mientras jugais (no proporcionamos esa parte).",
+    "__game_updates": "Actualizaciones del juego",
+    "__several_games_update_desc": "Ya no necesita ejecutar featureban desde diferentes navegadores: ahora puede participar en varios juegos en un solo navegador.",
+    "__total_games_played": "Juegos jugados: {{count}}",
+    "__start_new_game": "Iniciar un nuevo juego"
   },
   "FinishScreen": {
-    "__game_overview": "Game overview",
-    "__iteration_card_states_title": "Cards position by the end of iteration",
-    "__all_game_metrics_title": "Game metrics",
-    "__lead_time_histogram_title": "Lead time histogram",
-    "__debrief_title": "Debrief",
-    "__activities_log_title": "Activities log",
-    "__no_answers": "No answers",
-    "__game_date": "Game date {{-finishDate}}",
-    "__print": "Print"
+    "__game_overview": "Información general del juego",
+    "__iteration_card_states_title": "Posición de las tarjetas al final de la iteración",
+    "__all_game_metrics_title": "Métricas del juego",
+    "__lead_time_histogram_title": "Histograma de Lead Time (Tiempo de Entrega)",
+    "__debrief_title": "Resumen",
+    "__activities_log_title": "Registro de actividades",
+    "__no_answers": "Sin respuestas",
+    "__game_date": "Fecha del juego {{-finishDate}}",
+    "__print": "Imprimir"
   },
   "NotFoundScreen": {
-    "__not_found_game_description": "Game is not found",
-    "__to_new_game": "To new game creation"
+    "__not_found_game_description": "Juego no encontrado",
+    "__to_new_game": "Ir a crear un nuevo juego"
   },
   "MobileNotSupportedScreen": {
-    "__mobile_is_not_supported": "Unfortunately, playing Featureban on a small screen is extremely inconvenient \uD83D\uDE1E",
-    "__supported_devices": "Please open the game from a computer or tablet."
+    "__mobile_is_not_supported": "Desafortunadamente, jugar a Featureban en una pantalla pequeña es extremadamente incómodo \uD83D\uDE1E",
+    "__supported_devices": "Por favor abre el juego desde un ordenador o tableta."
   },
   "CustomThemeDialog": {
-    "__custom_theme_dialog_title": "Upload your tasks",
-    "__column_0_title": "Queue",
-    "__progress_column_0_title": "In progress",
-    "__progress_column_1_title": "Testing",
-    "__column_2_title": "Done",
-    "__uploaded": "Uploaded",
-    "__drop_file_here": "Drop file here",
-    "__drop_file_attachment": "Drop file here (click also works)",
-    "__use_table_first_row": "Use table's first row",
-    "__select_the_column_for_card_names": "Select the column for card names",
-    "__upload_instruction": "You can upload your own card theme for the game. To do this, please prepare a file like this:",
-    "__example_file": "example",
-    "__set_column_names_label": "Set column names",
-    "__backlog_column_label": "Backlog column",
-    "__first_progress_column_label": "First progress column",
-    "__second_progress_column_label": "Second progress column",
-    "__done_column_label": "Done column",
+    "__custom_theme_dialog_title": "Sube tus tareas",
+    "__column_0_title": "Por hacer",
+    "__progress_column_0_title": "En progreso",
+    "__progress_column_1_title": "Pruebas",
+    "__column_2_title": "Hecho",
+    "__uploaded": "Subido",
+    "__drop_file_here": "Suelta el archivo aquí",
+    "__drop_file_attachment": "Suelta el archivo aquí (clic también funciona)",
+    "__use_table_first_row": "Usar la primera fila de la tabla",
+    "__select_the_column_for_card_names": "Seleccione la columna para los nombres de las tarjetas",
+    "__upload_instruction": "Puedes cargar tu propio tema de tarjeta para el juego. Para hacer esto, prepare un archivo como este:",
+    "__example_file": "ejemplo",
+    "__set_column_names_label": "Establecer nombres de columna",
+    "__backlog_column_label": "Columna de trabajos pendientes",
+    "__first_progress_column_label": "Primera columna de progreso",
+    "__second_progress_column_label": "Segunda columna de progreso",
+    "__done_column_label": "Columna de hecho",
     "Errors": {
-      "__empty_file": "The file is empty! Please, try another one.",
-      "__empty_column": "The selected column is empty"
+      "__empty_file": "¡El archivo está vacío! Por favor, pruebe con otro.",
+      "__empty_column": "La columna seleccionada está vacía"
     }
   },
   "GameSettings": {
-    "__game_settings": "Game settings",
-    "__cards_theme": "Cards theme",
-    "__game_mode": "Game mode",
-    "__strict_mode": "Strict mode",
-    "__strict_mode_desc": "Game's interface won't allow to drag and drop cards not related to you",
-    "__normal_mode": "Normal mode",
-    "__normal_mode_desc": "Game's interface will allow wrong pushes, but will notify you about it and revert card's state"
+    "__game_settings": "Configuraciones de juego",
+    "__cards_theme": "Tema de tarjetas",
+    "__game_mode": "Modo de juego",
+    "__strict_mode": "Modo estricto",
+    "__strict_mode_desc": "La interfaz del juego no permitirá arrastrar y soltar tarjetas que no sean tuyas",
+    "__normal_mode": "Modo normal",
+    "__normal_mode_desc": "La interfaz del juego permitirá movimientos incorrectos, pero te lo notificará y revertirá el estado de la tarjeta"
   },
   "LobbyScreen": {
     "Buttons": {
-      "__start_game": "Start game",
-      "__copy_link": "Copy link",
-      "__copy_game_link": "Copy game link"
+      "__start_game": "Empezar juego",
+      "__copy_link": "Copiar enlace",
+      "__copy_game_link": "Copiar enlace del juego"
     },
     "Errors": {
-      "__not_enough_players": "Should be at least 3 players! Please, invite more players",
-      "__duplicate_avatars": "Players have duplicate avatars!"
+      "__not_enough_players": "¡Debe haber al menos 3 jugadores! Por favor, invita a más jugadores",
+      "__duplicate_avatars": "¡Los jugadores tienen avatares duplicados!"
     },
-    "__custom_game_theme_option": "Custom",
-    "__gathering_colleagues": "Gathering colleagues",
-    "__facilitator_header_desc": "Ability to start/stop iterations (usually needs only for a facilitator)",
-    "__participant": "Participant",
-    "__players": "Players",
-    "__spectators": "Spectators",
-    "__share_link_description": "Dear {{username}}, please share this link with colleagues, we need at least 3 person to start the game, maximum - 5.",
-    "__rules_for_each_player": "Rules will be displayed for each player, you don't need to tell them.",
-    "__joined_users": "Joined users"
+    "__custom_game_theme_option": "Personalizado",
+    "__gathering_colleagues": "Reuniendo colegas",
+    "__facilitator_header_desc": "Capacidad para iniciar / detener iteraciones (generalmente solo se necesita un facilitador)",
+    "__participant": "Participante",
+    "__players": "Jugadores",
+    "__spectators": "Espectadores",
+    "__share_link_description": "Estimado {{username}}, comparta este enlace con sus colegas, se necesitan al menos 3 personas para iniciar el juego, máximo - 5.",
+    "__rules_for_each_player": "Las reglas se mostrarán para cada jugador, no es necesario que las diga.",
+    "__joined_users": "Usuarios añadidos"
   },
   "Sponsorship": {
-    "__title": "Support the game",
-    "__description_1": "We are pleased to develop Featureban online and do not plan to charge a fee for using the game.",
-    "__description_2": "If you want to support the project and give us faith that we are doing the right thing - please donate any amount.",
-    "__button": "Make a donation"
+    "__title": "Apoya el juego",
+    "__description_1": "Nos complace desarrollar Featureban en Internet y no planeamos cobrar una tarifa por usar el juego.",
+    "__description_2": "Si desea apoyar el proyecto y confirmarnos que estamos haciendo lo correcto, done cualquier cantidad.",
+    "__button": "Haz una donación"
   },
   "KaitenPromo": {
-    "__title": "Looking for an online kanban software?",
-    "__description_1": "Kaiten is online visualization software for companies and teams who are using Kanban method or agile approaches (Scrum, LeSS, etc.)",
+    "__title": "¿Busca un software de Kanban en línea?",
+    "__description_1": "Kaiten es un software de visualización en línea para empresas y equipos que utilizan el método Kanban o enfoques ágiles (Scrum, LeSS, etc.)",
     "__description_2": "",
-    "__button": "Try Kaiten"
+    "__button": "Prueba Kaiten"
   },
   "PlayersList": {
-    "__players_title": "Players",
-    "__offline": "offline",
-    "__me": "it's me",
-    "__change_players_role_to_spectator": "Change player's role to spectator",
+    "__players_title": "Jugadores",
+    "__offline": "desconectado",
+    "__me": "soy yo",
+    "__change_players_role_to_spectator": "Cambiar el papel del jugador a espectador",
     "UserRemovalDialog": {
-      "__confirm_text": "Are you sure you want to change «{{userName}}» role to spectator? Please note, spectators don't participate in game, they just watch it.",
-      "__choose_user_for_transfer": "Please choose person, who will get assigned to all in progress «{{userName}}» cards",
-      "__cards_in_progress": "{{count}} card(s) in progress"
+      "__confirm_text": "¿Estás seguro de que quieres cambiar el rol de «{{userName}}» a espectador? Ten en cuenta que los espectadores no participan en el juego, solo lo ven.",
+      "__choose_user_for_transfer": "Elija a la persona que se asignará a todas las tarjetas «{{userName}}» en curso",
+      "__cards_in_progress": "{{count}} tarjeta (s) en progreso"
     }
   },
   "PlayerTooltip": {
