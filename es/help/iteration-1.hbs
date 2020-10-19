@@ -1,29 +1,29 @@
-<h6 class="heading">First iteration</h6>
-<p class="body">Game is split into several iterations. First iteration is just about visual management. Each card on the board represents a task, that has to be done by your team. All new tasks appear in the first «Queue» column. To finish it you have to pull the card to «Done» column. The card goes through the number of the stages in the middle. There are two in progress stages - «In Progress» and «Testing».</p>
+<h6 class="heading">Primera iteración</h6>
+<p class="body">El juego se divide en varias iteraciones. En la primera iteración solo se trabaja la gestión visual. Cada tarjeta del tablero representa una tarea que tiene que ser realizada por tu equipo. Todas las nuevas tareas aparecen en la primera columna “Cola”. Para finalizar una tarea, tienes que llevarla a la columna de “Hecho” . La tarea tiene que pasar por una serie de estados intermedios. Hay dos estados de “Trabajo En Progreso” - «En Progreso» y «Probando».</p>
 <img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
-<p class="body">When you move the card to «In Progress» column you become responsible for it and your avatar appears on that card.</p>
+<p class="body">Cuando mueves una tarjeta a la columna de “En Progreso”, te haces responsable de ella y tu avatar aparecerá en la tarjeta.</p>
 <img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
-<p class="body">Game begins with one item assigned per player</p>
+<p class="body">El juego comienza asignando una tarjeta a cada jugador</p>
 <img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="image" />
 
-<h6 class="heading">Blocked items</h6>
-<p class="body">Bad things happen in game just like in real life. And sometimes your work will get blocked. Block means you can't progress work for some reason. It might be dependant on some other task that is not currently ready. After card is blocked, you can't move it to the right.</p>
+<h6 class="heading">Elementos bloqueados</h6>
+<p class="body">En este juego, las cosas se tuercen igual que en la vida real. Y algunas veces el trabajo se bloquea. Un bloqueo significa que no puedes hacer que el trabajo progrese por algún motivo. Puede ser porque depende de alguna otra tarea que aún no está finalizada. Una vez que una tarjeta se bloquea, no es posible moverla hacia la derecha.</p>
 <img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
 
 <h6 class="heading">Random card</h6>
-<p class="body">In the beginning of each day every player will get a random card (black/red). Why is it necessary? People start a piece of work and think it is going to take one day. But sometimes it takes much more - 2 days, 3 days and even more. There is always a chance of variation and there are lots of reasons for that. Each playing card gives you certain moves.</p>
+<p class="body">Al principio de cada día cada jugador recibirá una carta al azar (negra o roja). ¿Por qué es necesario? Normalmente, cuando comenzamos con una tarea pensamos que no nos llevará más de un día. Pero a veces lleva mucho más: dos, tres o incluso más días. Siempre existe la posibilidad de la desviación y muchos motivos que la provocan. Pues bien, estas cartas darán indicaciones sobre cuáles serán los siguientes movimientos a realizar.</p>
 
 {{> (resolvePartial lng "cardMoves")}}
 
-<h6 class="heading">Game flow controls (facilitator only)</h6>
+<h6 class="heading">Control del flujo del juego (solo para facilitadores)</h6>
 <img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="image" />
 
-<h6 class="heading">Change role (game creator only)</h6>
-<p class="subtitle">In case one of players went offline, you can remove such player by changing his game role to spectator. He will be still in game by just watching it. In case that player owns some tasks placed in progress columns, you have to choose other person, who will get responsible for those tasks.</p>
+<h6 class="heading">Cambio de rol (sólo para el creador del juego)</h6>
+<p class="subtitle">Si uno de los jugadores pierde la conexión, puedes eliminar al jugador cambiando su rol al de espectador. Seguirá en el juego pero sólo como espectador. Si el jugador tenía alguna tarjeta en las columnas de “En Progreso”, se deberán asignar a otro jugador que se hará responsable de ellas.</p>
 <img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="image" />
 
 {{> (resolvePartial lng "rulesBlock")}}
 
 <div class="footer">
-  <p class="subtitle">Main goal is to pull as much cards to the «Done» column as you can! All other things you will discover through playing the game. Push the «Ready» button, and let's play Featureban!</p>
+ <p class="subtitle">El objetivo del juego es conseguir llevar cuantas más tarjetas posibles a la columna de “Hecho”. Durante el juego descubrirás más cosas. Pulsa el botón “Listo” y ¡juguemos al “Featureban”! </p>
 </div>

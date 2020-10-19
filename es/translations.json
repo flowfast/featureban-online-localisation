@@ -70,9 +70,9 @@
   },
   "CustomThemeDialog": {
     "__custom_theme_dialog_title": "Sube tus tareas",
-    "__column_0_title": "Por hacer",
+    "__column_0_title": "Cola",
     "__progress_column_0_title": "En progreso",
-    "__progress_column_1_title": "Pruebas",
+    "__progress_column_1_title": "Probando",
     "__column_2_title": "Hecho",
     "__uploaded": "Subido",
     "__drop_file_here": "Suelta el archivo aquí",
