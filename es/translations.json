@@ -140,141 +140,141 @@
     "UserRemovalDialog": {
       "__confirm_text": "¿Estás seguro de que quieres cambiar el rol de «{{userName}}» a espectador? Ten en cuenta que los espectadores no participan en el juego, solo lo ven.",
       "__choose_user_for_transfer": "Elija a la persona que se asignará a todas las tarjetas «{{userName}}» en curso",
-      "__cards_in_progress": "{{count}} tarjeta (s) en progreso"
+      "__cards_in_progress": "{{count}} tarjeta(s) en progreso"
     }
   },
   "PlayerTooltip": {
-    "__awaiting": "Awaiting",
-    "__completed_the_move": "have completed work for today",
-    "__player_completed_the_move": "has completed work for today",
-    "__has_black": "Has black card and should complete following actions",
-    "__has_red": "Has red card and should choose one of the following actions",
+    "__awaiting": "En espera",
+    "__completed_the_move": "han completado el trabajo por hoy",
+    "__player_completed_the_move": "ha completado el trabajo por hoy",
+    "__has_black": "Tiene tarjeta negra y debe completar las siguientes acciones",
+    "__has_red": "Tiene tarjeta roja y debe elegir una de las siguientes acciones",
     "black": {
-      "__first_rule_action": "1) Add a blocker ",
-      "__first_rule": "to one of player's currently unblocked items",
-      "__second_rule_action": "2) Start one new card: ",
-      "__second_rule": "move a card from the «Queue» one column to the right into the «Doing» column so it becomes Work In Progress. And only if player can't start new item - should help someone!"
+      "__first_rule_action": "1) Añadir un bloqueo ",
+      "__first_rule": "a uno de los elementos actualmente desbloqueados del jugador",
+      "__second_rule_action": "2) Empezar nueva tarea: ",
+      "__second_rule": "mueva una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo En Curso. ¡Y solo si el jugador no puede comenzar un nuevo elemento debería ayudar a alguien!"
     },
     "red": {
-      "__first_rule_action": "A) Advance ",
-      "__first_rule": "one of player's unblocked cards one column right",
-      "__second_rule_action":"B) Unblock ",
-      "__second_rule": "one of player's blocked cards",
-      "__third_rule_action": "C) Start one new card: ",
-      "__third_rule": "move a card from the «Queue» one column to the right into the «Doing» column so it becomes Work In Progress",
+      "__first_rule_action": "A) Avanzar ",
+      "__first_rule": "una de las cartas desbloqueadas del jugador una columna a la derecha",
+      "__second_rule_action":"B) Desbloquear ",
+      "__second_rule": "una de las tarjetas bloqueadas del jugador",
+      "__third_rule_action": "C) Iniciar una nueva tarjeta: ",
+      "__third_rule": "mueva una tarjeta de la «Cola» una columna a la derecha hasta la columna «Haciendo» para que se convierta en Trabajo En Curso",
       "__last_rule_action": "E) ",
-      "__last_rule": "And only if player can't move own cards - should help someone!"
+      "__last_rule": "¡Y solo si el jugador no puede mover sus propias tarjetas debería ayudar a alguien!"
     }
   },
   "GameToolbar": {
-    "__iteration": "Iteration",
-    "__day": "Day",
-    "__preparing_for_iteration": "Preparing for iteration begin",
-    "__iteration_timer_info": "Time passed from current iteration start",
-    "__game_paused": "Game is paused",
+    "__iteration": "Iteración",
+    "__day": "Día",
+    "__preparing_for_iteration": "Preparando para iniciar una iteración",
+    "__iteration_timer_info": "Tiempo transcurrido desde el inicio de la iteración actual",
+    "__game_paused": "Juego en pausa",
     "Buttons": {
-      "__pause": "Pause",
-      "__resume": "Resume"
+      "__pause": "Pausar",
+      "__resume": "Continuar"
     }
   },
   "AppBar": {
-    "__stop_iteration": "Stop iteration",
-    "__end_game": "End the game",
-    "__confirm_switch_to_next_iteration": "Confirm the transition to the next iteration of the game",
-    "__confirm_end_game": "Confirm the end of the game",
-    "__add_new_language": "Add language"
+    "__stop_iteration": "Parar iteración",
+    "__end_game": "Fin del juego",
+    "__confirm_switch_to_next_iteration": "Confirma la transición a la siguiente iteración del juego.",
+    "__confirm_end_game": "Confirma el final del juego",
+    "__add_new_language": "Añadir idioma"
   },
   "RulesDialog": {
-    "__rules_button": "Game rules",
-    "__rules_dialog_title": "Game rules"
+    "__rules_button": "Reglas del juego",
+    "__rules_dialog_title": "Reglas del juego"
   },
   "Board": {
-    "__board_title": "Board",
-    "__wip_title": "Work in progress",
-    "__add_more_cards": "Add 5 cards",
-    "__create_card_label": "Create card",
-    "__create_card_placeholder": "Enter card title",
-    "__cards_count_in_column": "Cards amount in column"
+    "__board_title": "Tablero",
+    "__wip_title": "Trabajo En Progreso",
+    "__add_more_cards": "Añadir 5 tarjetas",
+    "__create_card_label": "Crear tarjeta",
+    "__create_card_placeholder": "Escribe el título de la tarjeta",
+    "__cards_count_in_column": "Número de tarjetas en la columna"
   },
   "IterationDialog": {
     "Buttons": {
-      "__ready": "Ready",
-      "__start_iteration": "Start game",
-      "__start_first_iteration": "Start first iteration",
-      "__start_second_iteration": "Start second iteration",
-      "__start_third_iteration": "Start third iteration",
-      "__start_prepare_game": "Prepare board",
-      "__remove": "Remove",
-      "__back_to_answers": "Back to answers"
+      "__ready": "Listo",
+      "__start_iteration": "Iniciar juego",
+      "__start_first_iteration": "Iniciar la primera iteración",
+      "__start_second_iteration": "Iniciar la segunda iteración",
+      "__start_third_iteration": "Iniciar la tercera iteración",
+      "__start_prepare_game": "Preparar tablero",
+      "__remove": "Eliminar",
+      "__back_to_answers": "Volver a las respuestas"
     },
-    "__waiting_for_others": "Waiting for other players",
-    "__time_till_auto_start": "Time till auto start",
-    "__user_is_ready": "{{userName}} is ready",
-    "__user_is_not_ready": "{{userName}} is not ready",
-    "__confirm_admin_iteration_start_text": "Please note, not every player is ready. Do you want to start iteration without waiting for readiness of each player?",
-    "__dialog_title": "Preparing for the iteration start",
-    "__facilitator_info": "If you want to clean up board before the second iteration – please do it.",
-    "__players_info": "Game organizers prepare the game board for the start of the second iteration.",
-    "__sidebar_info_title": "Preparing game board for new iteration",
-    "__sidebar_info_description": "Remove any not finished cards or add new cards.",
-    "__preparing_board_action_desc": " is preparing board",
-    "__users_preparing_board": "Users preparing board:",
-    "__iteration_summary": "Iteration summary",
-    "__preIterationQuestionsTitle": "Please answer a few questions. All of them are optional.",
-    "__waiting_for_other_answers": "Waiting for other players answers",
-    "__spectator_waiting_for_other_answers": "Waiting for players answers",
+    "__waiting_for_others": "Esperando a otros jugadores",
+    "__time_till_auto_start": "Tiempo hasta el inicio automático",
+    "__user_is_ready": "{{userName}} Está listo/a",
+    "__user_is_not_ready": "{{userName}} No esta listo/a",
+    "__confirm_admin_iteration_start_text": "Tenga en cuenta que no todos los jugadores están listos. ¿Quieres iniciar la iteración sin esperar la preparación de cada jugador?",
+    "__dialog_title": "Preparándose para el inicio de la iteración",
+    "__facilitator_info": "Si desea limpiar el tablero antes de la segunda iteración, hágalo.",
+    "__players_info": "Los organizadores del juego preparan el tablero de juego para el inicio de la segunda iteración.",
+    "__sidebar_info_title": "Preparando el tablero de juego para una nueva iteración",
+    "__sidebar_info_description": "Retire las tarjetas que no estén terminadas o añada tarjetas nuevas.",
+    "__preparing_board_action_desc": " está preparando el tablero",
+    "__users_preparing_board": "Usuarios preparando el tablero:",
+    "__iteration_summary": "Resumen de iteración",
+    "__preIterationQuestionsTitle": "Responda algunas preguntas. Todas ellos son opcionales.",
+    "__waiting_for_other_answers": "Esperando respuestas de otros jugadores",
+    "__spectator_waiting_for_other_answers": "Esperando respuestas de los jugadores",
     "secondPreIterationQuestions": [
-      "What was that like?",
-      "What elements seem familiar from your working experience? New?",
-      "Suppose we continue in this way indefinitely. Then what happens?"
+      "¿Qué tal fue?",
+      "¿Qué elementos te parecen familiares de tu experiencia laboral? ¿Alguno nuevo?",
+      "Supongamos que continuamos así indefinidamente. ¿Qué pasaría entonces?"
     ],
     "thirdPreIterationQuestions": [
-      "How was it different? Please name drawbacks and benefits.",
-      "Could you guess any variations on this theme? Are there any other ways to limit work in progress?",
-      "Name parallels from your working experience."
+      "¿En qué fue diferente? Indique las ventajas e inconvenientes.",
+      "¿Podrías pensar en alguna variación sobre este tema? ¿Existen otras formas de limitar el trabajo en curso?",
+      "Nombra similitudes de tu experiencia laboral."
     ],
-    "__third_iteration_reset_game_state_info": "Please note, all cards from current iteration will be removed. Third iteration will start with new cards in column «Queue»."
+    "__third_iteration_reset_game_state_info": "Tenga en cuenta que se eliminarán todas las tarjetas de la iteración actual. La tercera iteración comenzará con nuevas tarjetas en la columna «Cola»."
   },
   
   "Card": {
     "Buttons": {
-      "__unblock": "Unblock",
-      "__add_blocker": "Add blocker"
+      "__unblock": "Desbloquear",
+      "__add_blocker": "Añadir bloqueo"
     },
-    "__blocked_state": "Blocked",
-    "__card_created": "Card created",
-    "__card_started": "Card started",
-    "__card_finished": "Card finished",
-    "__total_work_time": "Total work time",
+    "__blocked_state": "Bloqueado",
+    "__card_created": "Tarjeta creada",
+    "__card_started": "Tarjeta iniciada",
+    "__card_finished": "Tarjeta terminada",
+    "__total_work_time": "Tiempo total de trabajo",
     "__day_short": "d",
-    "__event": "Event",
-    "__days": "Days"
+    "__event": "Evento",
+    "__days": "Días"
   },
   "CoinSection": {
-    "__coin_title_current_player_red": "Today you have a red card",
-    "__coin_title_current_player_black": "Today you have black card",
-    "__my_work_for_day": "My work for Day {{day}}",
-    "__done_work_for_today": "You have completed your work for today. The next day will start when everyone is finished",
+    "__coin_title_current_player_red": "Hoy tienes tarjeta roja",
+    "__coin_title_current_player_black": "Hoy tienes tarjeta negra",
+    "__my_work_for_day": "Mi trabajo para el dia {{day}}",
+    "__done_work_for_today": "Has completado tu trabajo de hoy. El día siguiente comenzará cuando todos hayan terminado.",
     "__OR": "OR",
     "red": {
-      "__rules_choice": "Choose one of the following actions:",
-      "__first_rule_action": "A) Advance ",
-      "__first_rule": "one of your unblocked cards one column right",
-      "__second_rule_action": "B) Unblock ",
-      "__second_rule": "one of your blocked cards",
-      "__third_rule_action": "C) Start one new card: ",
-      "__third_rule": "move a card from the «Queue» one column to the right into the «Doing» column so it becomes Work In Progress",
+      "__rules_choice": "Elija una de las siguientes acciones:",
+      "__first_rule_action": "A) Avanzar ",
+      "__first_rule": "una de tus tarjetas desbloqueadas una columna a la derecha",
+      "__second_rule_action": "B) Desbloquear ",
+      "__second_rule": "una de tus tarjetas bloqueadas",
+      "__third_rule_action": "C) Empezar una nueva tarjeta: ",
+      "__third_rule": "mueva una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo En Curso",
       "__last_rule_action": "E) ",
-      "__last_rule": "And only if you can't move own cards - Help someone! Advance or unblock another player’s card"
+      "__last_rule": "Y solo si no puedes mover tus propias cartas, ¡ayuda a alguien! Avanzar o desbloquear la tarjeta de otro jugador"
     },
     "black": {
-      "__first_rule_action": "1) Add a blocker ",
-      "__first_rule": "to one of your currently unblocked items",
-      "__second_rule_action": "2) Start one new card: ",
-      "__second_rule": "move a card from the «Queue» one column to the right into the «Doing» column so it becomes Work In Progress. And only if you can't start new item - help someone! Advance or unblock another player's card.",
-      "__last_rule": "Help someone! Advance or unblock another player’s item"
+      "__first_rule_action": "1) Añadir un bloqueo ",
+      "__first_rule": "a uno de sus elementos actualmente desbloqueados",
+      "__second_rule_action": "2) Iniciar una nueva tarjeta: ",
+      "__second_rule": "mueva una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo en curso. Y solo si no puedes comenzar un nuevo artículo, ¡ayuda a alguien! Avanza o desbloquea la tarjeta de otro jugador.",
+      "__last_rule": "¡Ayuda a alguien! Avanza o desbloquea el elemento de otro jugador"
     },
-    "__no_moves_rule": "You don't have available movements. Please, wait other players to finish their movements."
+    "__no_moves_rule": "No tienes movimientos disponibles. Por favor, espere a que otros jugadores terminen sus movimientos."
   },
   "ScreenTitles": {
     "__lobby": "Gather colleagues | Featureban",
