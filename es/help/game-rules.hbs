@@ -1,0 +1,20 @@
+<h6 class="heading">Reglas del juego</h6>
+<p class="body">El juego se divide en varias iteraciones. En la primera iteración solo se trabaja la visualización. Cada tarjeta del tablero representa una tarea que tiene que ser realizada por tu equipo. Todas las nuevas tareas aparecen en la primera columna “Cola”. Para finalizar una tarea, tienes que llevarla a la columna de “Hecho” . La tarea tiene que pasar por una serie de estados intermedios. Hay dos estados de “Trabajo En Progreso” - «En Progreso» y «Probando».</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">Cuando mueves una tarjeta a la columna de “En Progreso”, te haces responsable de ella y tu avatar aparecerá en la tarjeta.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+
+<h6 class="heading">Elementos bloqueados</h6>
+<p class="body">Bloqueado significa que no puedes continuar el trabajo por algún motivo. Una vez que la tarjeta está bloqueada, no puedes moverla hacia la derecha.</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">Límites del WIP</h6>
+<p class="body">Hay números encima de las columnas de “En Progreso” - Representan la limitación del WIP (“Work In Progress”). No puedes incluir más tarjetas en las columnas que están o superan el WIP.</p>
+<img src="{{assetsPath}}assets/wip-limits.png" alt="workflow" class="image" />
+
+{{> (resolvePartial lng "cardMoves")}}
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<h6 class="heading">Objetivo del juego</h6>
+<p class="body">El objetivo del juego es conseguir llevar cuantas más tarjetas posibles a la columna de “Hecho”.</p>
