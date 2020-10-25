@@ -18,9 +18,9 @@
     "__game_join_as_spectator_main_text": "{{gameAuthorName}} te ha invitado a jugar, pero el juego ya se ha iniciado. Puedes unirte solo como espectador.",
     "__join": "Unirse al juego",
     "__join_as_spectator": "Unirse como espectador",
-    "__join_as_player": "Uniser como jugador",
-    "__spectator_join_info": "(Mirar a otros jugando)",
-    "__enter_name_label": "Introduzca su nombre"
+    "__join_as_player": "Unirse como jugador",
+    "__spectator_join_info": "(Ver a otros jugar)",
+    "__enter_name_label": "Introduce su nombre"
   },
   "CookiesPolicy": {
     "__accept_cookies_title": "Confirmación de cookies",
@@ -38,14 +38,14 @@
     "__change_avatar_title": "Cambia tu avatar",
     "__avatar_already_chosen": "Ya elegido",
     "__participate_as_player": "Participa como jugador",
-    "__participate_as_spectator": "Participar como espectador",
+    "__participate_as_spectator": "Participa como espectador",
     "__spectator_registration_info": "(Mira y controla el flujo del juego)",
-    "__about_game": "Es un juego de simulación de Kanban simple, divertido y altamente personalizable. Desde su creación en 2014, ha sido utilizado por facilitadores y Agile Coaches en eventos relacionados con Lean, Agile y Kanban en todo el mundo.",
+    "__about_game": "Featureban es un juego de simulación de Kanban simple, divertido y altamente personalizable. Desde su creación en 2014, ha sido utilizado por facilitadores y Agile Coaches en eventos relacionados con Lean, Agile y Kanban en todo el mundo.",
     "__game_recommendations": "Recomendaciones de juegos",
-    "__required_players_count": "Cada juego necesita 3-5 jugadores.",
-    "__communication_between_players_desc": "Para probarlo, tan solo participa como jugador o espectador y comparte el enlace. Deberéis estar en estrecha comunicación mientras jugais (no proporcionamos esa parte).",
+    "__required_players_count": "Se necesitan entre 3 y 5 jugadores para jugar",
+    "__communication_between_players_desc": "Para probarlo, tan solo tienes que participar como jugador o espectador y compartir el enlace con los demás jugadores. Deberéis estar en estrecha comunicación mientras jugáis (Featureban no proporciona esa parte).",
     "__game_updates": "Actualizaciones del juego",
-    "__several_games_update_desc": "Ya no necesita ejecutar featureban desde diferentes navegadores: ahora puede participar en varios juegos en un solo navegador.",
+    "__several_games_update_desc": "Ya no necesita ejecutar Featureban desde diferentes navegadores: ahora puede participar en varios juegos en un solo navegador.",
     "__total_games_played": "Juegos jugados: {{count}}",
     "__start_new_game": "Iniciar un nuevo juego"
   },
@@ -111,20 +111,20 @@
       "__duplicate_avatars": "¡Los jugadores tienen avatares duplicados!"
     },
     "__custom_game_theme_option": "Personalizado",
-    "__gathering_colleagues": "Reuniendo colegas",
+    "__gathering_colleagues": "Reuniendo compañeros",
     "__facilitator_header_desc": "Capacidad para iniciar / detener iteraciones (generalmente solo se necesita un facilitador)",
     "__participant": "Participante",
     "__players": "Jugadores",
     "__spectators": "Espectadores",
-    "__share_link_description": "Estimado {{username}}, comparta este enlace con sus colegas, se necesitan al menos 3 personas para iniciar el juego, máximo - 5.",
-    "__rules_for_each_player": "Las reglas se mostrarán para cada jugador, no es necesario que las diga.",
+    "__share_link_description": "{{username}}, comparte este enlace con sus compañeros. Se necesitan al menos 3 personas para iniciar el juego, y 5 como máximo.",
+    "__rules_for_each_player": "Las reglas se mostrarán para cada jugador, no es necesario que se las lea.",
     "__joined_users": "Usuarios añadidos"
   },
   "Sponsorship": {
     "__title": "Apoya el juego",
-    "__description_1": "Nos complace desarrollar Featureban en Internet y no planeamos cobrar una tarifa por usar el juego.",
-    "__description_2": "Si desea apoyar el proyecto y confirmarnos que estamos haciendo lo correcto, done cualquier cantidad.",
-    "__button": "Haz una donación"
+    "__description_1": "Nos complace desarrollar Featureban Online y no planeamos cobrar una tarifa por usar el juego.",
+    "__description_2": "Si desea apoyar el proyecto, confirmando que vamos por el buen camino, por favor haga una donación.",
+    "__button": "Hacer una donación"
   },
   "KaitenPromo": {
     "__title": "¿Busca un software de Kanban en línea?",
@@ -136,10 +136,10 @@
     "__players_title": "Jugadores",
     "__offline": "desconectado",
     "__me": "soy yo",
-    "__change_players_role_to_spectator": "Cambiar el papel del jugador a espectador",
+    "__change_players_role_to_spectator": "Cambiar el rol del jugador a espectador",
     "UserRemovalDialog": {
       "__confirm_text": "¿Estás seguro de que quieres cambiar el rol de «{{userName}}» a espectador? Ten en cuenta que los espectadores no participan en el juego, solo lo ven.",
-      "__choose_user_for_transfer": "Elija a la persona que se asignará a todas las tarjetas «{{userName}}» en curso",
+      "__choose_user_for_transfer": "Elije a la persona que se asignará a todas las tarjetas «{{userName}}» en curso",
       "__cards_in_progress": "{{count}} tarjeta(s) en progreso"
     }
   },
@@ -153,7 +153,7 @@
       "__first_rule_action": "1) Añadir un bloqueo ",
       "__first_rule": "a uno de los elementos actualmente desbloqueados del jugador",
       "__second_rule_action": "2) Empezar nueva tarea: ",
-      "__second_rule": "mueva una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo En Curso. ¡Y solo si el jugador no puede comenzar un nuevo elemento debería ayudar a alguien!"
+      "__second_rule": "mueve una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo En Progreso. ¡Y solo si el jugador no puede comenzar un nuevo elemento debería ayudar a alguien!"
     },
     "red": {
       "__first_rule_action": "A) Avanzar ",
@@ -161,7 +161,7 @@
       "__second_rule_action":"B) Desbloquear ",
       "__second_rule": "una de las tarjetas bloqueadas del jugador",
       "__third_rule_action": "C) Iniciar una nueva tarjeta: ",
-      "__third_rule": "mueva una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo En Curso",
+      "__third_rule": "mueve una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo En Progreso",
       "__last_rule_action": "E) ",
       "__last_rule": "¡Y solo si el jugador no puede mover sus propias tarjetas debería ayudar a alguien!"
     }
@@ -178,7 +178,7 @@
     }
   },
   "AppBar": {
-    "__stop_iteration": "Parar iteración",
+    "__stop_iteration": "Terminar iteración",
     "__end_game": "Fin del juego",
     "__confirm_switch_to_next_iteration": "Confirma la transición a la siguiente iteración del juego.",
     "__confirm_end_game": "Confirma el final del juego",
@@ -211,7 +211,7 @@
     "__time_till_auto_start": "Tiempo hasta el inicio automático",
     "__user_is_ready": "{{userName}} Está listo/a",
     "__user_is_not_ready": "{{userName}} No esta listo/a",
-    "__confirm_admin_iteration_start_text": "Tenga en cuenta que no todos los jugadores están listos. ¿Quieres iniciar la iteración sin esperar la preparación de cada jugador?",
+    "__confirm_admin_iteration_start_text": "Ten en cuenta que no todos los jugadores están listos. ¿Quieres iniciar la iteración sin esperar la preparación de cada jugador?",
     "__dialog_title": "Preparándose para el inicio de la iteración",
     "__facilitator_info": "Si desea limpiar el tablero antes de la segunda iteración, hágalo.",
     "__players_info": "Los organizadores del juego preparan el tablero de juego para el inicio de la segunda iteración.",
@@ -230,10 +230,10 @@
     ],
     "thirdPreIterationQuestions": [
       "¿En qué fue diferente? Indique las ventajas e inconvenientes.",
-      "¿Podrías pensar en alguna variación sobre este tema? ¿Existen otras formas de limitar el trabajo en curso?",
+      "¿Podrías pensar en alguna variación sobre este tema? ¿Existen otras formas de limitar el trabajo en progreso?",
       "Nombra similitudes de tu experiencia laboral."
     ],
-    "__third_iteration_reset_game_state_info": "Tenga en cuenta que se eliminarán todas las tarjetas de la iteración actual. La tercera iteración comenzará con nuevas tarjetas en la columna «Cola»."
+    "__third_iteration_reset_game_state_info": "Ten en cuenta que se eliminarán todas las tarjetas de la iteración actual. La tercera iteración comenzará con nuevas tarjetas en la columna «Cola»."
   },
   
   "Card": {
@@ -257,22 +257,22 @@
     "__done_work_for_today": "Has completado tu trabajo de hoy. El día siguiente comenzará cuando todos hayan terminado.",
     "__OR": "OR",
     "red": {
-      "__rules_choice": "Elija una de las siguientes acciones:",
+      "__rules_choice": "Elije una de las siguientes acciones:",
       "__first_rule_action": "A) Avanzar ",
       "__first_rule": "una de tus tarjetas desbloqueadas una columna a la derecha",
       "__second_rule_action": "B) Desbloquear ",
       "__second_rule": "una de tus tarjetas bloqueadas",
       "__third_rule_action": "C) Empezar una nueva tarjeta: ",
-      "__third_rule": "mueva una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo En Curso",
+      "__third_rule": "mueve una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo En Progreso",
       "__last_rule_action": "E) ",
-      "__last_rule": "Y solo si no puedes mover tus propias cartas, ¡ayuda a alguien! Avanzar o desbloquear la tarjeta de otro jugador"
+      "__last_rule": "Y solo si no puedes mover tus propias cartas, ¡ayuda a alguien avanzando o desbloqueando la tarjeta de otro jugador!"
     },
     "black": {
       "__first_rule_action": "1) Añadir un bloqueo ",
       "__first_rule": "a uno de sus elementos actualmente desbloqueados",
       "__second_rule_action": "2) Iniciar una nueva tarjeta: ",
-      "__second_rule": "mueva una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo en curso. Y solo si no puedes comenzar un nuevo artículo, ¡ayuda a alguien! Avanza o desbloquea la tarjeta de otro jugador.",
-      "__last_rule": "¡Ayuda a alguien! Avanza o desbloquea el elemento de otro jugador"
+      "__second_rule": "mueve una tarjeta de la «Cola» una columna a la derecha hasta la columna «En Progreso» para que se convierta en Trabajo En Progreso. Y solo si no puedes comenzar un nuevo artículo, ¡ayuda a alguien avanzando o desbloqueando la tarjeta de otro jugador!",
+      "__last_rule": "¡Ayuda a alguien avanzando o desbloqueando el elemento de otro jugador!"
     },
     "__no_moves_rule": "No tienes movimientos disponibles. Por favor, espere a que otros jugadores terminen sus movimientos."
   },
@@ -318,7 +318,7 @@
     "__move_done_card": "No puede avanzar una tarjeta ya completada \uD83E\uDD2B",
     "__move_blocked_card": "No puedes avanzar una tarjeta bloqueada \uD83D\uDE0B",
     "__move_to_not_next_column": "Las tarjetas solo se pueden pasar a la siguiente columna \uD83D\uDE0A",
-    "__should_block_card": "Bloquear una tarjeta primero ✋",
+    "__should_block_card": "Bloquea una tarjeta primero ✋",
     "__next_column_wip_reached": "El límite de WIP de la columna no permite mover la tarjeta aquí \uD83D\uDE30",
     "__can_not_start_card": "No puedes empezar una nueva tarjeta ahora \uD83D\uDE29",
     "__can_not_move_card": "No puedes avanzar esta tarjeta \uD83D\uDE44",
@@ -331,8 +331,8 @@
     "__already_updated_card": "Desafortunadamente, otro jugador ya actualizó la tarjeta.",
     "__day_changed": "Día {{day}} se acabó: todos los jugadores han realizado sus movimientos. Empieza a planificar el día siguiente",
     "__user_move_done": "Has completado todos los movimientos de hoy. 💪",
-    "__resumed_the_game": "el juego contiua",
-    "__paused_the_game": "el juego está pausado",
+    "__resumed_the_game": "contiunó el juego",
+    "__paused_the_game": "pausó el juego",
     "__skip_turn": "Saltar turno"
   },
   "WrongActions": {

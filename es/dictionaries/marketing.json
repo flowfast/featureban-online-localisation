@@ -42,9 +42,9 @@
   ],
 
   "columns": [
-    "Queue",
-    "Doing",
-    "Validating",
-    "Done"
+    "Cola",
+    "En Progreso",
+    "Validando",
+    "Hecho"
   ]
 }
