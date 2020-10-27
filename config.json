@@ -102,12 +102,12 @@
       "path": "internet_project"
     }],
     "es": [{
-      "name": "(EN) Marketing",
-      "language": "en",
+      "name": "Marketing",
+      "language": "es",
       "path": "marketing"
     }, {
-      "name": "(EN) Internet project",
-      "language": "en",
+      "name": "Proyecto de Internet",
+      "language": "es",
       "path": "internet_project"
     }]
  }
