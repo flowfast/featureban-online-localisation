@@ -1,0 +1,17 @@
+<h6 class="heading">Troisième itération</h6>
+<p class="body">Les régles sont totalement identiques.</p>
+<p class="body">Toutes les cartes des itérations précédentes sont supprimées, et de nouvelle cartes sont ajoutées à la colonne «Queue». Ainsi ce sera plus facile pour comparer les résultats et les métriques aux itérations précédentes.</p>
+<p class="body">Nous avons ajouté les histogrammes pour vous aider à mesurer vos progrès.</p>
+<img src="{{assetsPath}}assets/charts.png" alt="charts" class="image" />
+
+<h6 class="heading">Diagramme de flux cumulés</h6>
+<img src="{{assetsPath}}assets/cfd.png" alt="cfd" class="image" />
+<p class="body">Ce graphe trace le nombre total d'items. L'axe horizontal représente la période de temps de visualisation des données. L'axe vertical montre les nombres cumulés de cartes qui sont dans le workflow atlors des différents points dans le temps. Les bandes de couleurs qui divisent des sections du flux amont sont les différentes étapes de votre workflow. Avec un CFD, vous pouvez avoir une idée sur le temps de cycle moyen approximatif de vos élements de travail en un seul regard.</p>
+
+<h6 class="heading">Temps de traversée</h6>
+<img src="{{assetsPath}}assets/lead-time.png" alt="lead time" class="image" />
+<p class="body">Le graphe des temps de traversée vous permet de voir le nombre de jours qu'ont pris vos éléments de travail pour traverser votre processus.</p>
+
+<hr class="divider"/>
+
+{{> (resolvePartial lng "rulesBlock")}}

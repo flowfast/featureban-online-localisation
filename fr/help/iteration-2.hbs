@@ -1,0 +1,20 @@
+<h6 class="heading">Deuxième iteration</h6>
+<p class="body">Les rèlges sont totalement identiques avec une simple différence. Des limites de TEC (Travail En Cours, WIP) sont ajoutées aux étapes intermédiaires - pour le colonnes «En cours» et «A valider».</p>
+<img src="{{assetsPath}}assets/wip-limits.png" alt="wip limits" class="image" />
+<img src="{{assetsPath}}assets/wip-moves.png" alt="wip moves" class="image" />
+
+<p class="body">Le nombre de jour écoulé en cours depuis le début est désormais ajouté à chaque carte</p>
+<img src="{{assetsPath}}assets/days-count.png" alt="days count" class="image" />
+
+<p class="body">Des métriques sur les colonnes et sur les cartes ont été ajoutées.</p>
+<img src="{{assetsPath}}assets/metrics.png" alt="metrics" class="image" />
+
+<h6 class="heading">Nombre de cartes par colonneh6>
+<p class="body">Montre combien de cartes sont dans chaque colonne à la fin de chaque journée</p>
+<img src="{{assetsPath}}assets/column-count-metric.png" alt="column count metric" class="image" />
+
+<h6 class="heading">Temps de traversée</h6>
+<p class="body">Montre le jour auquel la carte a été ajoutée à la colonne "En cours". Le jour auquel la carte a été ajoutée à la colonne "Fini". Et le nombre de jours écoulé entre ces deux jours</p>
+<img src="{{assetsPath}}assets/lead-time-metric.png" alt="lead time metric" class="image" />
+
+{{> (resolvePartial lng "rulesBlock")}}
