@@ -1,5 +1,5 @@
 {
-  "enabledLanguages": ["de", "en", "es", "pl", "pt", "ru", "uk"],
+  "enabledLanguages": ["de", "en", "es", "fr", "pl", "pt", "ru", "uk"],
   "languages": {
     "de": {
       "name": "Deutsch",
@@ -12,6 +12,10 @@
     "es": {
       "name": "Español",
       "shortName": "Es"
+    },
+    "fr": {
+      "name": "French",
+      "shortName": "Fr"
     },
     "pl": {
       "name": "Polski",
@@ -45,6 +49,13 @@
     }, {
       "name": "(EN) Internet project",
       "language": "en",
+      "path": "internet_project"
+    }],
+    "fr": [{
+      "name": "Marketing",
+      "path": "marketing"
+    }, {
+      "name": "Projet internet",
       "path": "internet_project"
     }],
     "pl": [{

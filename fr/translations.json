@@ -51,7 +51,7 @@
   },
   "FinishScreen": {
     "__game_overview": "Résumé de la partie",
-    "__iteration_card_states_title": "Positions des cartes à la fin de chaque itération,
+    "__iteration_card_states_title": "Positions des cartes à la fin de chaque itération",
     "__all_game_metrics_title": "Métriques de la partie",
     "__lead_time_histogram_title": "Histogramme du lead time",
     "__debrief_title": "Debrief",
@@ -75,7 +75,7 @@
     "__progress_column_1_title": "En test",
     "__column_2_title": "Fini",
     "__uploaded": "Uploadé",
-    "__drop_file_here": "Déposer le fichier ici,
+    "__drop_file_here": "Déposer le fichier ici",
     "__drop_file_attachment": "Déposer le fichier ici (vous pouvez aussi cliquer)",
     "__use_table_first_row": "Utiliser la première ligne du tableau",
     "__select_the_column_for_card_names": "Choisissez les colonnes pour les noms des cartes",
@@ -151,10 +151,10 @@
     "__has_red": "A une carte noire et doit choisir une des actions suivantes",
     "black": {
       "__first_rule_action": "1) Ajouter un blocage ",
-    },
       "__second_rule_action": "2) Démarrer une nouvelle carte: ",
       "__first_rule": "à l'une de ses cartes non bloquées",
       "__second_rule": "déplacer une carte de la colonne «Queue» vers la droite vers la colonne «En cours» afin qu'elle devienne du Travail En Cours. Et si seulement il ne peut pas démarrer une nouvelle carte - aider quelqu'un !"
+    },
     "red": {
       "__first_rule_action": "A) Avancer ",
       "__first_rule": "une de ses cartes non bloquées d'une colonne vers la droite",
@@ -235,7 +235,7 @@
     ],
     "__third_iteration_reset_game_state_info": "Veuillez noter que toutes les cartes des itérations précédentes vont être supprimées. La troisième itération va démarrer avec des nouvelles cartes dans la colonne «Queue»."
   },
-  
+
   "Card": {
     "Buttons": {
       "__unblock": "Débloquer",
