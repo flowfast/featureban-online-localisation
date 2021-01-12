@@ -1,0 +1,20 @@
+<h6 class="heading">Règles du jeu</h6>
+<p class="body">Une partie est découpée en trois itérations. La première vous fait découvrir le management visuel. Chaque carte représente une tâche ayant de la valeur, et qui peut être réalisée par votre équipe. Toutes les nouvelles cartes apparaissent dans la colonne «Queue». Pour la finir il faut la déplacer jusque à la colonne "Fini". La carte devra passer par toutes les étapes intermédiaires. Il y a deux étapes intermédaires - «En cours» and «A valider».</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">Quand vous placez une carte vers la première colonne «En cours» vous en devenez le responsable et votre avatar apparaît sur la carte.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+
+<h6 class="heading">Items bloqués</h6>
+<p class="body">Bloqué signifie que vous ne pouvez pas faire avancer le travail pour une quelque raison. Lorsque une carte est bloquée, vous ne pouvez pas la déplacer (vers la droite).</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">Limites de TEC (WIP limits)</h6>
+<p class="body">Ce sont les nombres proches des titres de colonnes en cours - elles réprésente les limites de TEC (Travail En Cours). Vous ne pouvez pas placer une carte qui a atteint ou dépassé sa capacité.</p>
+<img src="{{assetsPath}}assets/wip-limits.png" alt="workflow" class="image" />
+
+{{> (resolvePartial lng "cardMoves")}}
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<h6 class="heading">Objectif du jeu</h6>
+<p class="body">L'objectif de jeu est de placer autant de cartes que possible dans la colonne FINI.</p>

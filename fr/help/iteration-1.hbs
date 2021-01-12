@@ -1,0 +1,29 @@
+<h6 class="heading">Première itération</h6>
+<p class="body">Une partie est découpée en trois itérations. La première vous fait découvrir le management visuel. Chaque carte représente une tâche ayant de la valeur, et qui peut être réalisée par votre équipe. Toutes les nouvelles cartes apparaissent dans la colonne «Queue». Pour la finir il faut la déplacer jusque à la colonne "Fini". La carte devra passer par toutes les étapes intermédiaires. Il y a deux étapes intermédaires - «En cours» and «A valider».</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">Quand vous placez une carte vers la première colonne «En cours» vous en devenez le responsable et votre avatar apparaît sur la carte.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+<p class="body">La partie démarre avec une carte assignée à chaque joueur</p>
+<img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="image" />
+
+<h6 class="heading">Items bloqués</h6>
+<p class="body">Des problèmes arrivent dans le jeu comme dans la vrai vie. Et parfois votre travail sera bloqué. Bloqué signifie que vous ne pouvez pas faire avancer le travail pour une quelque raison. C'est peut être parce que cette tâche est dépendante d'une autre qui n'est pas terminée. Lorsque une carte est bloquée, vous ne pouvez pas la déplacer (vers la droite).</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">Tirage des cartes</h6>
+<p class="body">Au début de chaque jour, chaque joueur tire une carte au hasard, rouge ou noire (automatiquement). Pourquoi est§ce nécessaire ? Les gens démarrent un travail et pense que cela prendra une journée. Mais parfois cela prend plus de temps - 2 jours, 3 jours ou plus. Il y a toujours des risques de variation et il y a beaucoup de raisons à celà. Chaque couleur de carte vous autorise des mouvements spécifiques.</p>
+
+{{> (resolvePartial lng "cardMoves")}}
+
+<h6 class="heading">Contrôle du déroulement du jeu (pour les facilitateurs)</h6>
+<img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="image" />
+
+<h6 class="heading">Changer le rôle d'un joueur (pour l'initiateur du jeu)</h6>
+<p class="subtitle">Si un des joueurs est déconnecté, vous pouvez le basculer en spectateur. Il sera toujours dans la partie mais il pourra uniquement regarder. Si ce joueur est responsable de certains items dans des colonnes en cours, vous devrez choisir un autre joueur et les lui attribuer.</p>
+<img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="image" />
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<div class="footer">
+  <p class="subtitle">L'objectif principal d'une partie est de déplacer le maximum de cartes dans la colonne "Fini" ! Tout le reste vous le découvrirez au cours du jeu. Pressez le bouton "Prêt", et jouez à Featureban!</p>
+</div>
