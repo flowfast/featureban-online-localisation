@@ -308,7 +308,8 @@
     "__second_iteration": "Second iteration",
     "__third_iteration": "Third iteration",
     "__cfd_title": "Cumulative flow diagram",
-    "__lead_time_title": "Lead time chart"
+    "__lead_time_title": "Lead time chart",
+    "__combine_first_and_second_iterations_data": "Combine the data of the first and second iterations"
   },
   "Notifications": {
     "__add_cards": "First column is almost empty \uD83D\uDE2C",

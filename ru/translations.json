@@ -308,7 +308,8 @@
     "__second_iteration": "Вторая итерация",
     "__third_iteration": "Третья итерация",
     "__cfd_title": "Накопительная диаграмма потока",
-    "__lead_time_title": "Время выполнения"
+    "__lead_time_title": "Время выполнения",
+    "__combine_first_and_second_iterations_data": "Объединить данные первой и второй итерации"
   },
   "Notifications": {
     "__add_cards": "Первая колонка почти пуста \uD83D\uDE2C",
