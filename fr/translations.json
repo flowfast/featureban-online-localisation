@@ -362,5 +362,9 @@
   "TimeAgo": {
     "__less_then_hour": "<1h",
     "__less_then_minute": "<1m"
+  },
+  "GeneralErrors": {
+    "__network_error": "Un problème est survenu lors du traitement de votre demande. Veuillez vérifier votre connexion Internet.",
+    "__something_went_wrong": "Quelque chose s'est mal passé, mais nous avons déjà reçu des informations à ce sujet et nous y travaillons."
   }
 }

@@ -363,5 +363,9 @@
   "TimeAgo": {
     "__less_then_hour": "<1h",
     "__less_then_minute": "<1m"
+  },
+  "GeneralErrors": {
+    "__network_error": "There is a problem processing your request. Please check your internet connection.",
+    "__something_went_wrong": "Something went wrong, but we have already received information about it and working on it."
   }
 }
