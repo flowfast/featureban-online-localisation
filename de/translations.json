@@ -362,5 +362,9 @@
   "TimeAgo": {
     "__less_then_hour": "<1h",
     "__less_then_minute": "<1m"
+  },
+  "GeneralErrors": {
+    "__network_error": "Beim Bearbeiten Ihrer Anfrage ist ein Problem aufgetreten. Bitte überprüfen Sie Ihre Internetverbindung.",
+    "__something_went_wrong": "Etwas ist schief gelaufen, aber wir haben bereits Informationen darüber erhalten und arbeiten daran."
   }
 }
