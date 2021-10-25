@@ -121,10 +121,16 @@
     "__joined_users": "Usuários ingressados"
   },
   "Sponsorship": {
-    "__title": "Apoie o jogo",
-    "__description_1": "Temos o prazer de desenvolver o Featureban on-line e não planejamos cobrar uma taxa pelo uso do jogo.",
-    "__description_2": "Se você deseja apoiar o projeto e acredita que estamos fazendo a coisa certa - por favor doe qualquer quantia.",
-    "__button": "Faça uma doação"
+    "__title": "Become a sponsor of new game features",
+    "__general_information": "Donations (contributions) are accepted through Stripe. If you would like to be presented on the contributor's list, send us an email at featureban@kaiten.io.",
+    "PinCode": {
+      "__title": "Pin-code join",
+      "__description": "To arrange the game, you need to send the link to your colleagues. The new functionality will allow you to connect to the game knowing its pin code (6 digits)."
+    },
+    "CoachMode": {
+      "__title": "Multiple-game (Coach) mode",
+      "__description": "Do you play parallel games in multiple windows? This improvement will allow you to manage multiple games in one window (invite, rank players and switch between games). The feature will be free to anyone who sponsors it."
+    }
   },
   "KaitenPromo": {
     "__title": "Procurando por um software Kanban on-line?",
@@ -158,7 +164,7 @@
     "red": {
       "__first_rule_action": "A) Avançar ",
       "__first_rule": "um dos cartões desbloqueados do jogador uma coluna à direita",
-      "__second_rule_action":"B) Desbloquear ",
+      "__second_rule_action": "B) Desbloquear ",
       "__second_rule": "um dos cartões bloqueados do jogador",
       "__third_rule_action": "C) Iniciar um novo cartão: ",
       "__third_rule": "mova um cartão da coluna «Opções» para a direita para a coluna «Fazendo» para que se torne Trabalho em progresso",
@@ -235,7 +241,6 @@
     ],
     "__third_iteration_reset_game_state_info": "Observe que todos os cartões da iteração atual serão removidos. A terceira iteração começará com novos cartões na coluna «Opções»."
   },
-  
   "Card": {
     "Buttons": {
       "__unblock": "Desbloquear",

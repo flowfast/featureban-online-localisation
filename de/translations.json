@@ -121,10 +121,16 @@
     "__joined_users": "Teilnehmer"
   },
   "Sponsorship": {
-    "__title": "Unterstütze das Projekt",
-    "__description_1": "Wir freuen uns, Featureban Online zu entwickeln und wollen auch zukünftig keine Gebühr für die Nutzung des Spiels erheben.",
-    "__description_2": "Wenn du das Projekt unterstützen willst und uns das Gefühl und das Vertrauen geben willst, dass wir das Richtige tun, spende bitte einen beliebigen Betrag.",
-    "__button": "Spenden"
+    "__title": "Werden Sie Sponsor neuer Spielfunktionen",
+    "__general_information": "Donations (contributions) are accepted through Stripe. If you would like to be presented on the contributor's list, send us an email at featureban@kaiten.io.",
+    "PinCode": {
+      "__title": "Pin-code join",
+      "__description": "To arrange the game, you need to send the link to your colleagues. The new functionality will allow you to connect to the game knowing its pin code (6 digits)."
+    },
+    "CoachMode": {
+      "__title": "Multiple-game (Coach) mode",
+      "__description": "Do you play parallel games in multiple windows? This improvement will allow you to manage multiple games in one window (invite, rank players and switch between games). The feature will be free to anyone who sponsors it."
+    }
   },
   "KaitenPromo": {
     "__title": "Suchst Du eine Online Kanban Software?",
@@ -158,7 +164,7 @@
     "red": {
       "__first_rule_action": "A) Ziehe ",
       "__first_rule": "eine deiner nicht geblockten Karten nach rechts",
-      "__second_rule_action":"B) Entblocke ",
+      "__second_rule_action": "B) Entblocke ",
       "__second_rule": "eine deiner geblockten Karten",
       "__third_rule_action": "C) Beginne eine neue Karte: ",
       "__third_rule": "Nimm eine Karte in Arbeit, indem du sie aus der Spalte ganz links nach rechts ziehst",
@@ -235,7 +241,6 @@
     ],
     "__third_iteration_reset_game_state_info": "Bitte beachte, dass alle Karten aus der laufenden Runde entfernt werden. Die dritte Runde startet mit neuen Karten in der linken Spalte."
   },
-
   "Card": {
     "Buttons": {
       "__unblock": "entblocken",

@@ -121,10 +121,16 @@
     "__joined_users": "Podłączonych użytkowników"
   },
   "Sponsorship": {
-    "__title": "Wesprzyj grę",
-    "__description_1": "Cieszymy się z rozwoju gry Featureban online i nie zamierzamy pobierać opłat za jej używanie.",
-    "__description_2": "Jeśli chcesz wesprzeć projekt i dać wyraz temu, że robimy właściwą pracę prosimy wesprzyj nas dowolną kwotą.",
-    "__button": "Przekaż wsparcie"
+    "__title": "Become a sponsor of new game features",
+    "__general_information": "Donations (contributions) are accepted through Stripe. If you would like to be presented on the contributor's list, send us an email at featureban@kaiten.io.",
+    "PinCode": {
+      "__title": "Pin-code join",
+      "__description": "To arrange the game, you need to send the link to your colleagues. The new functionality will allow you to connect to the game knowing its pin code (6 digits)."
+    },
+    "CoachMode": {
+      "__title": "Multiple-game (Coach) mode",
+      "__description": "Do you play parallel games in multiple windows? This improvement will allow you to manage multiple games in one window (invite, rank players and switch between games). The feature will be free to anyone who sponsors it."
+    }
   },
   "KaitenPromo": {
     "__title": "Szukasz oprogramowania wspierającego Kanban?",
@@ -158,7 +164,7 @@
     "red": {
       "__first_rule_action": "A) Przesuń ",
       "__first_rule": "jedno ze swoich niezablokowanych zadań o kolumnę w prawo",
-      "__second_rule_action":"B) Odblokuj ",
+      "__second_rule_action": "B) Odblokuj ",
       "__second_rule": "jedno ze swoich zablokowanych zadań",
       "__third_rule_action": "C) Rozpocznij nowe zadanie: ",
       "__third_rule": "przesuń zadanie z kolumny «Kolejka» o jedną kolumnę w prawo do kolumny «W toku», dzięki czemu zadanie stanie się teraz pracą w toku (Work In Progress).",
@@ -235,7 +241,6 @@
     ],
     "__third_iteration_reset_game_state_info": "Uwaga, wszystkie zadania z bieżącej rundy zostaną usuniętę. 3 runda rozpocznie się z nowymi zadaniami w kolumnie «Kolejka»."
   },
-
   "Card": {
     "Buttons": {
       "__unblock": "Odblokuj",

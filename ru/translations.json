@@ -121,10 +121,16 @@
     "__joined_users": "Присоединившиеся игроки"
   },
   "Sponsorship": {
-    "__title": "Поддержите развитие проекта",
-    "__description_1": "Мы рады развивать Featureban online и не планируем взимать плату за использование игры.",
-    "__description_2": "Если вы хотите поддержать проект и дать нам веру в то, что мы делаем нужное дело – пожалуйста, пожертвуйте любую сумму.",
-    "__button": "Пожертвовать любую сумму"
+    "__title": "Станьте спонсором новых игровых функций",
+    "__general_information": "Donations (contributions) are accepted through Stripe. If you would like to be presented on the contributor's list, send us an email at featureban@kaiten.io.",
+    "PinCode": {
+      "__title": "Присоединение по пин-коду",
+      "__description": "To connect the game, you need to send the link to your colleagues. The new functionality will allow you to connect to the game knowing its pin code (6 digits)."
+    },
+    "CoachMode": {
+      "__title": "Multiple-game (Coach) mode",
+      "__description": "Do you play parallel games in multiple windows? This improvement will allow you to manage multiple games in one window (invite, rank players and switch between games). The feature will be free to anyone who sponsors it."
+    }
   },
   "KaitenPromo": {
     "__title": "Ищете удобный инструмент для управления задачами?",
@@ -158,7 +164,7 @@
     "red": {
       "__first_rule_action": "A) Передвинуть ",
       "__first_rule": "одну из карточек в следующую колонку",
-      "__second_rule_action":"B) Разблокировать ",
+      "__second_rule_action": "B) Разблокировать ",
       "__second_rule": "одну из заблокированных карточек",
       "__third_rule_action": "C) Передвинуть ",
       "__third_rule": "новую карточку из колонки «Очередь» в колонку «В работе»",
@@ -235,7 +241,6 @@
     ],
     "__third_iteration_reset_game_state_info": "Все задачи текущей итерации будут удалены. В колонку «Очередь» будут добавлены новые задачи."
   },
-  
   "Card": {
     "Buttons": {
       "__unblock": "Разблокировать",

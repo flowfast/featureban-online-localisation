@@ -121,10 +121,16 @@
     "__joined_users": "Гравці, що приєдналися"
   },
   "Sponsorship": {
-    "__title": "Підтримайте розвиток проекту",
-    "__description_1": "Ми раді розвивати Featureban online і не плануємо стягувати плату за використання гри.",
-    "__description_2": "Якшо ви маєте бажання підтримати проект та надихнути нас на подальший розвиток - будьласка, зробіть пожертву на будь-яку суму.",
-    "__button": "Зробити пожертву"
+    "__title": "Become a sponsor of new game features",
+    "__general_information": "Donations (contributions) are accepted through Stripe. If you would like to be presented on the contributor's list, send us an email at featureban@kaiten.io.",
+    "PinCode": {
+      "__title": "Pin-code join",
+      "__description": "To arrange the game, you need to send the link to your colleagues. The new functionality will allow you to connect to the game knowing its pin code (6 digits)."
+    },
+    "CoachMode": {
+      "__title": "Multiple-game (Coach) mode",
+      "__description": "Do you play parallel games in multiple windows? This improvement will allow you to manage multiple games in one window (invite, rank players and switch between games). The feature will be free to anyone who sponsors it."
+    }
   },
   "KaitenPromo": {
     "__title": "Шукаєте зручний інструмент для керування задачами?",
@@ -158,7 +164,7 @@
     "red": {
       "__first_rule_action": "A) Пересунути ",
       "__first_rule": "одну із карток в наступну колонку",
-      "__second_rule_action":"B) Розблокувати ",
+      "__second_rule_action": "B) Розблокувати ",
       "__second_rule": "одну із заблокованих карток",
       "__third_rule_action": "C) Пересунути ",
       "__third_rule": "нову картку із колонки «Черга» в колонку «В роботі»",
@@ -235,7 +241,6 @@
     ],
     "__third_iteration_reset_game_state_info": "Усі задачі поточної ітерації будуть видалені. В колонку «Черга» буде додано нові задачі."
   },
-  
   "Card": {
     "Buttons": {
       "__unblock": "Розблокувати",

@@ -121,10 +121,16 @@
     "__joined_users": "Joined users"
   },
   "Sponsorship": {
-    "__title": "Support the game",
-    "__description_1": "We are pleased to develop Featureban online and do not plan to charge a fee for using the game.",
-    "__description_2": "If you want to support the project and give us faith that we are doing the right thing - please donate any amount.",
-    "__button": "Make a donation"
+    "__title": "Become a sponsor of new game features",
+    "__general_information": "Donations (contributions) are accepted through Stripe. If you would like to be presented on the contributor's list, send us an email at featureban@kaiten.io.",
+    "PinCode": {
+      "__title": "Pin-code join",
+      "__description": "To arrange the game, you need to send the link to your colleagues. The new functionality will allow you to connect to the game knowing its pin code (6 digits)."
+    },
+    "CoachMode": {
+      "__title": "Multiple-game (Coach) mode",
+      "__description": "Do you play parallel games in multiple windows? This improvement will allow you to manage multiple games in one window (invite, rank players and switch between games). The feature will be free to anyone who sponsors it."
+    }
   },
   "KaitenPromo": {
     "__title": "Looking for an online kanban software?",
@@ -158,7 +164,7 @@
     "red": {
       "__first_rule_action": "A) Advance ",
       "__first_rule": "one of player's unblocked cards one column right",
-      "__second_rule_action":"B) Unblock ",
+      "__second_rule_action": "B) Unblock ",
       "__second_rule": "one of player's blocked cards",
       "__third_rule_action": "C) Start one new card: ",
       "__third_rule": "move a card from the «Queue» one column to the right into the «Doing» column so it becomes Work In Progress",
@@ -235,7 +241,6 @@
     ],
     "__third_iteration_reset_game_state_info": "Please note, all cards from current iteration will be removed. Third iteration will start with new cards in column «Queue»."
   },
-  
   "Card": {
     "Buttons": {
       "__unblock": "Unblock",
