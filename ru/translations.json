@@ -128,8 +128,8 @@
       "__description": "To connect the game, you need to send the link to your colleagues. The new functionality will allow you to connect to the game knowing its pin code (6 digits)."
     },
     "CoachMode": {
-      "__title": "Multiple-game (Coach) mode",
-      "__description": "Do you play parallel games in multiple windows? This improvement will allow you to manage multiple games in one window (invite, rank players and switch between games). The feature will be free to anyone who sponsors it."
+      "__title": "Режим тренера",
+      "__description": "Ведете игры в нескольких окнах? Это улучшение позволит вам управлять несколькими играми в одном окне (приглашать, перемещать игроков и переключаться между играми). Эта функция будет бесплатной для всех, кто ее спонсирует."
     }
   },
   "KaitenPromo": {

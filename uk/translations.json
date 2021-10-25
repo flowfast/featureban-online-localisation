@@ -66,7 +66,7 @@
   },
   "MobileNotSupportedScreen": {
     "__mobile_is_not_supported": "Нажаль грати в Featureban на маленькому екрані вкрай незручно \uD83D\uDE1E",
-    "__supported_devices": "Будьласка, зайдіть з компьютера або планшета."
+    "__supported_devices": "Будь ласка, зайдіть з компьютера або планшета."
   },
   "CustomThemeDialog": {
     "__custom_theme_dialog_title": "Загрузити свої задачі",
@@ -79,7 +79,7 @@
     "__drop_file_attachment": "Перетягніть файл сюди (клік також працює)",
     "__use_table_first_row": "Використовувати першу строку з файла.",
     "__select_the_column_for_card_names": "Виберіть колонку для назв карток",
-    "__upload_instruction": "Ви можете завантажити свою власну тему для гри. Для цього, будьласка, підготуйте файл наступного вигляду:",
+    "__upload_instruction": "Ви можете завантажити свою власну тему для гри. Для цього, будь ласка, підготуйте файл наступного вигляду:",
     "__example_file": "приклад",
     "__set_column_names_label": "Задайте назви колонок",
     "__backlog_column_label": "Колонка «черга»",
@@ -87,7 +87,7 @@
     "__second_progress_column_label": "Друга колонка «в роботі»",
     "__done_column_label": "Колонка «завершені»",
     "Errors": {
-      "__empty_file": "Файл пустий! Будьласка, спробуйте завантажити інший.",
+      "__empty_file": "Файл пустий! Будь ласка, спробуйте завантажити інший.",
       "__empty_column": "Обрана колонка пуста!"
     }
   },
@@ -107,7 +107,7 @@
       "__copy_game_link": "Скопіювати посилання"
     },
     "Errors": {
-      "__not_enough_players": "Має бути не меньш ніж 3 гравців! Будьласка, запросіть ще",
+      "__not_enough_players": "Має бути не меньш ніж 3 гравців! Будь ласка, запросіть ще",
       "__duplicate_avatars": "Декілька гравців мають однакові аватарки!"
     },
     "__custom_game_theme_option": "Своя тема",
@@ -129,7 +129,7 @@
     },
     "CoachMode": {
       "__title": "Multiple-game (Coach) mode",
-      "__description": "Do you play parallel games in multiple windows? This improvement will allow you to manage multiple games in one window (invite, rank players and switch between games). The feature will be free to anyone who sponsors it."
+      "__description": "Do you play parallel games in multiple windows? This improvement will allow you to manage multiple games in one window (invite, rearrange players and switch between games). The feature will be free to anyone who sponsors it."
     }
   },
   "KaitenPromo": {
@@ -226,7 +226,7 @@
     "__preparing_board_action_desc": " готує дошку",
     "__users_preparing_board": "Користувачі що готують дошку:",
     "__iteration_summary": "Підсумки ітерації",
-    "__preIterationQuestionsTitle": "Будьласка, дайте відповідь на кілька питань. Всі вони опціональні.",
+    "__preIterationQuestionsTitle": "Будь ласка, дайте відповідь на кілька питань. Всі вони опціональні.",
     "__waiting_for_other_answers": "Очикування відповіді інших гравців",
     "__spectator_waiting_for_other_answers": "Очикування відповіді гравців",
     "secondPreIterationQuestions": [
@@ -279,7 +279,7 @@
       "__second_rule": "із колонки «Черга» в колонку «В роботі». І тільки у випадку коли ви не можете цього зробити - допоможіть іншому гравцю (пересуньте картку в наступну колонку або розблокуйте картку)",
       "__last_rule": "Допоможіть іншому гравцю (пересуньте картку в наступну колонку або розблокуйте картку)"
     },
-    "__no_moves_rule": "У вас немає доступних ходів. Будьласка, зачекайте поки інші гравці завершать свої ходи."
+    "__no_moves_rule": "У вас немає доступних ходів. Будь ласка, зачекайте поки інші гравці завершать свої ходи."
   },
   "ScreenTitles": {
     "__lobby": "Очикування гравців | Featureban",
