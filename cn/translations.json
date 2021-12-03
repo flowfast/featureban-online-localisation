@@ -320,7 +320,7 @@
     "__add_cards": "第一栏几乎是空的 \uD83D\uDE2C",
     "__iteration_timer_done": "现在是开始新迭代的时候！ \uD83D\uDE09",
     "__skip_move": "你没有任何可能的行动!",
-    "__end_game": "现在是结束游戏的时候！"。 \uD83D\uDE07",
+    "__end_game": "现在是结束游戏的时候！\uD83D\uDE07",
     "__move_done_card": "你不能移动已经完成的卡片 \uD83E\uDD2B",
     "__move_blocked_card": "你不能移动受阻的卡片 \uD83D\uDE0B",
     "__move_to_not_next_column": "卡片只能被推到下一栏 \uD83D\uDE0A",
