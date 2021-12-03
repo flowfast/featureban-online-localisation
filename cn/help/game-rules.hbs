@@ -1,0 +1,20 @@
+<h6 class="heading">游戏规则</h6>
+<p class="body">游戏被分成几个迭代。第一个迭代只是关于视觉管理。看板上的每张卡片代表一项任务，必须由你的团队来完成。所有的新任务都出现在第一栏《队列 》里。要完成它，你必须把卡片拉到 《完成 》栏。卡片会经过中间的阶段。有两个进行中的阶段 - 《进行中》和 《测试中》。</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">当你把卡片移到 《进行中 》一栏时，你就对它负责，你的头像就会出现在那张卡片上。</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+
+<h6 class="heading">受阻的项目</h6>
+<p class="body">受阻意味着你因某种原因而无法推进工作。卡片受阻后，你不能把它继续向右移动。</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">在制品限额</h6>
+<p class="body">在《进行中》标题附近有一些数字 —— 它们代表WIP (Work In Progress)在制品的限额。你不能将卡片移入到已经达到或者超过容量的栏里。</p>
+<img src="{{assetsPath}}assets/wip-limits.png" alt="workflow" class="image" />
+
+{{> (resolvePartial lng "cardMoves")}}
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<h6 class="heading">游戏目标</h6>
+<p class="body">游戏的主要目标是尽可能多的完成任务。</p>
