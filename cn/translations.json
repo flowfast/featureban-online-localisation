@@ -152,7 +152,7 @@
   "PlayerTooltip": {
     "__awaiting": "等待",
     "__completed_the_move": "已完成今天的工作",
-    "payer_completed_the_move": "已经完成今天的工作",
+    "__player_completed_the_move": "已经完成今天的工作",
     "__has_black": "得到黑卡，应完成以下行动",
     "__has_red": "得到红卡，请从以下行动中选择一个",
     "black": {

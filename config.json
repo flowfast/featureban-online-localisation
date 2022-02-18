@@ -1,6 +1,10 @@
 {
-  "enabledLanguages": ["de", "en", "es", "fr", "pl", "pt", "ru", "uk"],
+  "enabledLanguages": ["cn", "de", "en", "es", "fr", "pl", "pt", "ru", "uk"],
   "languages": {
+    "cn": {
+      "name": "中文",
+      "shortName": "Cn"
+    },
     "de": {
       "name": "Deutsch",
       "shortName": "De"
@@ -35,6 +39,13 @@
     }
   },
   "themes": {
+    "cn": [{
+      "name": "Marketing",
+      "path": "marketing"
+    }, {
+      "name": "Internet project",
+      "path": "internet_project"
+    }],
     "en": [{
       "name": "Marketing",
       "path": "marketing"
