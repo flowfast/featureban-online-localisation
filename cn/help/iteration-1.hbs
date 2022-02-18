@@ -1,0 +1,29 @@
+<h6 class="heading">第一个迭代</h6>
+<p class="body">游戏被分成几个迭代。第一个迭代只是关于视觉管理。看板上的每张卡片代表一项任务，必须由你的团队来完成。所有的新任务都出现在第一栏《队列 》里。要完成它，你必须把卡片拉到 《完成 》栏。卡片会经过中间的阶段。有两个进行中的阶段 - 《进行中》和 《测试中》。</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">当你把卡片移到 《进行中 》一栏时，你就对它负责，你的头像就会出现在那张卡片上。</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+<p class="body">游戏开始时，每个玩家会被分配一个任务</p>
+<img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="image" />
+
+<h6 class="heading">受阻的项目</h6>
+<p class="body">游戏中发生的坏事，就像现实生活中一样。有时你的工作会受阻。受阻意味着你因某种原因而无法推进工作。它可能取决于其他一些目前还没有准备好的任务。卡片受阻后，你不能把它继续向右移动。</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">随机卡片/h6>
+<p class="body">在每一天的开始，每个玩家都会得到一张随机的牌（黑/红）。为什么要这样做呢？人们开始一项工作，认为它将需要一天时间。但有时需要更多的时间 - 2天，3天，甚至更多。变化总是会有的，有很多的原因。每张牌都给你一定的行动。</p>
+
+{{> (resolvePartial lng "cardMoves")}}
+
+<h6 class="heading">游戏流程控制（仅限主持人）</h6>
+<img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="image" />
+
+<h6 class="heading">改变角色（仅限游戏创建者）</h6>
+<p class="subtitle">如果有一个玩家下线了，你可以通过把他的游戏角色改为观众来移除这个玩家。他将仍然在游戏中，只是旁观。如果该玩家拥有一些放在进行中栏里的任务，你必须选择其他的人，由他来负责这些任务。</p>
+<img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="image" />
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<div class="footer">
+  <p class="subtitle">主要目标是将尽可能多的牌拉到《完成》一栏中! 所有其他的事情你都会在游戏中发现。按下《准备》按钮，让我们来玩Featureban吧!</p>
+</div>
