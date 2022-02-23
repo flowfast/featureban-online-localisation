@@ -30,7 +30,8 @@
   "RegistrationScreen": {
     "Buttons": {
       "__set_up_game": "Ustawienia gry",
-      "__avatar_pick": "Wybierz swojego avatara"
+      "__avatar_pick": "Wybierz swojego avatara",
+      "__pin_code": "Dołączyć"
     },
     "__game": "Gra",
     "__game_started": "rozpoczęta",
@@ -47,7 +48,10 @@
     "__game_updates": "Aktualizacje gry",
     "__several_games_update_desc": "Nie musisz już uruchamiać gry Featureban w kilku przeglądarkach, teraz możesz uczestniczyć w kilku grach jednocześnie z jednej przeglądarki.",
     "__total_games_played": "Rozegrane gry: {{count}}",
-    "__start_new_game": "Rozpocznij nową grę"
+    "__start_new_game": "Rozpocznij nową grę",
+    "__pin_code_title": "Dołącz za pomocą kodu PIN",
+    "__pin_code_message": "Jeśli masz kod PIN, wpisz go tutaj, aby dołączyć do gry.",
+    "__pin_code_label": "Wpisz kod PIN"
   },
   "FinishScreen": {
     "__game_overview": "Podsumowanie gry",
@@ -104,7 +108,8 @@
     "Buttons": {
       "__start_game": "Rozpocznij grę",
       "__copy_link": "Skopiuj link",
-      "__copy_game_link": "Skopiuj link gry"
+      "__copy_game_link": "Skopiuj link gry",
+      "__pin_code": "Skopiuj kod PIN"
     },
     "Errors": {
       "__not_enough_players": "Potrzeba co najmniej 3 graczy, zaproś innych!",
@@ -117,6 +122,7 @@
     "__players": "Gracze",
     "__spectators": "Obserwatorzy",
     "__share_link_description": "Hej {{username}}, podziel się tym linkiem z innymi, potrzebujemy min. 3 graczy do rozpoczęcia (maximum 5).",
+    "__share_pin_code_description": "Możesz udostępnić kod PIN swoim kolegom, aby mogli dołączyć do gry ze strony głównej.",
     "__rules_for_each_player": "Zasady będą wyświetlane każdemu z graczy, nie musisz ich im tłumaczyć.",
     "__joined_users": "Podłączonych użytkowników"
   },
@@ -313,7 +319,9 @@
     "__second_iteration": "Druga runda",
     "__third_iteration": "Trzecia runda",
     "__cfd_title": "Cumulative flow diagram (Skumulowany diagram przepływu)",
-    "__lead_time_title": "Wykres czasów realizacji"
+    "__lead_time_title": "Wykres czasów realizacji",
+    "__combine_first_and_second_iterations_data": "Połącz dane z pierwszej i drugiej iteracji"
+
   },
   "Notifications": {
     "__add_cards": "Pierwsza kolumna jest prawie pusta! \uD83D\uDE2C",

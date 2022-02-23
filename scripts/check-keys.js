@@ -6,8 +6,8 @@ const fs = require('fs').promises;
 const srcFile = argv.src;
 const originFile = argv.org;
 
-// console.log('src', srcFile);
-// console.log('org', originFile)
+console.log('src', srcFile);
+console.log('org', originFile)
 
 function checkObject (origin, source, path = '') {
   _.forEach(origin, (v, key) => {

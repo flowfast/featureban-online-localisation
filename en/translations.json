@@ -30,7 +30,8 @@
   "RegistrationScreen": {
     "Buttons": {
       "__set_up_game": "Set up the game",
-      "__avatar_pick": "Choose your avatar"
+      "__avatar_pick": "Choose your avatar",
+      "__pin_code": "Join"
     },
     "__game": "Game",
     "__game_started": "started",
@@ -47,7 +48,10 @@
     "__game_updates": "Game updates",
     "__several_games_update_desc": "You no longer need to run featureban from different browsers: now you can participate in several games in one browser.",
     "__total_games_played": "Played games: {{count}}",
-    "__start_new_game": "Start a new game"
+    "__start_new_game": "Start a new game",
+    "__pin_code_title": "Join with PIN-code",
+    "__pin_code_message": "If you have PIN-code, please enter it here to join the game.",
+    "__pin_code_label": "Enter PIN-code"
   },
   "FinishScreen": {
     "__game_overview": "Game overview",
@@ -104,7 +108,8 @@
     "Buttons": {
       "__start_game": "Start game",
       "__copy_link": "Copy link",
-      "__copy_game_link": "Copy game link"
+      "__copy_game_link": "Copy game link",
+      "__pin_code": "Copy PIN-code"
     },
     "Errors": {
       "__not_enough_players": "Should be at least 3 players! Please, invite more players",
@@ -117,6 +122,7 @@
     "__players": "Players",
     "__spectators": "Spectators",
     "__share_link_description": "Dear {{username}}, please share this link with colleagues, we need at least 3 person to start the game, maximum - 5.",
+    "__share_pin_code_description": "You can share PIN-code with your colleagues and they can join the game from the main page.",
     "__rules_for_each_player": "Rules will be displayed for each player, you don't need to tell them.",
     "__joined_users": "Joined users"
   },
@@ -124,7 +130,7 @@
     "__title": "Become a sponsor of new game features",
     "__general_information": "Donations (contributions) are accepted through Stripe. If you would like to be presented on the contributor's list, send us an email at featureban@kaiten.io.",
     "PinCode": {
-      "__title": "Pin-code join",
+      "__title": "PIN-code join",
       "__description": "To arrange the game, you need to send the link to your colleagues. The new functionality will allow you to connect to the game knowing its pin code (6 digits)."
     },
     "CoachMode": {

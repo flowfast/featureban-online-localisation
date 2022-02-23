@@ -30,7 +30,8 @@
   "RegistrationScreen": {
     "Buttons": {
       "__set_up_game": "Configure o jogo",
-      "__avatar_pick": "Escolha seu avatar"
+      "__avatar_pick": "Escolha seu avatar",
+      "__pin_code": "Junte-se"
     },
     "__game": "Jogo",
     "__game_started": "iniciado",
@@ -47,7 +48,10 @@
     "__game_updates": "Atualizações do jogo",
     "__several_games_update_desc": "Você não precisa mais executar o featureban de diferentes navegadores: agora você pode participar de vários jogos em um navegador.",
     "__total_games_played": "Jogos jogados: {{count}}",
-    "__start_new_game": "Iniciar um novo jogo"
+    "__start_new_game": "Iniciar um novo jogo",
+    "__pin_code_title": "Junte-se com o código PIN",
+    "__pin_code_message": "Se você tiver um código PIN, insira-o aqui para entrar no jogo.",
+    "__pin_code_label": "Digite o código PIN"
   },
   "FinishScreen": {
     "__game_overview": "Visão geral do jogo",
@@ -104,7 +108,8 @@
     "Buttons": {
       "__start_game": "Iniciar o jogo",
       "__copy_link": "Copiar link",
-      "__copy_game_link": "Copiar link do jogo"
+      "__copy_game_link": "Copiar link do jogo",
+      "__pin_code": "Copiar código PIN"
     },
     "Errors": {
       "__not_enough_players": "São necessários pelo menos 3 jogadores! Por favor, convide mais jogadores",
@@ -117,6 +122,7 @@
     "__players": "Jogadors",
     "__spectators": "Espectadores",
     "__share_link_description": "Caro {{username}}, por favor compartilhe este link com os colegas, precisamos de pelo menos três pessoas para iniciar o jogo, no máximo 5.",
+    "__share_pin_code_description": "Você pode compartilhar o código PIN com seus colegas e eles podem participar do jogo na página principal.",
     "__rules_for_each_player": "As regras serão exibidas para cada jogador, você não precisa dizer a eles.",
     "__joined_users": "Usuários ingressados"
   },
@@ -313,7 +319,8 @@
     "__second_iteration": "Segunda iteração",
     "__third_iteration": "Terceira iteração",
     "__cfd_title": "Diagrama de fluxo cumulativo",
-    "__lead_time_title": "Gráfico de Lead time"
+    "__lead_time_title": "Gráfico de Lead time",
+    "__combine_first_and_second_iterations_data": "Combine os dados da primeira e da segunda iteração"
   },
   "Notifications": {
     "__add_cards": "Primeira coluna está quase vazia \uD83D\uDE2C",

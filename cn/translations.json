@@ -30,7 +30,8 @@
   "RegistrationScreen": {
     "Buttons": {
       "__set_up_game": "设置游戏",
-      "__avatar_pick": "选择你的头像"
+      "__avatar_pick": "选择你的头像",
+      "__pin_code": "加入"
     },
     "__game": "游戏",
     "__game_started": "开始的",
@@ -47,7 +48,10 @@
     "__game_updates": "游戏更新",
     "__several_games_update_desc": "你不再需要从不同的浏览器运行功能板：现在你可以在一个浏览器中参与多个游戏。",
     "__total_games_played": "玩过的游戏： {{count}}",
-    "__start_new_game": "开始新的游戏"
+    "__start_new_game": "开始新的游戏",
+    "__pin_code_title": "使用 PIN 码加入",
+    "__pin_code_message": "如果您有 PIN 码，请在此处输入以加入游戏。",
+    "__pin_code_label": "输入 PIN 码"
   },
   "FinishScreen": {
     "__game_overview": "游戏概述",
@@ -104,7 +108,8 @@
     "Buttons": {
       "__start_game": "开始游戏",
       "__copy_link": "复制链接",
-      "__copy_game_link": "复制游戏链接"
+      "__copy_game_link": "复制游戏链接",
+      "__pin_code": "复制 PIN 码"
     },
     "Errors": {
       "__not_enough_players": "至少应该有3名玩家！请邀请更多的玩家。",
@@ -117,6 +122,7 @@
     "__players": "玩家",
     "__spectators": "旁观者",
     "__share_link_description": "亲爱的 {{username}}, 请与同事们分享这个链接，我们需要至少3个人开始游戏，最多5个人。",
+    "__share_pin_code_description": "您可以与同事共享 PIN 码，他们可以从主页加入游戏。",
     "__rules_for_each_player": "规则会显示在每个玩家面前，你不需要告诉他们。",
     "__joined_users": "已加入的用户"
   },

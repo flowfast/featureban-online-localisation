@@ -30,7 +30,8 @@
   "RegistrationScreen": {
     "Buttons": {
       "__set_up_game": "Einrichten des Spiels",
-      "__avatar_pick": "Wähle deinen Avatar"
+      "__avatar_pick": "Wähle deinen Avatar",
+      "__pin_code": "Verbinden"
     },
     "__game": "Spiel",
     "__game_started": "wurde gestartet",
@@ -47,7 +48,10 @@
     "__game_updates": "Updates",
     "__several_games_update_desc": "Man muss Featureban nicht mehr von mehreren Browsern aus starten. Es ist nun möglich mit einem Browser an mehreren Spielen teilzunhemen.",
     "__total_games_played": "Anzahl gespielte Spiele: {{count}}",
-    "__start_new_game": "Starte ein neues Spiel"
+    "__start_new_game": "Starte ein neues Spiel",
+    "__pin_code_title": "Mit PIN-Code anmelden",
+    "__pin_code_message": "Wenn Sie einen PIN-Code haben, geben Sie ihn bitte hier ein, um am Spiel teilzunehmen.",
+    "__pin_code_label": "PIN-Code eingeben"
   },
   "FinishScreen": {
     "__game_overview": "Spielübersicht",
@@ -104,7 +108,8 @@
     "Buttons": {
       "__start_game": "Spiel starten",
       "__copy_link": "Link kopieren",
-      "__copy_game_link": "Spiele-Link kopieren"
+      "__copy_game_link": "Spiele-Link kopieren",
+      "__pin_code": "PIN-Code kopieren"
     },
     "Errors": {
       "__not_enough_players": "Es müssen mindestens 3 Spieler sein! Bitte lade noch mehr Spieler ein",
@@ -117,6 +122,7 @@
     "__players": "Spieler",
     "__spectators": "Beobachter",
     "__share_link_description": "Liebe(r) {{username}}, bitte teile den Link mit anderen, wir brauchen mindestens 3 und maximal 5 Personen, um das Spiel zu starten",
+    "__share_pin_code_description": "Sie können den PIN-Code mit Ihren Kollegen teilen und sie können dem Spiel von der Hauptseite aus beitreten.",
     "__rules_for_each_player": "Die Regeln werden jedem Spieler angezeigt, sie müssen nicht vorher erklärt werden.",
     "__joined_users": "Teilnehmer"
   },
@@ -313,7 +319,9 @@
     "__second_iteration": "2. Runde",
     "__third_iteration": "3. Runde",
     "__cfd_title": "Cumulative Flow Diagram (CFD)",
-    "__lead_time_title": "Lead time chart"
+    "__lead_time_title": "Lead time chart",
+    "__combine_first_and_second_iterations_data": "Kombinieren Sie die Daten der ersten und zweiten Iteration"
+
   },
   "Notifications": {
     "__add_cards": "Die erste Spalte ist fast leer \uD83D\uDE2C",

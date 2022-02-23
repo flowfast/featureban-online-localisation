@@ -30,7 +30,8 @@
   "RegistrationScreen": {
     "Buttons": {
       "__set_up_game": "Préparer le jeu",
-      "__avatar_pick": "Choisissez votre avatar"
+      "__avatar_pick": "Choisissez votre avatar",
+      "__pin_code": "Rejoindre"
     },
     "__game": "Jeu",
     "__game_started": "démarré",
@@ -47,7 +48,10 @@
     "__game_updates": "Mises à jour du jeu",
     "__several_games_update_desc": "Vous n'avez plus besoin de jouer à Featureban depuis des browsers différents : vous pouvez jouer à plusieurs jeux dans le même browser.",
     "__total_games_played": "Parties jouées: {{count}}",
-    "__start_new_game": "Démarrer une nouvelle partie"
+    "__start_new_game": "Démarrer une nouvelle partie",
+    "__pin_code_title": "Joindre avec le code PIN",
+    "__pin_code_message": "Si vous avez un code PIN, veuillez le saisir ici pour rejoindre le jeu.",
+    "__pin_code_label": "Entrez le code PIN"
   },
   "FinishScreen": {
     "__game_overview": "Résumé de la partie",
@@ -104,7 +108,8 @@
     "Buttons": {
       "__start_game": "Démarrer",
       "__copy_link": "Copier le lien",
-      "__copy_game_link": "Copier le lien de la partie"
+      "__copy_game_link": "Copier le lien de la partie",
+      "__pin_code": "Copier le code PIN"
     },
     "Errors": {
       "__not_enough_players": "Minimum 3 joueurs. S'il vous plait invitez plus de joueurs.",
@@ -117,6 +122,7 @@
     "__players": "Joueurs",
     "__spectators": "Spectateurs",
     "__share_link_description": "Cher {{username}}, partagez ce lien avec vos équipiers, nous avons besoin d'au moins 3 personnes pour démarrer la partie, maximum - 5.",
+    "__share_pin_code_description": "Vous pouvez partager le code PIN avec vos collègues et ils peuvent rejoindre le jeu à partir de la page principale.",
     "__rules_for_each_player": "Les règles seront affichées à tous les joueurs, vous n'avez pas besoin de les expliquer.",
     "__joined_users": "Joueurs actifs"
   },
@@ -313,7 +319,8 @@
     "__second_iteration": "Seconde itération",
     "__third_iteration": "Troisème itération",
     "__cfd_title": "Diagramme de flux cumulé",
-    "__lead_time_title": "Graphe du temps de traversée"
+    "__lead_time_title": "Graphe du temps de traversée",
+    "__combine_first_and_second_iterations_data": "Combiner les données des première et deuxième itérations"
   },
   "Notifications": {
     "__add_cards": "La première colonne est presque vide  \uD83D\uDE2C",

@@ -30,7 +30,8 @@
   "RegistrationScreen": {
     "Buttons": {
       "__set_up_game": "Configurar el juego",
-      "__avatar_pick": "Elige tu avatar"
+      "__avatar_pick": "Elige tu avatar",
+      "__pin_code": "Unirse"
     },
     "__game": "Juego",
     "__game_started": "iniciado",
@@ -47,7 +48,10 @@
     "__game_updates": "Actualizaciones del juego",
     "__several_games_update_desc": "Ya no necesita ejecutar Featureban desde diferentes navegadores: ahora puede participar en varios juegos en un solo navegador.",
     "__total_games_played": "Juegos jugados: {{count}}",
-    "__start_new_game": "Iniciar un nuevo juego"
+    "__start_new_game": "Iniciar un nuevo juego",
+    "__pin_code_title": "Unirse con código PIN",
+    "__pin_code_message": "Si tiene un código PIN, ingréselo aquí para unirse al juego.",
+    "__pin_code_label": "Introduzca el código PIN"
   },
   "FinishScreen": {
     "__game_overview": "Información general del juego",
@@ -104,7 +108,8 @@
     "Buttons": {
       "__start_game": "Empezar juego",
       "__copy_link": "Copiar enlace",
-      "__copy_game_link": "Copiar enlace del juego"
+      "__copy_game_link": "Copiar enlace del juego",
+      "__pin_code": "Copiar código PIN"
     },
     "Errors": {
       "__not_enough_players": "¡Debe haber al menos 3 jugadores! Por favor, invita a más jugadores",
@@ -117,6 +122,7 @@
     "__players": "Jugadores",
     "__spectators": "Espectadores",
     "__share_link_description": "{{username}}, comparte este enlace con sus compañeros. Se necesitan al menos 3 personas para iniciar el juego, y 5 como máximo.",
+    "__share_pin_code_description": "Puede compartir el código PIN con sus colegas y ellos pueden unirse al juego desde la página principal.",
     "__rules_for_each_player": "Las reglas se mostrarán para cada jugador, no es necesario que se las lea.",
     "__joined_users": "Usuarios añadidos"
   },
@@ -313,7 +319,9 @@
     "__second_iteration": "Segunda iteración",
     "__third_iteration": "Tercera iteración",
     "__cfd_title": "Diagrama de Flujo Acumulado",
-    "__lead_time_title": "Gráfico de Tiempo de Entrega"
+    "__lead_time_title": "Gráfico de Tiempo de Entrega",
+    "__combine_first_and_second_iterations_data": "Combinar los datos de la primera y segunda iteraciones"
+
   },
   "Notifications": {
     "__add_cards": "La primera columna está casi vacía \uD83D\uDE2C",
