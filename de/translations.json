@@ -140,9 +140,9 @@
   },
   "KaitenPromo": {
     "__title": "Suchst Du eine Online Kanban Software?",
-    "__description_1": "Kaiten ist eine Online-Visualisierungssoftware für Unternehmen und Teams, die die Kanban-Methode oder agile Ansätze (Scrum, LeSS etc.) verwenden.",
+    "__description_1": "FlowFast ist eine Online-Visualisierungssoftware für Unternehmen und Teams, die die Kanban-Methode oder agile Ansätze (Scrum, LeSS etc.) verwenden.",
     "__description_2": "",
-    "__button": "Kaiten ausprobieren"
+    "__button": "FlowFast ausprobieren"
   },
   "PlayersList": {
     "__players_title": "Spieler",
@@ -291,8 +291,8 @@
     "__lobby": "Mitspieler sammeln | Featureban",
     "__registration": "Registrierung | Featureban",
     "__game_join": "Teilnehmen | Featureban",
-    "__game": "Featureban | Kaiten",
-    "__end_game": "Featureban | Kaiten"
+    "__game": "Featureban | FlowFast",
+    "__end_game": "Featureban | FlowFast"
   },
   "GameLog": {
     "__game_log_title": "Spielprotokoll",

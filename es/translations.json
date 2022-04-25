@@ -140,9 +140,9 @@
   },
   "KaitenPromo": {
     "__title": "¿Busca un software de Kanban en línea?",
-    "__description_1": "Kaiten es un software de visualización en línea para empresas y equipos que utilizan el método Kanban o enfoques ágiles (Scrum, LeSS, etc.)",
+    "__description_1": "FlowFast es un software de visualización en línea para empresas y equipos que utilizan el método Kanban o enfoques ágiles (Scrum, LeSS, etc.)",
     "__description_2": "",
-    "__button": "Prueba Kaiten"
+    "__button": "Prueba FlowFast"
   },
   "PlayersList": {
     "__players_title": "Jugadores",
@@ -291,8 +291,8 @@
     "__lobby": "Reúne a tus compañeros | Featureban",
     "__registration": "Registrarse | Featureban",
     "__game_join": "Unirse al juego | Featureban",
-    "__game": "Featureban | Kaiten",
-    "__end_game": "Featureban | Kaiten"
+    "__game": "Featureban | FlowFast",
+    "__end_game": "Featureban | FlowFast"
   },
   "GameLog": {
     "__game_log_title": "Registro de juego",

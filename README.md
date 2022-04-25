@@ -1,6 +1,6 @@
 # Featureban Online localisation files
 
-The game: https://tools.kaiten.io/featureban
+The game: https://tools.flowfast.io/featureban
 
 You can suggest fixes to existing localisation files or create pull requests with new languages.
 

@@ -140,9 +140,9 @@
   },
   "KaitenPromo": {
     "__title": "Szukasz oprogramowania wspierającego Kanban?",
-    "__description_1": "Kaiten to narzędzie online dla firm i zespołów które stosują Metodę Kanban lub inne podejścia zwinne (Agile) takie jak Scrum, LeSS, itp.",
+    "__description_1": "FlowFast to narzędzie online dla firm i zespołów które stosują Metodę Kanban lub inne podejścia zwinne (Agile) takie jak Scrum, LeSS, itp.",
     "__description_2": "",
-    "__button": "Wypróbuj Kaiten"
+    "__button": "Wypróbuj FlowFast"
   },
   "PlayersList": {
     "__players_title": "Gracze",
@@ -291,8 +291,8 @@
     "__lobby": "Zbierz grupę | Featureban",
     "__registration": "Rejestracja | Featureban",
     "__game_join": "Dołącz do gry | Featureban",
-    "__game": "Featureban | Kaiten",
-    "__end_game": "Featureban | Kaiten"
+    "__game": "Featureban | FlowFast",
+    "__end_game": "Featureban | FlowFast"
   },
   "GameLog": {
     "__game_log_title": "Dziennik gry",

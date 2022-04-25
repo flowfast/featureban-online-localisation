@@ -140,9 +140,9 @@
   },
   "KaitenPromo": {
     "__title": "正在寻找一个在线看板软件？",
-    "__description_1": "Kaiten是为使用看板方法或敏捷方法（Scrum、LeSS等）的公司和团队提供的在线可视化软件。",
+    "__description_1": "FlowFast是为使用看板方法或敏捷方法（Scrum、LeSS等）的公司和团队提供的在线可视化软件。",
     "__description_2": "",
-    "__button": "尝试 Kaiten"
+    "__button": "尝试 FlowFast"
   },
   "PlayersList": {
     "__players_title": "玩家",
@@ -291,8 +291,8 @@
     "__lobby": "召集同事 | Featureban",
     "__registration": "注册 | Featureban",
     "__game_join": "加入 | Featureban",
-    "__game": "Featureban | Kaiten",
-    "__end_game": "Featureban | Kaiten"
+    "__game": "Featureban | FlowFast",
+    "__end_game": "Featureban | FlowFast"
   },
   "GameLog": {
     "__game_log_title": "游戏日志",
