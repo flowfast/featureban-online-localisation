@@ -128,7 +128,7 @@
   },
   "Sponsorship": {
     "__title": "Станьте спонсором новых игровых функций",
-    "__general_information": "Donations (contributions) are accepted through Stripe. If you would like to be presented on the contributor's list, send us an email at featureban@kaiten.io.",
+    "__general_information": "Donations (contributions) are accepted through Stripe. If you would like to be presented on the contributor's list, send us an email at featureban@flowfast.io.",
     "PinCode": {
       "__title": "Присоединение по пин-коду",
       "__description": "To connect the game, you need to send the link to your colleagues. The new functionality will allow you to connect to the game knowing its pin code (6 digits)."
