@@ -390,7 +390,8 @@
     "__name": "Imię",
     "__email": "E-mail",
     "__company__name": "Nazwa firmy",
-    "__website": "Twój adres strony internetowej lub profil LinkedIn"
+    "__website": "Twój adres strony internetowej lub profil LinkedIn",
+    "__how_did_you_hear": "Skąd dowiedziałeś się o naszej grze?"
   },
   "Login": {
     "__title": "Logowanie",

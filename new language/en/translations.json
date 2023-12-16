@@ -400,7 +400,8 @@
     "__name": "Name",
     "__email": "Email",
     "__company__name": "Company name",
-    "__website": "Your website or Linkedin profile"
+    "__website": "Your website or Linkedin profile",
+    "__how_did_you_hear": "How did you hear about our game?"
   },
   "Login": {
     "__title": "Login",

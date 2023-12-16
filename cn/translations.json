@@ -378,5 +378,42 @@
   "GeneralErrors": {
     "__network_error": "处理您的请求出问题了。请检查您的网络连接。",
     "__something_went_wrong": "出了点问题，但我们已经收到了相关信息，并正在努力解决。"
+  },
+  "Welcome": {
+    "__title": "欢迎你",
+    "__description": "这是一个简单、有趣、高度可定制的看板模拟游戏。自2014年创建以来，它已被世界各地的培训师和教练用于精益、敏捷和看板相关活动。",
+    "__by": "由",
+    "Buttons": {
+      "__login": "登录",
+      "__register": "注册",
+      "__or": "或"
+    }
+  },
+  "Register": {
+    "__title": "注册",
+    "__description": "请填写此表格以帮助我们了解更多关于你的信息。",
+    "Buttons": {
+      "__login": "登录",
+      "__register": "注册",
+      "__or": "或"
+    },
+    "__name": "姓名",
+    "__email": "邮箱",
+    "__company__name": "公司名称",
+    "__website": "你的网站或领英资料",
+    "__how_did_you_hear": "你是怎么知道我们的游戏的？"
+  },
+  "Login": {
+    "__title": "登录",
+    "__description": "请填写此表格以帮助我们了解更多关于你的信息。",
+    "Form": {
+      "__email": "邮箱",
+      "__password": "密码"
+    },
+    "Buttons": {
+      "__login": "登录",
+      "__resend__password": "重发密码",
+      "__or": "或"
+    }
   }
 }
