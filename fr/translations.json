@@ -378,5 +378,31 @@
   "GeneralErrors": {
     "__network_error": "Un problème est survenu lors du traitement de votre demande. Veuillez vérifier votre connexion Internet.",
     "__something_went_wrong": "Quelque chose s'est mal passé, mais nous avons déjà reçu des informations à ce sujet et nous y travaillons."
+  },
+  "Register": {
+    "__title": "Inscription",
+    "__description": "Veuillez remplir ce formulaire pour que nous puissions en savoir plus sur vous.",
+    "Buttons": {
+      "__login": "Connexion",
+      "__register": "S'inscrire",
+      "__or": "ou"
+    },
+    "__name": "Nom",
+    "__email": "E-mail",
+    "__company__name": "Nom de l'entreprise",
+    "__website": "Votre site Web ou profil LinkedIn"
+  },
+  "Login": {
+    "__title": "Connexion",
+    "__description": "Veuillez remplir ce formulaire pour que nous puissions en savoir plus sur vous.",
+    "Form": {
+      "__email": "E-mail",
+      "__password": "Mot de passe"
+    },
+    "Buttons": {
+      "__login": "Connexion",
+      "__resend__password": "Renvoyer le mot de passe",
+      "__or": "ou"
+    }
   }
 }

@@ -378,5 +378,31 @@
   "GeneralErrors": {
     "__network_error": "Há um problema ao processar sua solicitação. Verifique sua conexão com a Internet.",
     "__something_went_wrong": "Algo deu errado, mas já recebemos informações sobre isso e estamos trabalhando nisso."
+  },
+  "Register": {
+    "__title": "Rejestracja",
+    "__description": "Proszę wypełnić ten formularz, abyśmy mogli dowiedzieć się więcej o Tobie.",
+    "Buttons": {
+      "__login": "Zaloguj",
+      "__register": "Zarejestruj",
+      "__or": "lub"
+    },
+    "__name": "Imię",
+    "__email": "E-mail",
+    "__company__name": "Nazwa firmy",
+    "__website": "Twój adres strony internetowej lub profil LinkedIn"
+  },
+  "Login": {
+    "__title": "Logowanie",
+    "__description": "Proszę wypełnić ten formularz, abyśmy mogli dowiedzieć się więcej o Tobie.",
+    "Form": {
+      "__email": "E-mail",
+      "__password": "Hasło"
+    },
+    "Buttons": {
+      "__login": "Zaloguj",
+      "__resend__password": "Ponownie wyślij hasło",
+      "__or": "lub"
+    }
   }
 }

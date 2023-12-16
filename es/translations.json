@@ -321,7 +321,6 @@
     "__cfd_title": "Diagrama de Flujo Acumulado",
     "__lead_time_title": "Gráfico de Tiempo de Entrega",
     "__combine_first_and_second_iterations_data": "Combinar los datos de la primera y segunda iteraciones"
-
   },
   "Notifications": {
     "__add_cards": "La primera columna está casi vacía \uD83D\uDE2C",
@@ -379,5 +378,31 @@
   "GeneralErrors": {
     "__something_went_wrong": "Algo salió mal, pero ya hemos recibido información al respecto y estamos trabajando en ello.",
     "__network_error": "Hay un problema al procesar su solicitud. Por favor revise su conexion a internet."
+  },
+  "Register": {
+    "__title": "Registro",
+    "__description": "Complete este formulario para que podamos conocer más sobre usted.",
+    "Buttons": {
+      "__login": "Iniciar sesión",
+      "__register": "Registrarse",
+      "__or": "o"
+    },
+    "__name": "Nombre",
+    "__email": "Correo electrónico",
+    "__company__name": "Nombre de la empresa",
+    "__website": "Su sitio web o perfil de LinkedIn"
+  },
+  "Login": {
+    "__title": "Iniciar sesión",
+    "__description": "Complete este formulario para que podamos conocer más sobre usted.",
+    "Form": {
+      "__email": "Correo electrónico",
+      "__password": "Contraseña"
+    },
+    "Buttons": {
+      "__login": "Iniciar sesión",
+      "__resend__password": "Reenviar contraseña",
+      "__or": "o"
+    }
   }
 }

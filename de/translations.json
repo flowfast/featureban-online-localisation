@@ -321,7 +321,6 @@
     "__cfd_title": "Cumulative Flow Diagram (CFD)",
     "__lead_time_title": "Lead time chart",
     "__combine_first_and_second_iterations_data": "Kombinieren Sie die Daten der ersten und zweiten Iteration"
-
   },
   "Notifications": {
     "__add_cards": "Die erste Spalte ist fast leer \uD83D\uDE2C",
@@ -379,5 +378,31 @@
   "GeneralErrors": {
     "__network_error": "Beim Bearbeiten Ihrer Anfrage ist ein Problem aufgetreten. Bitte überprüfen Sie Ihre Internetverbindung.",
     "__something_went_wrong": "Etwas ist schief gelaufen, aber wir haben bereits Informationen darüber erhalten und arbeiten daran."
+  },
+  "Register": {
+    "__title": "Registrierung",
+    "__description": "Bitte füllen Sie dieses Formular aus, um uns mehr über Sie zu erfahren.",
+    "Buttons": {
+      "__login": "Anmelden",
+      "__register": "Registrieren",
+      "__or": "oder"
+    },
+    "__name": "Name",
+    "__email": "E-Mail",
+    "__company__name": "Firmenname",
+    "__website": "Ihre Website oder Linkedin-Profil"
+  },
+  "Login": {
+    "__title": "Anmeldung",
+    "__description": "Bitte füllen Sie dieses Formular aus, um uns mehr über Sie zu erfahren.",
+    "Form": {
+      "__email": "E-Mail",
+      "__password": "Passwort"
+    },
+    "Buttons": {
+      "__login": "Anmelden",
+      "__resend__password": "Passwort erneut senden",
+      "__or": "oder"
+    }
   }
 }
