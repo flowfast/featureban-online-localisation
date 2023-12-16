@@ -406,8 +406,8 @@
     }
   },
   "Welcome": {
-    "_title": "te da la bienvenida",
-    "_description": "Es un juego de simulación de kanban simple, divertido y altamente personalizable. Desde su creación en 2014, ha sido utilizado por entrenadores y coaches en eventos relacionados con Lean, Agile y Kanban en todo el mundo.",
+    "__title": "te da la bienvenida",
+    "__description": "Es un juego de simulación de kanban simple, divertido y altamente personalizable. Desde su creación en 2014, ha sido utilizado por entrenadores y coaches en eventos relacionados con Lean, Agile y Kanban en todo el mundo.",
     "__by": "por",
     "Buttons": {
       "__login": "Iniciar sesión",

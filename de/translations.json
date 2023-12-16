@@ -406,8 +406,8 @@
     }
   },
   "Welcome": {
-    "_title": "heißt Sie willkommen",
-    "_description": "Es ist ein einfaches, lustiges und hochgradig anpassbares Kanban-Simulationsspiel. Seit seiner Erstellung im Jahr 2014 wird es von Trainern und Coaches bei Lean-, Agile- und Kanban-bezogenen Veranstaltungen auf der ganzen Welt eingesetzt.",
+    "__title": "heißt Sie willkommen",
+    "__description": "Es ist ein einfaches, lustiges und hochgradig anpassbares Kanban-Simulationsspiel. Seit seiner Erstellung im Jahr 2014 wird es von Trainern und Coaches bei Lean-, Agile- und Kanban-bezogenen Veranstaltungen auf der ganzen Welt eingesetzt.",
     "__by": "von",
     "Buttons": {
       "__login": "Anmelden",
