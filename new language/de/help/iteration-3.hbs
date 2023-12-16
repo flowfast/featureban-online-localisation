@@ -1,0 +1,17 @@
+<h6 class="heading">Dritte Runde</h6>
+<p class="body">Die Regeln bleiben unverändert</p>
+<p class="body">Alle Karten aus den vorherigen Runden werden entfernt und neue Karten in der ersten Spalte hinzugefügt. Dadurch wird es einfacher, Ergebnisse und Metriken aus den vorherigen Runden mit der aktuellen Runde zu vergleichen.</p>
+<p class="body">Wir haben Metriken hinzugefügt, damit du den Fortschritt verfolgen kannst.</p>
+<img src="{{assetsPath}}assets/charts.png" alt="charts" class="image" />
+
+<h6 class="heading">Cumulative Flow Diagram (CFD)</h6>
+<img src="{{assetsPath}}assets/cfd.png" alt="cfd" class="image" />
+<p class="body">Das CFD zeigt die Gesamtzahl der Karten an. Die horizontale Achse des CFDs stellt die Tage dar. Die vertikale Achse zeigt die kumulierte Anzahl der Karten an, die sich zum jeweiligen Tag am Board befinden. Die farbigen Bänder, die sich im CFD ergeben, entsprechen den verschiedenen Schritten/Spalten des Workflows. Mit einem CFD kannst du dir auf einen Blick ein Bild davon machen, wie lang die ungefähre Durchlaufzeit der Aufgaben ist.</p>
+
+<h6 class="heading">Lead Time Chart</h6>
+<img src="{{assetsPath}}assets/lead-time.png" alt="lead time" class="image" />
+<p class="body">Das Lead Time Chart gibt einen Überblick über die  Anzahl der Tage, die die Arbeiten für den Durchlauf über das Board benötigt haben. Es zählt wieviele Karten, jeweils wie lange benötigt haben.</p>
+
+<hr class="divider"/>
+
+{{> (resolvePartial lng "rulesBlock")}}

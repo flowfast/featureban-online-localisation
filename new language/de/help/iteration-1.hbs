@@ -1,0 +1,29 @@
+<h6 class="heading">Erste Runde</h6>
+<p class="body">Das Spiel ist in mehrere Runden aufgeteilt. In der ersten Runde geht es um die Visualisierung. Jede Karte auf dem Board stellt eine Aufgabe dar, die von deinem Team erledigt werden muss. Alle neuen Aufgaben erscheinen in der ersten Spalte. Um sie zu erledigen, müssen die Karte in die Spalte "Erledigt“ gezogen werden. Jede Karte durchläuft dafür zwei Bearbeitungsschritte in den Spalten dazwischen.</p>
+<img src="{{assetsPath}}assets/workflow.png" alt="workflow" class="image" />
+<p class="body">Wenn du eine Karte in die Spalte "In Progress"/"In Bearbeitung" verschiebst, wirst du für sie verantwortlich und dein Avatar erscheint auf dieser Karte.</p>
+<img src="{{assetsPath}}assets/card-owners.png" alt="card owners" class="image" />
+<p class="body">Bei Spielbeginn ist jedem Spieler bereits eine Karte zugeordnet.</p>
+<img src="{{assetsPath}}assets/begin.png" alt="game initial screen" class="image" />
+
+<h6 class="heading">geblockte Karten</h6>
+<p class="body">Wie im richtigen Leben geht auch im Spiel manchmal etwas schief. Und manchmal wird dadurch deine Arbeit blockiert. Das bedeutet, dass du aus irgendeinem Grund deine Arbeit nicht fortsetzen kannst. Sie könnte bespielsweise von einer anderen Aufgabe abhängen, die derzeit noch nicht fertig ist. Wenn eine Karte geblockt ist, kann man sie nicht weiter ziehen.</p>
+<img src="{{assetsPath}}assets/blocked.png" alt="blocked info" class="image" />
+
+<h6 class="heading">Zufalls-Karte</h6>
+<p class="body">Zu Beginn eines jeden Tages erhält jeder Spieler zufällige eine rote oder schwarze Karte. Je nach Farbe kann man unterschiedliche Spielzüge machen. Was ist der Sinn davon? An manchen Tagen kann man an der aktuellen Aufgabe arbeiten, an anderen wird man durch Abhängigkeiten daran gehindert und muss entsprechend darauf reagieren.</p>
+
+{{> (resolvePartial lng "cardMoves")}}
+
+<h6 class="heading"> Steuerung des Spielflusses (nur für den Moderator)</h6>
+<img src="{{assetsPath}}assets/game-controls.png" alt="game controls for facilitator" class="image" />
+
+<h6 class="heading">Rollen verändern (nur für den Moderator)</h6>
+<p class="subtitle">Falls einer der Spieler offline gegangen ist, kannst du diesen Spieler entfernen, indem du seine Spielrolle auf Zuschauer änderst. Falls er Karten in Arbeit hatte, musst du diese einem anderen Spiele zuweisen, der dann für diese Aufgaben verantwortlich sein wird.</p>
+<img src="{{assetsPath}}assets/remove-player.png" alt="removing player instructions" class="image" />
+
+{{> (resolvePartial lng "rulesBlock")}}
+
+<div class="footer">
+  <p class="subtitle">Hauptziel ist es, so viele Karten in die Spalte "Done"/"Erledigt" zu ziehen, wie du kannst! Alles andere wirst Du während des Spiels entdecken. Klicke auf „Bereit“ und lass uns Featureban spielen!</p>
+</div>
