@@ -321,7 +321,6 @@
     "__cfd_title": "Cumulative flow diagram (Skumulowany diagram przepływu)",
     "__lead_time_title": "Wykres czasów realizacji",
     "__combine_first_and_second_iterations_data": "Połącz dane z pierwszej i drugiej iteracji"
-
   },
   "Notifications": {
     "__add_cards": "Pierwsza kolumna jest prawie pusta! \uD83D\uDE2C",
@@ -379,5 +378,42 @@
   "GeneralErrors": {
     "__network_error": "Wystąpił problem z przetwarzaniem twojego żądania. Sprawdź swoje połączenie internetowe.",
     "__something_went_wrong": "Coś poszło nie tak, ale otrzymaliśmy już informacje o tym i pracujemy nad tym."
+  },
+  "Register": {
+    "__title": "Реєстрація",
+    "__description": "Будь ласка, заповніть цю форму, щоб ми могли дізнатися більше про вас.",
+    "Buttons": {
+      "__login": "Увійти",
+      "__register": "Зареєструватися",
+      "__or": "або"
+    },
+    "__name": "Ім'я",
+    "__email": "Ел. пошта",
+    "__company__name": "Назва компанії",
+    "__website": "Ваш веб-сайт або профіль в Linkedin",
+    "__how_did_you_hear": "Як ви дізналися про нашу гру?"
+  },
+  "Login": {
+    "__title": "Вхід",
+    "__description": "Будь ласка, заповніть цю форму, щоб ми могли дізнатися більше про вас.",
+    "Form": {
+      "__email": "Ел. пошта",
+      "__password": "Пароль"
+    },
+    "Buttons": {
+      "__login": "Увійти",
+      "__resend__password": "Відправити пароль ще раз",
+      "__or": "або"
+    }
+  },
+  "Welcome": {
+    "__title": "witamy Cię",
+    "__description": "To prosta, zabawna i wysoce konfigurowalna gra symulacyjna Kanban. Od jej utworzenia w 2014 roku jest używana przez trenerów i coachów na wydarzeniach związanych z Lean, Agile i Kanban na całym świecie.",
+    "__by": "przez",
+    "Buttons": {
+      "__login": "Zaloguj",
+      "__register": "Zarejestruj",
+      "__or": "lub"
+    }
   }
 }

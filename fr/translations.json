@@ -378,5 +378,42 @@
   "GeneralErrors": {
     "__network_error": "Un problème est survenu lors du traitement de votre demande. Veuillez vérifier votre connexion Internet.",
     "__something_went_wrong": "Quelque chose s'est mal passé, mais nous avons déjà reçu des informations à ce sujet et nous y travaillons."
+  },
+  "Register": {
+    "__title": "Inscription",
+    "__description": "Veuillez remplir ce formulaire pour que nous puissions en savoir plus sur vous.",
+    "Buttons": {
+      "__login": "Connexion",
+      "__register": "S'inscrire",
+      "__or": "ou"
+    },
+    "__name": "Nom",
+    "__email": "E-mail",
+    "__company__name": "Nom de l'entreprise",
+    "__website": "Votre site Web ou profil LinkedIn",
+    "__how_did_you_hear": "Comment avez-vous entendu parler de notre jeu ?"
+  },
+  "Login": {
+    "__title": "Connexion",
+    "__description": "Veuillez remplir ce formulaire pour que nous puissions en savoir plus sur vous.",
+    "Form": {
+      "__email": "E-mail",
+      "__password": "Mot de passe"
+    },
+    "Buttons": {
+      "__login": "Connexion",
+      "__resend__password": "Renvoyer le mot de passe",
+      "__or": "ou"
+    }
+  },
+  "Welcome": {
+    "__title": "vous souhaite la bienvenue",
+    "__description": "C'est un jeu de simulation de kanban simple, amusant et hautement personnalisable. Depuis sa création en 2014, il est utilisé par des formateurs et des coaches lors d'événements liés à Lean, Agile et Kanban dans le monde entier.",
+    "__by": "par",
+    "Buttons": {
+      "__login": "Se connecter",
+      "__register": "S'inscrire",
+      "__or": "ou"
+    }
   }
 }
